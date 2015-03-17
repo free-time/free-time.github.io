@@ -1,0 +1,31 @@
+// Comentário sobre esse botão
+.btn-default{
+	width: 250px;
+	margin-top: 20px;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+.btn-default--link{
+	color: $yellow-dark;
+	text-align: center;
+	display: block;
+	padding: 12px;
+}
+.watch{
+	display: block;
+	margin-top: 20px;
+	background: $blue-dark;
+	border-bottom: 4px solid $blue-dark - 100;
+}
+
+
+.complement{
+	float: right;
+	a{
+		font-size: 14px;
+		background: $yellow-dark;
+		padding: 5px;
+		font-size: 14px;
+		font-family: 'arial';
+	}
+}

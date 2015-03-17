@@ -1,0 +1,19 @@
+---
+layout: default
+title: Free time  - Use your free time to watch Hagounts
+titlesecondary: Últimas palestras adicionadas
+complement: Escolha por categoria
+---
+{% for post in site.categories.lectures %}
+<section class="lectures">
+    <article class="lecture-content">
+      <img class="lecture-thumbnails" src="{{ post.img }}" alt="Anderson">
+      <a href="#"><h2 class="title-lecture">{{ post.title }}</h2></a>
+      <ul>
+        <li class="lecture-info">Duration <b>{{ post.duration }}</b></li>
+        <li class="lecture-info">Theme <b>{{ post.theme }}</b></li>
+      </ul>
+      <span class="btn-default watch"><a target="_blank" class="btn-default--link" href="{{ post.link }}">Watch!</a></span>
+    </article>
+</section>
+{% endfor %}

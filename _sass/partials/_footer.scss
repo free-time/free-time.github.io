@@ -1,0 +1,86 @@
+.footer{
+	clear: both;
+	padding: 15px;
+	height: 500px;
+	margin-top: 20px;
+	background: #1F1D1F;
+	position: relative;
+}
+.color-link-footer {
+	color: $yellow-dark;
+
+	&:hover {text-decoration: underline;}
+}
+.title-widget{
+	color: $yellow-dark;
+	font-style: italic;
+	text-align: left;
+	font-size: 32px;
+	border-bottom: 1px solid $yellow-dark;
+	padding-bottom: 10px;
+}
+.widget-footer{
+	width: 300px;
+	height: 250px;
+	float: left;
+}
+.contributors {
+	width: 700px;
+	float: left;
+	height: auto;
+	@extend .widget-footer;
+	padding-bottom: 30px;
+
+	ul {
+		float: left;
+		width: 140px;
+		margin-right: 30px;
+	}
+
+	li {
+		margin: 5px 0;
+		padding-bottom: 8px;
+	}
+}
+.about-logo-footer {
+	width: 300px;
+	float: right;
+	padding: 50px 80px 0 0;
+	
+	img {
+		max-width: 250px;
+		float: left;
+		display: block;
+	}
+
+	p {
+		text-align: justify;
+		color: $yellow-dark;
+		line-height: 25px;
+	}
+}
+.create{
+	text-align: center;
+	display: block;
+	color: #FFF;
+	font-size: 15px;
+}
+.social-link{
+	color: $yellow-dark;
+}
+.social{
+	margin: 5px 0;
+	text-align: center;
+}
+.github{
+	position: absolute;
+	right: 5px;
+	bottom: 10px;
+	background: url('/assets/image/mountietocat.png');
+	@include background-size(100px);
+	width: 100px;
+	text-indent: -9999px;
+	height: 100px;
+
+	a{display: block;}
+}

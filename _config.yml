@@ -1,0 +1,15 @@
+# Site settings
+title: Free time  - Use your free time to watch Hagounts
+email: andersomxp@gmail.com
+description: # add Breve	
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+# Build settings
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+layouts:     ./_layouts
+data_source: ./_data
+collections: null
+sass:
+  style: compressed

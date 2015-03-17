@@ -1,0 +1,24 @@
+.header-nav{
+	height: 50px;
+	width: 100%;
+	background: $yellow-dark;
+		
+		&:last-child{
+			border:none;
+		}
+		.fa {
+			color: $yellow-dark - 100;
+			font-size: 1.1em;
+			padding-right: 5px;
+		}
+}
+.header-list{
+	float: left;
+	margin: 10px;
+	line-height: 30px;
+	border-right: 1px solid #E2BF0B;
+	padding-right: 10px;
+}
+.header-list a {
+	font-size: 14px;
+}

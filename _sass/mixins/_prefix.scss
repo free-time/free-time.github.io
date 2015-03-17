@@ -1,0 +1,5 @@
+@mixin background-size($width){
+	-webkit-background-size: $width;
+	-moz-background-size: $width;
+	background-size: $width;
+}
