@@ -42,8 +42,19 @@
 .title-lecture{
 	margin: 10px 0 0 15px;	
 	font-family: 'Helvetica';
-	font-size: 18px;
+	font-size: $fontSize-titleLecture;
+	text-align: justify;
+	overflow: hidden;
+	height: 100px;
 	color: $color-links;
+	word-spacing:normal;
+	font-style: italic;
+	&:after{
+		content: "";
+		display: inline-block;
+		width: 100%;
+	}
+
 	ul {
 		list-style: none;
 		margin-top: 10px;
