@@ -3,7 +3,7 @@
 	width: 90%;
 	margin-top: 20px;
 	margin: 0 auto;
-	@include border-radius(5px);	
+	@include border-radius(5px);
 }
 .btn-default--link{
 	color: $btn-color-link;
@@ -17,16 +17,4 @@
 	margin-top: 20px;
 	background: $watch-bottom;
 	border-bottom: 4px solid $watch-bottom - 100;
-}
-
-
-.complement{
-	float: right;
-	a{
-		font-size: 14px;
-		background: $color-logo-primary;
-		padding: 5px;
-		font-size: 14px;
-		font-family: 'arial';
-	}
 }
