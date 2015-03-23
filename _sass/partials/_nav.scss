@@ -5,11 +5,6 @@
 	float: left;
 		
 		&:last-child{border:none;}
-		.fa {
-			color: #F5F5F5;
-			font-size: 1.1em;
-			padding-right: 5px;
-		}
 }
 .header-list{
 	float: left;
@@ -19,7 +14,7 @@
 
 }
 .header-list a {
-	font-size: 18px;
+	font-size: $fontSize-default;
 	color: #d90452;
 	display: block;
 }

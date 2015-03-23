@@ -6,17 +6,17 @@
 	border-radius: 5px;
 }
 .btn-default--link{
-	color: #FFF;
+	color: $btn-color-link;
 	text-align: center;
 	display: block;
-	font-size: 20px;
+	font-size: $fontSize-default;
 	padding: 12px;
 }
 .watch{
 	display: block;
 	margin-top: 20px;
-	background: $blue-dark;
-	border-bottom: 4px solid $blue-dark - 100;
+	background: $watch-bottom;
+	border-bottom: 4px solid $watch-bottom - 100;
 }
 
 
@@ -24,7 +24,7 @@
 	float: right;
 	a{
 		font-size: 14px;
-		background: $yellow-dark;
+		background: $color-logo-primary;
 		padding: 5px;
 		font-size: 14px;
 		font-family: 'arial';

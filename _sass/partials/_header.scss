@@ -13,19 +13,19 @@
 }
 .search{
 	float: right;
-	 margin: 40px 50px 0 0; 
+	margin: 40px 50px 0 0; 
 	height: 50px;
 
 	input[type=text]{
 		width: 300px;
-		font-size: 20px;
+		font-size: $fontSize-default;
 		font-style: italic;
 		background: none;
 		border-width: 2px 0 2px 0;
 		border-color: #F2D750;
 		border-style: solid;
 		padding: 12px 20px;
-		color: #D90452;
+		color: $color-logo-secondary;
 	}
 }
 

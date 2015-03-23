@@ -2,8 +2,7 @@
 .all{
 	float: right;
 	a{
-		font-size: 14px;
-		background: $yellow-dark;
+		background: $color-logo-primary;
 		padding: 5px;
 		font-size: 14px;
 		font-family: 'arial';
@@ -57,7 +56,7 @@
 .title-lecture{
 	margin: 10px 0 0 5px;	
 	font-family: 'Arial';
-	font-size: $fontSize-titleLecture;
+	font-size: $fontSize-default;
 	text-align: justify;
 	overflow: hidden;
 	height: 100px;

@@ -7,16 +7,16 @@
 	position: relative;
 }
 .color-link-footer {
-	color: $yellow-dark;
+	color: $color-logo-primary;
 
 	&:hover {text-decoration: underline;}
 }
 .title-widget{
-	color: $yellow-dark;
+	color: $color-logo-primary;
 	font-style: italic;
 	text-align: left;
 	font-size: 32px;
-	border-bottom: 1px solid $yellow-dark;
+	border-bottom: 1px solid $color-logo-primary;
 	padding-bottom: 10px;
 }
 .widget-footer{
@@ -55,7 +55,7 @@
 
 	p {
 		text-align: justify;
-		color: $yellow-dark;
+		color: $color-logo-primary;
 		line-height: 25px;
 	}
 }
@@ -63,10 +63,10 @@
 	text-align: center;
 	display: block;
 	color: #FFF;
-	font-size: 15px;
+	font-size: $fontSize-default;
 }
 .social-link{
-	color: $yellow-dark;
+	color: $color-logo-primary;
 }
 .social{
 	margin: 5px 0;
