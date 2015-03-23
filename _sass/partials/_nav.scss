@@ -1,24 +1,25 @@
 .header-nav{
 	height: 50px;
 	width: 100%;
-	background: $yellow-dark;
+	background: #F2D750;
+	float: left;
 		
-		&:last-child{
-			border:none;
-		}
+		&:last-child{border:none;}
 		.fa {
-			color: $yellow-dark - 100;
+			color: #F5F5F5;
 			font-size: 1.1em;
 			padding-right: 5px;
 		}
 }
 .header-list{
 	float: left;
-	margin: 10px;
 	line-height: 30px;
-	border-right: 1px solid #E2BF0B;
-	padding-right: 10px;
+	border-right: 1px solid #F2D750 - 20;
+	padding:10px;
+
 }
 .header-list a {
-	font-size: 14px;
+	font-size: 18px;
+	color: #d90452;
+	display: block;
 }
