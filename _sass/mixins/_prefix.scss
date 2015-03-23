@@ -3,3 +3,9 @@
 	-moz-background-size: $width;
 	background-size: $width;
 }
+
+@mixin border-radius($width){
+	-webkit-border-radius: $width;
+	-moz-border-radius: $width;
+	border-radius: $width;
+}

@@ -3,7 +3,7 @@
 	width: 90%;
 	margin-top: 20px;
 	margin: 0 auto;
-	border-radius: 5px;
+	@include border-radius(5px);	
 }
 .btn-default--link{
 	color: $btn-color-link;
