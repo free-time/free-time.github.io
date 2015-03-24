@@ -18,10 +18,10 @@
 	background: #FFFFFF;
 	padding: 25px 15px;
 	border: 1px solid #DFDFDF;
-	transition: 1s;
-
+	@include box-shadow(2px,2px,5px,transparent);
+	@include transition(1.2s);
 	&:hover{
-		box-shadow: 2px 2px 5px black;
+		@include box-shadow(2px,2px,5px,#000);
 	}
 }
 .lecture-content{
