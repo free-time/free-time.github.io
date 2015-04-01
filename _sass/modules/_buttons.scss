@@ -18,3 +18,12 @@
 	background: $watch-bottom;
 	border-bottom: 4px solid $watch-bottom - 100;
 }
+.btn-search{
+	width: 25px;
+	height: 21px;
+	display: block;
+	position: absolute;
+	bottom: 15px;
+	right: 0px;
+	background: url("/assets/image/search_icon.png");
+}

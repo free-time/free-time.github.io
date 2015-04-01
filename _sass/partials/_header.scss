@@ -12,9 +12,11 @@
 	}
 }
 .search{
-	float: right;
+	float: left;
 	margin: 40px 50px 0 0; 
 	height: 50px;
+	position: relative;
+	width: 330px;
 
 	input[type=text]{
 		width: 300px;
@@ -26,6 +28,6 @@
 		border-style: solid;
 		padding: 12px 20px;
 		color: $color-logo-secondary;
+		&:focus {outline: none;}
 	}
 }
-
