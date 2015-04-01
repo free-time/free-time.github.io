@@ -1,5 +1,4 @@
-.main{width: 1200px;margin: 0 auto;}
-main.main{@extend.main; width: 1300px;}
+.main{width: 1200px;margin: 0 auto; overflow: hidden;}
 .all{
 	float: right;
 	a{
