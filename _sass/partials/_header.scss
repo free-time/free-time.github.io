@@ -28,6 +28,10 @@
 		border-style: solid;
 		padding: 12px 20px;
 		color: $color-logo-secondary;
-		&:focus {outline: none;}
+		&:focus {
+			outline: none;
+			box-shadow: -1px 0px 50px 0px rgba(#F2D750, 0.9);
+			border: 2px solid transparent;
+		}
 	}
 }
