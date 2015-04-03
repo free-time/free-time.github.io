@@ -1,0 +1,306 @@
+Searching 96 files for "/assets/image/"
+
+/var/www/free-time.github.io/.sass-cache/248d24756056eaa8b7ba37f214de8d72b65cf0c1/_footer.scssc:
+    <binary>
+
+/var/www/free-time.github.io/.sass-cache/248d24756056eaa8b7ba37f214de8d72b65cf0c1/_main.scssc:
+    <binary>
+
+/var/www/free-time.github.io/.sass-cache/caeb61956b6da4191b4f8a83466cafa64c75c3d4/_buttons.scssc:
+    <binary>
+
+/var/www/free-time.github.io/_posts/2015-02-22-performance-em-css-bernard-de-luna.md:
+    6  duration: 1:00:43 min
+    7  theme: CSS
+    8: img: /assets/image/speakers/bernard-de-luna.jpg
+    9  link: https://www.youtube.com/watch?v=m1iV2C44Duc
+   10  ---
+
+/var/www/free-time.github.io/_posts/2015-03-31-javascript-com-google-v8-no-servidor.md:
+    6  duration: 58:56 min
+    7  theme: Node js
+    8: img: /assets/image/speakers/luciano_ramalho.jpg
+    9  link: https://www.youtube.com/watch?v=3Sb36C79xE0
+   10  ---
+
+/var/www/free-time.github.io/_posts/2015-03-31-javascript-sem-stress-renzo-nuccitelli.md:
+    6  duration: 56:39 min
+    7  theme: Javascript
+    8: img: /assets/image/speakers/renzo-nuccitelli.png
+    9  link: https://www.youtube.com/watch?v=3Sb36C79xE0
+   10  ---
+
+/var/www/free-time.github.io/_posts/2015-03-31-seo-para-front-end.md:
+    6  duration: 1:04:27 min
+    7  theme: SEO
+    8: img: /assets/image/speakers/fabio-ricotta.jpg
+    9  link: https://www.youtube.com/watch?v=3Sb36C79xE0
+   10: /assets/image/speakers/
+   11  ---
+   12  
+
+/var/www/free-time.github.io/_posts/2015-03-31-um-futuro-chamado-web-components-zeno-rocha.md:
+    6  duration: 56:39 min
+    7  theme: HTML
+    8: img: /assets/image/speakers/zeno_rocha.jpg
+    9  link: https://www.youtube.com/watch?v=7Q0-E_rZ_Cc
+   10  ---
+
+/var/www/free-time.github.io/_posts/2015-04-01-amd-bdd-e-o-javali-rafael-lyra.md:
+    5  categories: lectures
+    6  duration: 1:00:57 min
+    7: img: /assets/image/speakers/rafael_lyra.jpeg
+    8  link: https://www.youtube.com/watch?v=Jwb-zfukDig
+    9  ---
+
+/var/www/free-time.github.io/_posts/2015-04-01-angularjs-na-pratica-tony-lampada.md:
+    6  duration: 52:57 min
+    7  theme: Javascript
+    8: img: /assets/image/speakers/tony_lampada.jpeg
+    9  link: https://www.youtube.com/watch?v=chYbHe4tsTo
+   10  ---
+
+/var/www/free-time.github.io/_posts/2015-04-01-chat-nodejs-em-producao-willian-carvalho.md:
+    6  duration: 36:41 min
+    7  theme: Javascript
+    8: img: /assets/image/speakers/node-js.png
+    9  link: https://www.youtube.com/watch?v=G_BvPRpnJOI
+   10  ---
+
+/var/www/free-time.github.io/_posts/2015-04-01-construindo-uma-api-de-dados-esportivos-que-responde-a-6000-req-s-rafael-martins.md:
+    6  duration: 35:41 min
+    7  theme: Python
+    8: img: /assets/image/speakers/rafael-martins.png
+    9  link: https://www.youtube.com/watch?v=IiTz6EVjHnc
+   10  ---
+
+/var/www/free-time.github.io/_posts/2015-04-01-django-para-portais-de-alta-visibilidade-thiago-avelino-e-bruno-rocha.md:
+    6  duration: 39:59 min
+    7  theme: Python
+    8: img: /assets/image/speakers/python.png
+    9  link: https://www.youtube.com/watch?v=IiTz6EVjHnc
+   10  ---
+
+/var/www/free-time.github.io/_posts/2015-04-01-node-js:-serious-business-pedro-franceschi.md:
+    6  duration: 45:57 min
+    7  theme: Javascript
+    8: img: /assets/image/speakers/pedro_franceschi.jpeg
+    9  link: https://www.youtube.com/watch?v=_0opytdAXHk
+   10  ---
+
+/var/www/free-time.github.io/_posts/2015-04-01-prototipos-de-aplicacoes-rest-com-node-js.md:
+    6  duration: 41:01 min
+    7  theme: Javascript
+    8: img: /assets/image/speakers/kaique_silva.jpg
+    9  link: https://www.youtube.com/watch?v=MAQbnSc7YNI
+   10  ---
+
+/var/www/free-time.github.io/_posts/2015-04-01-sem-magica-:-usando-bem-os-metodos-especiais-luciano-ramalho.md:
+    6  duration: 40:12 min
+    7  theme: Python
+    8: img: /assets/image/speakers/luciano_ramalho.jpg
+    9  link: https://www.youtube.com/watch?v=IiTz6EVjHnc
+   10  ---
+
+/var/www/free-time.github.io/_posts/2015-04-01-single-page-apps-ftw-ciro-nunes.md:
+    6  duration: 45:40 min
+    7  theme: Javascript
+    8: img: /assets/image/speakers/ciro-nunes.jpg
+    9  link: https://www.youtube.com/watch?v=IiTz6EVjHnc
+   10  ---
+
+/var/www/free-time.github.io/_posts/2015-04-01-tendencias-de-hoje-e-amanha-no-mundo-ruby-fabio-akita.md:
+    6  duration: 59:15 min
+    7  theme: Ruby
+    8: img: /assets/image/speakers/fabio akita.jpg
+    9  link: https://www.youtube.com/watch?v=G_BvPRpnJOI
+   10  ---
+
+/var/www/free-time.github.io/_posts/2015-04-02-audiolazy-python-dsp-digital-signal-processing-danilo-bellini.md:
+    6  duration: 58:15 min
+    7  theme: Python
+    8: img: /assets/image/speakers/danilo-bellini.jpg
+    9  link: https://www.youtube.com/watch?v=TF13AQO0Hlk
+   10  ---
+
+/var/www/free-time.github.io/_posts/2015-04-02-lifestyle-business-e-o-ecossistema-python-henrique-bastos.md:
+    6  duration: 57:13 min
+    7  theme: Python
+    8: img: /assets/image/speakers/henrique-bastos.jpg
+    9  link: https://www.youtube.com/watch?v=mHRinieklio
+   10  ---
+
+/var/www/free-time.github.io/_posts/2015-04-02-python-para-zumbis-fernado-masanori.md:
+    6  duration: 51:57 min
+    7  theme: Python
+    8: img: /assets/image/speakers/fernando-masanori.jpg
+    9  link: https://www.youtube.com/watch?v=_OQEcuGHrxQ
+   10  ---
+
+/var/www/free-time.github.io/_posts/2015-04-02-seguranca-no-rails-nando-vieira.md:
+    6  duration: 57:41 min
+    7  theme: Ruby
+    8: img: /assets/image/speakers/speakers/nando-vieira.jpeg
+    9  link: https://www.youtube.com/watch?v=GPglTMw-2Hw
+   10  ---
+
+/var/www/free-time.github.io/_posts/2015-04-02-zelar-pela-qualidade-de-codigo-nao-e-preciosismo-ricardo-valeriano.md:
+    6  duration: 37:53 min
+    7  theme: Ruby
+    8: img: /assets/image/speakers/ricardo-valeriano.jpg
+    9  link: https://www.youtube.com/watch?v=CKG5d2HOBSk
+   10  ---
+
+/var/www/free-time.github.io/_sass/modules/_buttons.scss:
+   26  	bottom: 15px;
+   27  	right: 0px;
+   28: 	background: url("/assets/image/search_icon.png");
+   29  }
+
+/var/www/free-time.github.io/_sass/partials/_footer.scss:
+    3  	padding: 15px;
+    4  	height: 500px;
+    5: 	background: url(/assets/image/bg-footer.jpg) #181415;
+    6  	position: relative;
+    7  	top: 30px;
+    .
+   77  	right: 5px;
+   78  	bottom: 10px;
+   79: 	background: url('/assets/image/mountietocat.png');
+   80  	@include background-size(100px);
+   81  	width: 100px;
+
+/var/www/free-time.github.io/_sass/partials/_main.scss:
+   43  		right: 0;
+   44  		margin: 0 auto;
+   45: 		background: url('/assets/image/bg-lecture.png')no-repeat;
+   46  		background-size:100%;
+   47  		z-index:99;
+
+/var/www/free-time.github.io/_site/index.html:
+   44  
+   45        <div class="lecture-thumbnails">
+   46:       	<img src="/assets/image/speakers/nando-vieira.jpeg" alt="Anderson">
+   47        </div>
+   48        <a href="#"><h2 class="title-lecture">Segurança no Rails - Nando Vieira</h2></a>
+   ..
+   55  
+   56        <div class="lecture-thumbnails">
+   57:       	<img src="/assets/image/ricardo-valeriano.jpg" alt="Anderson">
+   58        </div>
+   59        <a href="#"><h2 class="title-lecture">Zelar pela qualidade de código não é preciosismo - Ricardo Valeriano</h2></a>
+   ..
+   66  
+   67        <div class="lecture-thumbnails">
+   68:       	<img src="/assets/image/danilo-bellini.jpg" alt="Anderson">
+   69        </div>
+   70        <a href="#"><h2 class="title-lecture">AudioLazy Python DSP (Digital Signal Processing) - Danilo Bellini</h2></a>
+   ..
+   77  
+   78        <div class="lecture-thumbnails">
+   79:       	<img src="/assets/image/fernando-masanori.jpg" alt="Anderson">
+   80        </div>
+   81        <a href="#"><h2 class="title-lecture">Python para Zumbis - Fernado Masanori</h2></a>
+   ..
+   88  
+   89        <div class="lecture-thumbnails">
+   90:       	<img src="/assets/image/henrique-bastos.jpg" alt="Anderson">
+   91        </div>
+   92        <a href="#"><h2 class="title-lecture">Lifestyle Business e o Ecossistema Python - Henrique Bastos</h2></a>
+   ..
+   99  
+  100        <div class="lecture-thumbnails">
+  101:       	<img src="/assets/image/luciano_ramalho.jpg" alt="Anderson">
+  102        </div>
+  103        <a href="#"><h2 class="title-lecture">Sem __magica__: usando bem os métodos especiais - Luciano Ramalho</h2></a>
+  ...
+  110  
+  111        <div class="lecture-thumbnails">
+  112:       	<img src="/assets/image/rafael-martins.png" alt="Anderson">
+  113        </div>
+  114        <a href="#"><h2 class="title-lecture">Construindo uma API de dados esportivos que responde a 6000 req/s - Rafael Martins</h2></a>
+  ...
+  121  
+  122        <div class="lecture-thumbnails">
+  123:       	<img src="/assets/image/python.png" alt="Anderson">
+  124        </div>
+  125        <a href="#"><h2 class="title-lecture">Django para portais de alta visibilidade - Thiago Avelino e Bruno Rocha</h2></a>
+  ...
+  132  
+  133        <div class="lecture-thumbnails">
+  134:       	<img src="/assets/image/ciro-nunes.jpg" alt="Anderson">
+  135        </div>
+  136        <a href="#"><h2 class="title-lecture">Single Page Apps FTW! - Ciro Nunes</h2></a>
+  ...
+  143  
+  144        <div class="lecture-thumbnails">
+  145:       	<img src="/assets/image/tony_lampada.jpeg" alt="Anderson">
+  146        </div>
+  147        <a href="#"><h2 class="title-lecture">AngularJS na prática - Tony Lampada</h2></a>
+  ...
+  154  
+  155        <div class="lecture-thumbnails">
+  156:       	<img src="/assets/image/node-js.png" alt="Anderson">
+  157        </div>
+  158        <a href="#"><h2 class="title-lecture">Chat NodeJS em produção - Willian Carvalho</h2></a>
+  ...
+  165  
+  166        <div class="lecture-thumbnails">
+  167:       	<img src="/assets/image/fabio akita.jpg" alt="Anderson">
+  168        </div>
+  169        <a href="#"><h2 class="title-lecture">Tendências de hoje e amanhã no mundo ruby - Fabio Akita</h2></a>
+  ...
+  176  
+  177        <div class="lecture-thumbnails">
+  178:       	<img src="/assets/image/kaique_silva.jpg" alt="Anderson">
+  179        </div>
+  180        <a href="#"><h2 class="title-lecture">Protótipos de aplicações REST com Node.js - Kaique Silva</h2></a>
+  ...
+  187  
+  188        <div class="lecture-thumbnails">
+  189:       	<img src="/assets/image/rafael_lyra.jpeg" alt="Anderson">
+  190        </div>
+  191        <a href="#"><h2 class="title-lecture">Amd, BDD e o Javali - Rafael Lyra</h2></a>
+  ...
+  198  
+  199        <div class="lecture-thumbnails">
+  200:       	<img src="/assets/image/pedro_franceschi.jpeg" alt="Anderson">
+  201        </div>
+  202        <a href="#"><h2 class="title-lecture">Node.js: serious business - Pedro Franceschi</h2></a>
+  ...
+  209  
+  210        <div class="lecture-thumbnails">
+  211:       	<img src="/assets/image/speakers/luciano_ramalho.jpg" alt="Anderson">
+  212        </div>
+  213        <a href="#"><h2 class="title-lecture">JavaScript com Google V8 no servidor - Luciano Ramalho</h2></a>
+  ...
+  220  
+  221        <div class="lecture-thumbnails">
+  222:       	<img src="/assets/image/fabio-ricotta.jpg" alt="Anderson">
+  223        </div>
+  224        <a href="#"><h2 class="title-lecture">SEO para Front-end - Fábio Ricotta</h2></a>
+  ...
+  231  
+  232        <div class="lecture-thumbnails">
+  233:       	<img src="/assets/image/zeno_rocha.jpg" alt="Anderson">
+  234        </div>
+  235        <a href="#"><h2 class="title-lecture">Um futuro chamado Web Components - Zeno rocha</h2></a>
+  ...
+  242  
+  243        <div class="lecture-thumbnails">
+  244:       	<img src="/assets/image/speakers/renzo-nuccitelli.png" alt="Anderson">
+  245        </div>
+  246        <a href="#"><h2 class="title-lecture">Javascript sem stress - Renzo Nuccitelli</h2></a>
+  ...
+  253  
+  254        <div class="lecture-thumbnails">
+  255:       	<img src="/assets/image/speakers/bernard-de-luna.jpg" alt="Anderson">
+  256        </div>
+  257        <a href="#"><h2 class="title-lecture">Performance em CSS - Bernard De Luna</h2></a>
+
+/var/www/free-time.github.io/_site/assets/css/main.css:
+    1: .clear:before,.clear:after{content:' ';display:table}.clear{*zoom:1}.clear:after{clear:both}body{background:#F2F1EF}a{text-decoration:none;color:#D90452}li{list-style:none}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}ul{margin:0;padding:0}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}.header{width:100%;height:120px}.logo{width:400px;margin:0 50px;float:left}.logo img{width:100%;padding-top:20px}.search{float:left;margin:40px 50px 0 0;height:50px;position:relative;width:330px}.search input[type=text]{width:300px;font-size:18px;font-style:italic;background:none;border-width:2px 0 2px 0;border-color:#F2D750;border-style:solid;padding:12px 20px;color:#D90452}.search input[type=text]:focus{outline:none;box-shadow:-1px 0px 50px 0px rgba(242,215,80,0.9);border:2px solid transparent}.header-nav{height:50px;width:100%;background:#F2D750;float:left}.header-nav:last-child{border:none}.header-list{float:left;line-height:30px;border-right:1px solid #dec33c;padding:10px}.header-list a{font-size:18px;color:#d90452;display:block}.main{width:1200px;margin:0 auto}.all{float:right}.all a{background:#F2D750;padding:5px;font-size:14px;font-family:'arial'}.lectures{width:180px;height:370px;float:left;margin:40px 14px 0 14px;padding-right:25px;position:relative;background:#FFFFFF;padding:25px 15px;border:1px solid #DFDFDF;-webkit-box-shadow:2px 2px 5px transparent;-moz-box-shadow:2px 2px 5px transparent;box-shadow:2px 2px 5px transparent;-webkit-transition:1.2s;-moz-transition:1.2s;transition:1.2s}.lectures:hover{-webkit-box-shadow:2px 2px 5px #000;-moz-box-shadow:2px 2px 5px #000;box-shadow:2px 2px 5px #000}.lecture-content{width:100%;height:100%;overflow:hidden}.lecture-thumbnails{width:180px;height:178px;position:relative}.lecture-thumbnails:after{content:'';position:absolute;top:0;bottom:0;left:0;right:0;margin:0 auto;background:url("/assets/image/bg-lecture.png") no-repeat;background-size:100%;z-index:99}.lecture-thumbnails img{width:100%;height:100%;object-fit:cover}.title-lecture{margin:10px 0 0 5px;font-family:'Arial';font-size:18px;overflow:hidden;height:100px;color:#008699}.title-lecture:after{content:"";display:inline-block;width:100%}.title-lecture ul{list-style:none;margin-top:10px}.footer{clear:both;padding:15px;height:500px;background:url(/assets/image/bg-footer.jpg) #181415;position:relative;top:30px}.color-link-footer{color:#F2D750}.color-link-footer:hover{text-decoration:underline}.title-widget{color:#F2D750;font-style:italic;text-align:left;font-size:32px;border-bottom:1px solid #F2D750;padding-bottom:10px}.widget-footer,.contributors{width:300px;height:250px;float:left}.contributors{width:700px;float:left;height:auto;padding-bottom:30px}.contributors ul{float:left;width:140px;margin-right:30px}.contributors li{margin:5px 0;padding-bottom:8px}.about-logo-footer{width:300px;float:right;padding:50px 80px 0 0}.about-logo-footer img{max-width:250px;float:left;display:block}.about-logo-footer p{text-align:justify;color:#F2D750;line-height:25px}.create{text-align:center;display:block;color:#FFF;font-size:18px}.social-link{color:#F2D750}.social{margin:5px 0;text-align:center}.github{position:absolute;right:5px;bottom:10px;background:url("/assets/image/mountietocat.png");-webkit-background-size:100px;-moz-background-size:100px;background-size:100px;width:100px;text-indent:-9999px;height:100px}.github a{display:block}.btn-default{width:90%;margin-top:20px;margin:0 auto;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}.btn-default--link{color:#FFF;text-align:center;display:block;font-size:18px;padding:12px}.watch{display:block;margin-top:20px;background:#CF3A24;border-bottom:4px solid #6b0000}.btn-search{width:25px;height:21px;display:block;position:absolute;bottom:15px;right:0px;background:url("/assets/image/search_icon.png")}.lecture-info{margin:5px 0;padding:10px;border-bottom:1px solid #DFDFDF;color:#333;font-size:18px}.lecture-info b{float:right;color:#333}@font-face{font-family:'skinMedium';src:url(../fonts/SinkinSans-500Medium.otf)}@font-face{font-family:'skinItalic';src:url(../fonts/SinkinSans-400Italic.otf)}.title-pages{font-size:30px;font-style:italic;padding:10px 50px;margin-top:60px;color:#D90452}/*!
+    2   *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
+    3   *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+
+57 matches across 28 files

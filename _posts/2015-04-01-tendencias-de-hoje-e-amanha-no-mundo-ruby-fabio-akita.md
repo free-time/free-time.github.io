@@ -5,6 +5,6 @@ date:   2015-04-01 09:22:00
 categories: lectures
 duration: 59:15 min
 theme: Ruby
-img: /assets/image/fabio akita.jpg
+img: /assets/image/speakers/fabio akita.jpg
 link: https://www.youtube.com/watch?v=G_BvPRpnJOI
 ---
