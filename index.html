@@ -4,10 +4,9 @@ title: Free time  - Use your free time to watch Hagounts
 titlesecondary: Últimas palestras adicionadas
 complement: Escolha por categoria
 ---
-{% for post in site.categories.lectures %}
+{% for post in site.posts %}
 <section class="lectures">
     <article class="lecture-content">
-
       <a href="{{ post.link }}" class="lecture-thumbnails" target="_blank">
       	<img src="{{ post.img }}" alt="Anderson">
       </a>
