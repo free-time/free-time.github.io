@@ -13,7 +13,7 @@
 }
 .lectures{
 	width: 180px;
-	height: 370px;
+	height: 380px;
 	float: left;
 	margin: 40px 14px 0 14px;
 	padding-right: 25px;
@@ -24,7 +24,7 @@
 	@include box-shadow(2px,2px,5px,transparent);
 	@include transition(1.2s);
 	&:hover{
-		@include box-shadow(2px,2px,5px,#000);
+		@include box-shadow(2px,2px,5px,#333);
 	}
 }
 .lecture-content{
@@ -63,16 +63,20 @@
 	font-size: $fontSize-default;
 	overflow: hidden;
 	height: 100px;
-	color: #008699;
+	color: $color-link-lecture;
 	&:after{
 		content: "";
 		display: inline-block;
 		width: 100%;
+	}
+	&:hover{
+		color: $color-link-lecture + 35;
 	}
 	ul {
 		list-style: none;
 		margin-top: 10px;
 	}
 }
-
-	
+.speakers{
+	color: $color-logo-secondary;
+}
