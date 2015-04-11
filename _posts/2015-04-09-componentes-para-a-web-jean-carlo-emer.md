@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Componentes para a web ~ Jean Carlo Emer"
+title:  "Componentes para a web - Jean Carlo Emer"
 date:   2015-04-10 07:32:00
 duration: 46:02 min
 categories: CSS
