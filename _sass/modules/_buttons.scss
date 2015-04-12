@@ -27,3 +27,22 @@
 	right: 0px;
 	background: url("/assets/image/search_icon.png");
 }
+.btn-send-newsletters{
+	background: $color-logo-primary;
+	border:none;
+	padding: 10px 25px;
+	color: #333;
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+	display: block;
+	@include border-radius(5px);
+	border-bottom: 5px solid $color-logo-primary - 20;
+
+	&:hover{
+		border-bottom: 5px solid $color-logo-primary - 30;	
+		color: #454545;
+	}
+
+	&:focus{margin-top:20px;}
+}
