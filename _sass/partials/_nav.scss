@@ -5,21 +5,27 @@
 	background: $background-menu-header;
 	float: left;
 
-		&:last-child{border:none;background: red}
+	&:last-child{
+		border:none;background: red
+	}
 }
 .header-list{
 	float: left;
 	line-height: 30px;
 	border-right: 1px solid $background-menu-header + 20;
-	padding:10px;
 
-	&:hover,:focus{background: $background-menu-header-hover;}
+	&:hover,:focus{
+		background: $background-menu-header-hover - 10;
+	}
 
 }
 .header-list a {
 	font-size: $fontSize-default;
 	color: $color-header-link;
+	padding:10px;
 	display: block;
 
-	&:hover{color:$color-header-link + 100}
+	&:hover{
+		color:$color-logo-primary;
+	}
 }
