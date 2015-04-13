@@ -16,15 +16,16 @@
 	height: 380px;
 	float: left;
 	margin: 40px 14px 0 14px;
-	padding-right: 25px;
 	position: relative;
 	background: #FFFFFF;
-	padding: 25px 15px;
+	padding: 20px 15px 0 15px;
 	border: 1px solid #DFDFDF;
-	@include box-shadow(2px,2px,5px,transparent);
-	@include transition(1.2s);
+	@include border-radius(5px);
+	@include box-shadow(0, 2px, 8px, #ccc);
+	@include transition(.8s box-shadow, .6s transform);
 	&:hover{
-		@include box-shadow(2px,2px,5px,#333);
+		@include scale(1.05);
+		@include box-shadow(0, 4px, 16px, #ccc);
 	}
 }
 .lecture-content{
