@@ -1,9 +1,10 @@
 .header-nav{
 	height: 50px;
 	width: 100%;
+	margin-bottom: 10px;
 	background: $background-menu-header;
 	float: left;
-		
+
 		&:last-child{border:none;background: red}
 }
 .header-list{
