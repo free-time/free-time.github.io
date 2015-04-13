@@ -66,26 +66,34 @@
 
 	input[type=text]{
 		font-size: $fontSize-default;
-		width: 85%;
+		width: 100%;
 		margin: 15px auto;
 		background: #D7D7D7;
 		@include style-placeholder($color-logo-primary);
-		padding: 5px;
 	}
 	span{
 		color: $color-logo-primary;
 		text-align: center;
 		display: block;}
-	i{color:$color-logo-primary - 50;}
+	i{
+		color: $color-logo-secondary;
+	  position: relative;
+	  float: left;
+	  top: 28px;
+	  left: 10px;
+	  font-size: 1.1em;
+	}
 }
 .email-news{
 	display: block;
-	padding: 10px 5px;
+	padding: 10px 15px 10px 35px;
 	margin: 20px 0;
 	border: none;
 	border-radius: 5px;
 	width: 100%;
 	background:#E4E4E4;
+	box-sizing: border-box;
+	outline: none;
 }
 .create{
 	text-align: center;
