@@ -13,7 +13,7 @@
 }
 .search{
 	float: right;
-	margin: 40px 50px 0 0;
+	margin: 40px 20px 0 0;
 	height: 50px;
 	position: relative;
 	width: 330px;
@@ -28,10 +28,13 @@
 		border-style: solid;
 		padding: 12px 20px;
 		color: $color-logo-secondary;
+		@include transition(.5s background ease, .5s border-radius, .5s border-color, .5s box-shadow);
 		&:focus {
 			outline: none;
+			background: #fff;
 			box-shadow: -1px 0px 50px 0px rgba(#F2D750, 0.9);
-			border: 2px solid transparent;
+			border-color: transparent;
+			@include border-radius(5px);
 		}
 	}
 }
