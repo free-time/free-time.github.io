@@ -3,7 +3,6 @@
 	-moz-background-size: $width;
 	background-size: $width;
 }
-
 @mixin border-radius($width){
 	-webkit-border-radius: $width;
 	-moz-border-radius: $width;
@@ -20,15 +19,13 @@
 		box-shadow: $top $left $blur $color;
 	}
 } 
-
 @mixin style-placeholder($color){
 	&:focus{color: $color-logo-secondary;}
-	&::-webkit-input-placeholder{opacity:0.7; color: $color-logo-secondary;} // Chrome and Opera
-	&:-moz-placeholder{opacity:0.7; color: $color-logo-secondary;} // Mozilla firefox 4 to 18
-	&::-moz-placeholder{opacity:0.7; color: $color-logo-secondary;} // Mozilla firefox +19
-	&:-ms-input-placeholder{opacity:0.7; color: $color-logo-secondary;} // IE + 10
+	&::-webkit-input-placeholder{opacity:0.7; color: $color-logo-secondary;}
+	&:-moz-placeholder{opacity:0.7; color: $color-logo-secondary;}
+	&::-moz-placeholder{opacity:0.7; color: $color-logo-secondary;}
+	&:-ms-input-placeholder{opacity:0.7; color: $color-logo-secondary;}
 }
-
 @mixin transition($transition...) {
     -moz-transition:    $transition;
     -o-transition:      $transition;
@@ -59,8 +56,6 @@
     -webkit-transition-delay: $delay;
     transition-delay:         $delay;
 }
-
-// generic transform
 @mixin transform($transforms) {
 	   -moz-transform: $transforms;
 	     -o-transform: $transforms;
@@ -68,24 +63,18 @@
 	-webkit-transform: $transforms;
           transform: $transforms;
 }
-// rotate
 @mixin rotate ($deg) {
   @include transform(rotate(#{$deg}deg));
 }
- 
-// scale
 @mixin scale($scale) {
 	 @include transform(scale($scale));
 } 
-// translate
 @mixin translate ($x, $y) {
    @include transform(translate($x, $y));
 }
-// skew
 @mixin skew ($x, $y) {
    @include transform(skew(#{$x}deg, #{$y}deg));
 }
-//transform origin
 @mixin transform-origin ($origin) {
     moz-transform-origin: $origin;
 	     -o-transform-origin: $origin;
