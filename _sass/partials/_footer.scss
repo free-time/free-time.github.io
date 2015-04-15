@@ -1,7 +1,7 @@
 .footer{
 	clear: both;
 	padding: 15px;
-	height: 400px;
+	height: 340px;
 	background: url(/assets/image/bg-footer.jpg) #181415;
 	position: relative;
 	top: 30px;
@@ -19,21 +19,15 @@
 	border-bottom: 1px solid $color-logo-primary;
 	padding-bottom: 10px;
 }
-.widget-footer{
-	width: 300px;
-	height: 250px;
-	float: left;
-}
 .contributors {
-	width: 500px;
-	float: left;
-	height: auto;
-	@extend .widget-footer;
+	width: 350px;	
 	padding-bottom: 30px;
+	margin-left: 20px;
+	float: left;
 
 	ul {
 		float: left;
-		width: 135px;
+		width: 145px;
 		margin-right: 30px;
 	}
 
@@ -41,27 +35,43 @@
 		margin: 5px 0;
 		padding-bottom: 8px;
 	}
+	a {
+		color:$color-logo-primary;
+		@include transition(.4s color);
+		&:hover {
+			text-decoration: none;
+			color:$color-logo-secondary;
+		}
+	}
 }
 .about-logo-footer {
-	width: 300px;
+	width: 350px;
 	float: right;
-	padding: 50px 0 0 50px;
+	padding: 18px 0 0 0;
+	margin-right: 20px;
 	img {
-		max-width: 250px;
-		float: left;
+		max-width: 200px;
+		float: right;
+		margin: 0 0 20px 0;
 		display: block;
 	}
-
 	p {
 		text-align: justify;
-		color: $color-logo-primary;
-		line-height: 25px;
+		color: $color-text-footer;
+		line-height: 28px;
+		clear: both;
+	}
+	a {
+		color:$color-logo-primary;
+		@include transition(.4s color);
+		&:hover {
+			color:$color-logo-secondary;
+		}
 	}
 }
 .newsletters{
-	width: 300px;
-	height: 300px;
-	margin-left: 50px;
+	width: 380px;
+	margin-left: 40px;
 	float: left;
 
 	input[type=text]{
@@ -71,10 +81,11 @@
 		background: #D7D7D7;
 		@include style-placeholder($color-logo-primary);
 	}
-	span{
-		color: $color-logo-primary;
+	p{
+		color: $color-text-footer;
 		text-align: center;
-		display: block;}
+		margin-bottom:0;
+	}
 	i{
 		color: $color-logo-secondary;
 	  position: relative;
