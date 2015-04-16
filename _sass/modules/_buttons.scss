@@ -34,7 +34,7 @@
 	background: $color-logo-primary;
 	border:none;
 	padding: 10px 25px;
-	color: rgba(0,0,0,.6);
+	color: rgba(0,0,0,.8);
 	text-align: center;
 	width: 100%;
 	margin: 0 auto;
@@ -42,13 +42,27 @@
 	@include border-radius(5px);
 	border-bottom: 5px solid $color-logo-primary - 20;
 	font-size: 1.3em;
-  font-variant: small-caps;
-  font-weight: bold;
-
+  	font-variant: small-caps;
+  	font-weight: bold;
+  	position:relative;
+  	@include text-shadow(0, -2px, 0, rgba(255,255,255,.3));
+  	@include transition(.3s background, .1s color, .3s border);
+  	
 	&:hover{
-		border-bottom: 5px solid $color-logo-primary - 30;
-		color: #454545;
+		background: $color-logo-secondary;
+		border-bottom: 5px solid $color-logo-secondary - 30;
+		color: #FFF;
+		@include text-shadow(0, 2px, 0, rgba(0,0,0,.3));
 	}
-
-	&:focus{margin-top:20px;}
+	&:active{
+		background: $color-logo-secondary - 20;
+		color: $color-logo-secondary - 90;
+		border-bottom: 5px solid $color-logo-secondary - 30;
+		@include box-shadow(0, 4px, 4px, rgba(0,0,0,.5), inset);
+		@include text-shadow(0, 1px, 0, rgba(255,255,255,.3));
+		top:1px;
+	}
+	&:focus{
+		outline:none;
+	}
 }

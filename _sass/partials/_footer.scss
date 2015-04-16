@@ -36,7 +36,7 @@
 		padding-bottom: 8px;
 	}
 	a {
-		color:$color-logo-primary;
+		color:$color-text-footer;
 		@include transition(.4s color);
 		&:hover {
 			text-decoration: none;
@@ -129,9 +129,12 @@
 }
 .github{
 	width: 120px;
-	background: url('/assets/image/github-logo.png')no-repeat;
-	@include background-size(100px);
-	float: left;
 	height: 40px;
 	margin-top: 10px;
+	margin-left:6px;
+	float: left;
+	background: url('/assets/image/github-logo.png')no-repeat;
+	@include background-size(100px);	
+	display:block;
+	font-size:0;
 }
