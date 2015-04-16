@@ -36,7 +36,7 @@
 		padding-bottom: 8px;
 	}
 	a {
-		color:$color-logo-primary;
+		color:$color-text-footer;
 		@include transition(.4s color);
 		&:hover {
 			text-decoration: none;
