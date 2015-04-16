@@ -120,15 +120,18 @@
 	bottom: 10px;
 	right: 50%;
 }
-.github{
+.hosted{
+	width: 120px;
 	position: absolute;
-	right: 5px;
+	right: 25px;
 	bottom: 10px;
-	background: url('/assets/image/mountietocat.png');
+	color: $color-logo-primary;
+}
+.github{
+	width: 120px;
+	background: url('/assets/image/github-logo.png')no-repeat;
 	@include background-size(100px);
-	width: 100px;
-	text-indent: -9999px;
-	height: 100px;
-
-	a{display: block;}
+	float: left;
+	height: 40px;
+	margin-top: 10px;
 }
