@@ -37,3 +37,19 @@
 		}
 	}
 }
+.advertising{
+	width: 700px;
+	height: 70px;
+	background: #008699;
+	float: right;
+	margin-top: 25px;
+	&:hover{background: #015F6C;}
+
+	a{
+		color: #FFF;
+		font-size: 32px;
+		text-align: center;
+		display: block;
+		padding: 15px 0;
+	}
+}
