@@ -2,7 +2,6 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 	<title>{{ page.title }}</title>
-	<link rel="stylesheet" href="/assets/css/main.css">
 	<!-- Meta tags -->
 	<meta name="keywords" content="videos,palestras,front-end,back-end,ruby,html,css,html5,css3,programação,nodejs,javascript,angular,php,python">
 	<meta name="description" content="Use seu tempo livre pra assistir palestras">
@@ -27,9 +26,9 @@
 		<meta content="{{ site.title }}" property="og:title">
 	{% endif %}
 	{% if page.title %}
-		<meta content="article" property="og:type">
+		<meta content="Palestras" property="og:type">
 	{% else %}
-		<meta content="website" property="og:type">
+		<meta content="Website" property="og:type">
 	{% endif %}
 	{% if page.description %}
 		<meta content="{{ page.description }}" property="og:description">
@@ -59,4 +58,6 @@
 		{% endfor %}
 	{% endif %}
 	<!-- Facebook Open Graph -->
+
+	<link rel="stylesheet" href="/assets/css/main.css">
 </head>
