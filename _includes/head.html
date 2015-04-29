@@ -42,8 +42,8 @@
 		<meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
 		<meta content="{{ site.url }}/sobre/" property="article:author">
 	{% endif %}
-	{% if post.img %}
-		<meta content="{{ post.img }}" property="og:image">
+	{% if page.img %}
+		<meta property="og:image" content="{{ site.url }}{{page.img }}">
 	{% else %}
 		<meta content="/assets/image/logo-open-graph.png" property="og:image">
 	{% endif %}
