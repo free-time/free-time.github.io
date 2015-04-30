@@ -26,6 +26,12 @@
     {% endif %}
 	<!-- Facebook Open Graph -->
 
+	<!-- Social: Google+ / Schema.org  -->
+    <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
+    <meta itemprop="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta itemprop="image" content="{{ "/assets/image/logo-open-graph.png" | prepend: site.baseurl | prepend: site.url }}"/>
+    <!-- Social: Google+ / Schema.org  -->
+
 	<!-- Favicon -->
 		<link rel="shortcut icon" href="/assets/image/favicon.ico" type="image/x-icon">
 	<!-- Favicon -->
