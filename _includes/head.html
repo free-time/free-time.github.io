@@ -9,47 +9,21 @@
 	<!-- Meta tags -->
 	
 	<!-- Facebook Open Graph -->
-	{% if page.categories %}
-		{% for category in page.categories limit:1 %}
-			<meta content="{{ category }}" property="article:section">
-		{% endfor %}
-	{% endif %}
-	{% if post.tags %}
-		{% for tag in post.tags %}
-			<meta content="{{ tag }}" property="article:tag">
-		{% endfor %}
-	{% endif %}
-		<meta content="{{ site.title }}" property="og:site_name">
-	{% if page.title %}
-		<meta content="{{ page.title }}" property="og:title">
-	{% else %}
-		<meta content="{{ site.title }}" property="og:title">
-	{% endif %}
-	{% if post.description %}
-		<meta content="{{ post.description }}" property="og:description">
-	{% else %}
-		<meta content="{{ site.description }}" property="og:description">
-	{% endif %}
-	<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-	{% if page.date %}
-		<meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
-		<meta content="{{ site.url }}/sobre/" property="article:author">
-	{% endif %}
-	{% if page.img %}
-		<meta property="og:image" content="{{ site.url }}{{post.img }}">
-	{% else %}
-		<meta content="/assets/image/logo-open-graph.png" property="og:image">
-	{% endif %}
-	{% if page.categories %}
-		{% for category in page.categories limit:1 %}
-			<meta content="{{ category }}" property="article:section">
-		{% endfor %}
-	{% endif %}
-	{% if page.tags %}
-		{% for tag in page.tags %}
-			<meta content="{{ tag }}" property="article:tag">
-		{% endfor %}
-	{% endif %}
+	    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    {% if post.image %}
+    <meta property="og:image" content="{{ site.url }}{{post.image }}">
+    {% else %}
+    <meta property="og:image" content="{{ "/assets/image/logo-open-graph.png" | prepend: site.baseurl | prepend: site.url }}">
+    {% endif %}
+    <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    {% if page.date %}
+    <meta property="article:published_time" content="{{ post.date }}" />
+    {% for tag in page.tags %}
+        <meta property="article:tag" content="{{ tag }}">
+    {% endfor%}
+    {% endif %}
 	<!-- Facebook Open Graph -->
 
 	<!-- Favicon -->
