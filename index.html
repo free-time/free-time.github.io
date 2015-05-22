@@ -3,8 +3,8 @@ layout: default
 title: Free time  - Use seu tempo livre pra assistir palestras!
 titlesecondary: Últimas palestras adicionadas
 ---
-{% for post in site.posts limit:50 %}
 <main role="main" class="main">
+{% for post in site.posts limit:50 %}
 	<section class="lectures">
 	    <article class="lecture-content">
 	      <a href="{{ post.link }}" class="lecture-thumbnails" target="_blank">
@@ -14,5 +14,5 @@ titlesecondary: Últimas palestras adicionadas
 	      <span class="btn-default watch"><a target="_blank" class="btn-default--link" href="{{ post.url }}">Assista agora!</a></span>
 	    </article>
 	</section>
-</main>
 {% endfor %}
+</main>
