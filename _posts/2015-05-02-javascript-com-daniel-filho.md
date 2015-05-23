@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  " Palestras 7Masters JavaScript - com Daniel Filho"
+title:  " 7Masters JavaScript - com Daniel Filho"
 speakers: Daniel Filho
 duration: 18:08 min
 date:   2015-05-02 01:43:00
