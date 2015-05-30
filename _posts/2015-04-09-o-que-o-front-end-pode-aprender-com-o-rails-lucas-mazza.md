@@ -7,4 +7,4 @@ categories: Rails Ruby
 img: /assets/image/speakers/lucas-mazza.jpeg
 link: https://www.youtube.com/watch?v=2iA-Z_xu3DE
 ---
-javascript-ilegivel:-como-um-conjunto-de-decisoes-afeta-seu-codigo-rafael-specht-da-silva
+

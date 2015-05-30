@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Free time  - Use seu tempo livre pra assistir palestras!
-titlesecondary: Últimas palestras adicionadas
+title: Free time - Polymer
+permalink: /polymer/
+titlesecondary: Categoria Polymer
 ---
+{% for post in site.categories.polymer  %}
 <main role="main" class="main">
-{% for post in site.posts limit:70 %}
 	<section class="lectures">
 	    <article class="lecture-content">
 	      <a href="{{ post.link }}" class="lecture-thumbnails" target="_blank">
@@ -14,5 +15,5 @@ titlesecondary: Últimas palestras adicionadas
 	      <span class="btn-default watch"><a target="_blank" class="btn-default--link" href="{{ post.url }}">Assista agora!</a></span>
 	    </article>
 	</section>
-{% endfor %}
 </main>
+{% endfor %}
