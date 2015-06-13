@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Node.js: serious business - Pedro Franceschi"
+title:  "Serious business - Pedro Franceschi"
 date:   2015-04-01 09:15:00
 duration: 45:57 min
 categories: Javascript Nodejs
