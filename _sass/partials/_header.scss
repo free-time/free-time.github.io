@@ -7,6 +7,7 @@
 	width: 35%;
 	margin: 0;
 	float: left;
+	@include respond-to(handhelds-o){ width:100% }
 	img {
 		width: 100%;
 		padding-top: 20px;
@@ -45,12 +46,15 @@
 	float: right;
 	margin-top: 2%;
 	&:hover{background: #015F6C;}
-
+	@include respond-to(handhelds-o){ display:none; }
 	a{
 		color: #FFF;
 		font-size: 32px;
 		text-align: center;
 		display: block;
-		padding: 15px 0;
+		padding: 15px 0;		
+		@include respond-to(handhelds-t){ font-size: 16px; padding: 22px 0; }
+		@include respond-to(medium-o){ font-size: 20px; padding: 20px 0; }
+		@include respond-to(medium-t){ font-size: 24px; padding: 18px 0; }
 	}
 }
