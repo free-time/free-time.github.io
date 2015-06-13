@@ -85,3 +85,13 @@
 	-webkit-transform-origin: $origin;
           transform-origin: $origin;
 }
+
+@mixin clearfix {
+	&:before, &:after {
+	    content: "";
+	    display: table;
+	}
+	&:after {
+	    clear: both;
+	}
+}

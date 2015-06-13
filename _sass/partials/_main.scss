@@ -1,4 +1,14 @@
-.main{width: 1200px;margin: 0 auto;}
+.content{
+	max-width: $max-width;
+	padding:0 20px;
+	margin: 0 auto;
+	@include clearfix();
+}
+
+.main{
+	max-width: $max-width;
+	@include clearfix();
+}
 .all{
 	float: right;
 	a{
@@ -12,20 +22,58 @@
 	p{background: blue;}
 }
 .lectures{
-	width: 180px;
-	height: 380px;
+	width: 18%;
+	height: 400px;
 	float: left;
-	margin: 40px 14px 0 14px;
+	margin: 2.5% 0 0 2.5%;
 	position: relative;
 	background: #FFFFFF;
-	padding: 20px 15px 0 15px;
+	padding: 20px 15px 15px 15px;
 	border: 1px solid #DFDFDF;
 	@include border-radius(5px);
 	@include box-shadow(0, 2px, 8px, #ccc);
 	@include transition(.8s box-shadow, .6s transform);
+
+	&:nth-of-type(5n+1){
+		margin: 2.5% 0 0 0;
+		clear:left;
+	}
+
 	&:hover{
 		@include scale(1.05);
 		@include box-shadow(0, 4px, 16px, #ccc);
+	}	
+
+	@media screen and (max-width: 1000px) {
+		width: 23.1%;
+
+		&:nth-of-type(4n+1){
+			margin: 2.5% 0 0 0;
+			clear:left;
+		}
+	}
+
+	@media screen and (max-width: 800px) {
+		width: 31.2%;
+
+		&:nth-of-type(3n+1){
+			margin: 2.5% 0 0 0;
+			clear:left;
+		}
+	}
+
+	@media screen and (max-width: 700px) {
+		width: 48%;
+
+		&:nth-of-type(2n+1){
+			margin: 2.5% 0 0 0;
+			clear:left;
+		}
+	}
+
+	@media screen and (max-width: 560px) {
+		width: 100%;
+		float: none;
 	}
 }
 .lecture-content{
@@ -59,7 +107,7 @@
 	}
 }
 .title-lecture{
-	margin: 10px 0 0 5px;	
+	margin: 10px 0 20px 10px;	
 	font-family: 'Arial';
 	font-size: $fontSize-default;
 	overflow: hidden;
