@@ -26,6 +26,7 @@
 	width: 18%;
 	height: 400px;
 	float: left;
+	text-align:center;
 	margin: 2.5% 2.5% 0 0;
 	position: relative;
 	background: #FFFFFF;
@@ -38,7 +39,7 @@
 		@include scale(1.05);
 		@include box-shadow(0, 4px, 16px, #ccc);
 	}
-	@include respond-to(handhelds-o){ width:100%; margin: 2.5% 0 0 0; }
+	@include respond-to(handhelds-o){ width:100%; margin: 10% 0 0 0; }
 	@include respond-to(handhelds-t){ width:48.7%; &:nth-of-type(2n){ margin: 2.5% 0 0 0; }	}
 	@include respond-to(medium-o){ width:31.6%;	&:nth-of-type(3n){ margin: 2.5% 0 0 0; } }
 	@include respond-to(medium-t){ width:23.1%;	&:nth-of-type(4n){ margin: 2.5% 0 0 0; }}
