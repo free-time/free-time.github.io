@@ -78,6 +78,12 @@
 	background:#E4E4E4;
 	box-sizing: border-box;
 	outline: none;
+	@include transition(.4s all);
+
+	&:focus {
+		background:#fff;
+		box-shadow: 0 0 0 2px #000, 0 0 20px $color-logo-primary;
+	}
 }
 .create{
 	text-align: center;
