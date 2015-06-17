@@ -25,6 +25,13 @@
 	width: 100%;
 	padding-bottom: 10px;
 }
+.about-project{
+	color:$color-text-footer;
+	line-height: 25px;
+	text-align: justify;
+	a{color: $color-logo-primary;}
+	span{display: block}
+}
 .contributors {
 	padding-bottom: 30px;
 	ul {
