@@ -13,7 +13,14 @@
     </div>
 
     {% include footer.html %}
-
+    <script src="/assets/js/echo.js" ></script>
+    <script>
+      echo.init({
+        offset: 100,
+        throttle: 250,
+        unload: false,
+      });
+  </script>
   </body>
 
 </html>
