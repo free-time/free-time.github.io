@@ -101,9 +101,17 @@
 }
 .social-link{
 	color: $color-logo-primary;
+  	@include transition(.3s color);
+	&:hover{
+		color: $color-logo-secondary;
+	}
+	&:first-of-type {
+		margin-right:10px;
+	}
 }
 .social{
 	position: absolute;
 	bottom: 10px;
-	right: 50%;
+	left: 50%;
+	margin-left:-42px;
 }
