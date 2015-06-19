@@ -1,14 +1,10 @@
 .content{
-	max-width: $max-width;
-	padding:0 20px;
-	margin: 0 auto;
-	@include clearfix();
+	@include center($pad: 2%);
+	@include cf();
 }
 
-.main{
-	max-width: $max-width;
-	margin: 0 auto;
-	@include clearfix();
+.main{	
+	@include cf();
 }
 .all{
 	float: right;
@@ -23,27 +19,23 @@
 	p{background: blue;}
 }
 .lectures{
-	width: 18%;
-	height: 400px;
-	float: left;
 	text-align:center;
-	margin: 2.5% 2.5% 0 0;
 	position: relative;
 	background: #FFFFFF;
 	padding: 20px 15px 15px 15px;
 	border: 1px solid #DFDFDF;
 	@include border-radius(5px);
 	@include box-shadow(0, 2px, 8px, #ccc);
-	@include transition(.8s box-shadow, .6s transform);
+	@include transition(.8s box-shadow, .6s transform);	
+	@include respond-to(handhelds-o){ @include center(70%); margin-top:10%;}
+	@include respond-to(handhelds-t){ @include col(6/12, $cycle: 2, $gutter: 5); margin-top:5%;}
+	@include respond-to(medium-o){ @include col(4/12, $cycle: 3, $gutter: 4); margin-top:4%;} 
+	@include respond-to(medium-t){ @include col(3/12, $cycle: 4); margin-top:3%; }
+	@include respond-to(wide-screens){ @include col(2.4/12, $cycle: 5, $gutter: 2); margin-top:2%;}
 	&:hover{
 		@include scale(1.05);
 		@include box-shadow(0, 4px, 16px, #ccc);
 	}
-	@include respond-to(handhelds-o){ width:100%; margin: 10% 0 0 0; }
-	@include respond-to(handhelds-t){ width:48.7%; &:nth-of-type(2n){ margin: 2.5% 0 0 0; }	}
-	@include respond-to(medium-o){ width:31.6%;	&:nth-of-type(3n){ margin: 2.5% 0 0 0; } }
-	@include respond-to(medium-t){ width:23.1%;	&:nth-of-type(4n){ margin: 2.5% 0 0 0; }}
-	@include respond-to(wide-screens){ &:nth-of-type(5n){ margin: 2.5% 0 0 0; }	}
 }
 .lecture-content{
 	width: 100%;
