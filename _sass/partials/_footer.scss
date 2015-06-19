@@ -1,10 +1,9 @@
 .footer{
-	clear: both;
 	padding: 15px;
-	height: 340px;
 	background: url(/assets/image/bg-footer.jpg) #181415;
 	position: relative;
 	top: 30px;
+	@include cf();
 }
 .color-link-footer {
 	color: $color-logo-primary;
@@ -12,9 +11,11 @@
 	&:hover {text-decoration: underline;color: #F5F5F5;}
 }
 .widget{
-	width: 30%;
-	float: left;
-	margin-left: 3.3%;
+	margin-bottom:5%;
+	@include stack();
+	@include cf();
+	@include respond-to(medium-t){ @include col(4/12, $cycle: 3, $gutter: 4); margin-bottom:0;} 
+	@include respond-to(wide-screens){ @include col(4/12, $cycle: 3, $gutter: 4); margin-bottom:0;}
 }
 .title-widget{
 	color: $color-logo-primary;
