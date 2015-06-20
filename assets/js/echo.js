@@ -132,3 +132,11 @@
   return echo;
 
 });
+
+var navigateToValue = function() {
+  if(this[this.selectedIndex].value !== '0'){
+    window.location = this.value;
+  }
+}
+
+document.getElementById("nav-menu").addEventListener("change", navigateToValue);

@@ -14,8 +14,14 @@
 	margin-bottom:5%;
 	@include stack();
 	@include cf();
-	@include respond-to(medium-t){ @include col(4/12, $cycle: 3, $gutter: 4); margin-bottom:0;} 
-	@include respond-to(wide-screens){ @include col(4/12, $cycle: 3, $gutter: 4); margin-bottom:0;}
+	@include respond-to(medium-t){
+		@include col(4/12, $cycle: 3, $gutter: 4);
+		margin-bottom:0;
+	} 
+	@include respond-to(wide-screens){
+		@include col(4/12, $cycle: 3, $gutter: 4);
+		margin-bottom:0;
+	}
 }
 .title-widget{
 	color: $color-logo-primary;
@@ -32,6 +38,17 @@
 	text-align: justify;
 	a{color: $color-logo-primary;}
 	span{display: block}
+	@include respond-to(handhelds-o){
+		margin-bottom:15%;
+		text-align:center;
+	}
+	@include respond-to(handhelds-t){
+		margin-bottom:10%;
+		text-align:center;
+	}
+	@include respond-to(medium-o){
+		text-align:center;
+	}
 }
 .contributors {
 	padding-bottom: 30px;

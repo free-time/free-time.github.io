@@ -7,7 +7,9 @@
 	width: 35%;
 	margin: 0;
 	float: left;
-	@include respond-to(handhelds-o){ width:100% }
+	@include respond-to(handhelds-o){
+		width:100%;
+	}
 	img {
 		width: 100%;
 		padding-top: 20px;
