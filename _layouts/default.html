@@ -6,13 +6,15 @@
   <body>
 
     {% include header.html %}
-    
+
     <div class="main">
         <h1 class="title-pages">{{ page.titlesecondary}} </h1>
         {{ content }}
     </div>
 
     {% include footer.html %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
     <script src="/assets/js/echo.js" ></script>
     <script>
       echo.init({
@@ -20,6 +22,8 @@
         throttle: 250,
         unload: false,
       });
+
+      $('.mfp-iframe').magnificPopup({type:'iframe'});
   </script>
   </body>
 
