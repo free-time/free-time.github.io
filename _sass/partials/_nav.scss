@@ -14,17 +14,27 @@
 	float: left;
 	line-height: 30px;
 	border-right: 1px solid $background-menu-header + 20;
+<<<<<<< HEAD
+=======
 	&:hover,:focus{
 		background: $background-menu-header-hover - 10;
 	}
+>>>>>>> upstream/master
 }
 .header-list a {
 	font-size: $fontSize-default;
 	color: $color-header-link;
 	padding:10px;
 	display: block;
+	@include transition(.4s background);
 
 	&:hover{
-		color:$color-logo-primary;
+		color:#FFF;
+		background: $color-logo-secondary;
+		@include box-shadow(0, -4px, 0, $color-logo-primary);
+	}
+	&:active {
+		background: $color-logo-secondary - 20;
+		box-shadow:none;
 	}
 }

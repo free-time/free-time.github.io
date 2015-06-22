@@ -38,18 +38,26 @@
 	}
 }
 .advertising{
-	width: 700px;
-	height: 70px;
-	background: #008699;
-	float: right;
-	margin-top: 25px;
-	&:hover{background: #015F6C;}
-
+	width: 400px;
+	height: 50px;
+	background: $color-logo-secondary;	
+	position:absolute;
+	top: 38px;
+	right: 380px;
+	@include border-radius(6px);
+	@include text-shadow(0, 1px, 2px, rgba(#000, 0.4));
+	@include transition(.6s box-shadow);
+	&:hover{
+		background: $color-logo-secondary - 10;
+		@include linear-gradient(to bottom, $color-logo-secondary + 20, $color-logo-secondary - 20);
+		box-shadow: -1px 0px 50px 0px rgba(#F2D750, 0.9);
+	}
 	a{
 		color: #FFF;
-		font-size: 32px;
+		font-size: 20px;
 		text-align: center;
 		display: block;
-		padding: 15px 0;
+		padding: 12px 0;
 	}
+	b {color: $color-logo-primary}
 }
