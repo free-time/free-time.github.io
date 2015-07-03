@@ -1,6 +1,11 @@
 .footer{
 	padding: 15px;
+<<<<<<< HEAD
 	background: url(/assets/image/bg-footer.jpg) #181415;
+=======
+	height: 340px;
+	background: #181415;
+>>>>>>> upstream/master
 	position: relative;
 	top: 30px;
 	@include cf();
@@ -38,6 +43,7 @@
 	text-align: justify;
 	a{color: $color-logo-primary;}
 	span{display: block}
+<<<<<<< HEAD
 	@include respond-to(handhelds-o){
 		margin-bottom:15%;
 		text-align:center;
@@ -49,6 +55,8 @@
 	@include respond-to(medium-o){
 		text-align:center;
 	}
+=======
+>>>>>>> upstream/master
 }
 .contributors {
 	padding-bottom: 30px;
@@ -129,6 +137,10 @@
 .social{
 	position: absolute;
 	bottom: 10px;
+<<<<<<< HEAD
 	left: 50%;
 	margin-left:-42px;
+=======
+	right: 50%;
+>>>>>>> upstream/master
 }

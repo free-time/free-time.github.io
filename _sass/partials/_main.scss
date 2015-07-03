@@ -56,7 +56,7 @@
 .lecture-content{
 	width: 100%;
 	height: 100%;
-	overflow: hidden; 
+	overflow: hidden;
 }
 .lecture-thumbnails{
 	width: 180px;
@@ -82,10 +82,18 @@
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
+<<<<<<< HEAD
 	}
 }
 .title-lecture{
 	margin: 10px 0 20px 10px;	
+=======
+		border-radius: 50%;
+	}
+}
+.title-lecture{
+	margin: 10px 0 0 5px;
+>>>>>>> upstream/master
 	font-family: 'Arial';
 	font-size: $fontSize-default;
 	overflow: hidden;

@@ -7,11 +7,16 @@ titlesecondary: Últimas palestras adicionadas
 {% for post in site.posts limit:15 %}
 	<section class="lectures">
 	    <article class="lecture-content">
+<<<<<<< HEAD
 	      <a href="{{ post.link }}" class="lecture-thumbnails" target="_blank">
 	      	<img src="" alt="as" data-echo=" {{ post.img }}">
+=======
+	      <a href="{{ post.link }}" class="lecture-thumbnails mfp-iframe" target="_blank">
+	      	<img src="/assets/image/palestrante-default.jpg" alt="{{ post.title }}" data-echo=" {{ post.img }}">
+>>>>>>> upstream/master
 	      </a>
-	      <a href="#"><h2 class="title-lecture">{{ post.title }}</h2></a>
-	      <span class="btn-default watch"><a target="_blank" class="btn-default--link" href="{{ post.url }}">Assista agora!</a></span>
+	      <a href="{{ post.link }}"><h2 class="title-lecture mfp-iframe">{{ post.title }}</h2></a>
+	      <span class="btn-default watch"><a target="_blank" class="btn-default--link mfp-iframe" href="{{ post.link }}">Assista agora!</a></span>
 	    </article>
 	</section>
 {% endfor %}

@@ -131,6 +131,7 @@
 
   return echo;
 
+<<<<<<< HEAD
 });
 
 var navigateToValue = function() {
@@ -140,3 +141,6 @@ var navigateToValue = function() {
 }
 
 document.getElementById("nav-menu").addEventListener("change", navigateToValue);
+=======
+});
+>>>>>>> upstream/master

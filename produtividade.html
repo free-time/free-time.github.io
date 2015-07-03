@@ -8,11 +8,11 @@ titlesecondary: Categoria Produtividade
 <main role="main" class="main">
 	<section class="lectures">
 	    <article class="lecture-content">
-	      <a href="{{ post.link }}" class="lecture-thumbnails" target="_blank">
-	      	<img src="{{ post.img }}" alt="Anderson">
+	      <a href="{{ post.link }}" class="lecture-thumbnails mfp-iframe" target="_blank">
+	      	<img src="{{ post.img }}" alt="{{ post.title }}">
 	      </a>
-	      <a href="#"><h2 class="title-lecture">{{ post.title }}</h2></a>
-	      <span class="btn-default watch"><a target="_blank" class="btn-default--link" href="{{ post.url }}">Assista agora!</a></span>
+	      <a href="{{ post.link }}"><h2 class="title-lecture mfp-iframe">{{ post.title }}</h2></a>
+	      <span class="btn-default watch"><a target="_blank" class="btn-default--link mfp-iframe" href="{{ post.link }}">Assista agora!</a></span>
 	    </article>
 	</section>
 </main>
