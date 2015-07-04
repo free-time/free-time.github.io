@@ -88,12 +88,15 @@
 	}
 	i{
 		color: $color-logo-secondary;
-	  position: relative;
-	  float: left;
-	  top: 28px;
-	  left: 10px;
-	  font-size: 1.1em;
+		position: absolute;
+		float: left;
+		top: 12px;
+		left: 10px;
+		font-size: 1.1em;
 	}
+}
+.form-newsletters{
+	position: relative
 }
 .email-news{
 	display: block;
