@@ -1,11 +1,8 @@
 .footer{
+	clear: both;
 	padding: 15px;
-<<<<<<< HEAD
-	background: url(/assets/image/bg-footer.jpg) #181415;
-=======
-	height: 340px;
+	height: auto;
 	background: #181415;
->>>>>>> upstream/master
 	position: relative;
 	top: 30px;
 	@include cf();
@@ -43,7 +40,6 @@
 	text-align: justify;
 	a{color: $color-logo-primary;}
 	span{display: block}
-<<<<<<< HEAD
 	@include respond-to(handhelds-o){
 		margin-bottom:15%;
 		text-align:center;
@@ -55,8 +51,6 @@
 	@include respond-to(medium-o){
 		text-align:center;
 	}
-=======
->>>>>>> upstream/master
 }
 .contributors {
 	padding-bottom: 30px;
@@ -94,12 +88,15 @@
 	}
 	i{
 		color: $color-logo-secondary;
-	  position: relative;
-	  float: left;
-	  top: 28px;
-	  left: 10px;
-	  font-size: 1.1em;
+		position: absolute;
+		float: left;
+		top: 12px;
+		left: 10px;
+		font-size: 1.1em;
 	}
+}
+.form-newsletters{
+	position: relative
 }
 .email-news{
 	display: block;
@@ -107,7 +104,7 @@
 	margin: 20px 0;
 	border: none;
 	border-radius: 5px;
-	width: 100%;
+	width: 90%;
 	background:#E4E4E4;
 	box-sizing: border-box;
 	outline: none;
@@ -137,10 +134,5 @@
 .social{
 	position: absolute;
 	bottom: 10px;
-<<<<<<< HEAD
-	left: 50%;
-	margin-left:-42px;
-=======
 	right: 50%;
->>>>>>> upstream/master
 }
