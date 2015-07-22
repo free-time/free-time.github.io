@@ -6,8 +6,7 @@
   <body>
 
     {% include header.html %}
-
-    <div class="main">
+    <div class="main content">
         <h1 class="title-pages">{{ page.titlesecondary}} </h1>
         {{ content }}
     </div>
@@ -22,7 +21,6 @@
         throttle: 250,
         unload: false,
       });
-
       $('.mfp-iframe').magnificPopup({type:'iframe'});
   </script>
   </body>

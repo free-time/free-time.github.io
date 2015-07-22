@@ -1,8 +1,14 @@
 .title-pages {
 	font-size: $fontSize-titlePages;
 	font-style: italic;
-	padding: 10px 15px;
-	margin: 80px 0 0 12px;
+	padding: 10px 0 10px 15px;
+	margin: 1% 0 0 0;
 	color: $color-logo-secondary;
 	border-left: 5px solid $color-logo-primary;
+	@include respond-to(handhelds-o){
+		font-size: $fontSize-titlePages - 8;
+	}
+	@include respond-to(handhelds-t){
+		font-size: $fontSize-titlePages - 5;
+	}
 }

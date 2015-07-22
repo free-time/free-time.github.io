@@ -14,7 +14,6 @@
 }
 .watch{
 	display: block;
-	margin-top: 20px;
 	background: $watch-bottom;
 	border-bottom: 4px solid $watch-bottom - 100;
 }
@@ -36,7 +35,7 @@
 	padding: 10px 25px;
 	color: rgba(0,0,0,.8);
 	text-align: center;
-	width: 100%;
+	width: 70%;
 	margin: 0 auto;
 	display: block;
 	@include border-radius(5px);

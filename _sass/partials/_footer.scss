@@ -1,10 +1,11 @@
 .footer{
 	clear: both;
 	padding: 15px;
-	height: 340px;
+	height: auto;
 	background: #181415;
 	position: relative;
 	top: 30px;
+	@include cf();
 }
 .color-link-footer {
 	color: $color-logo-primary;
@@ -12,9 +13,17 @@
 	&:hover {text-decoration: underline;color: #F5F5F5;}
 }
 .widget{
-	width: 350px;
-	float: left;
-	margin-left: 50px;
+	margin-bottom:5%;
+	@include stack();
+	@include cf();
+	@include respond-to(medium-t){
+		@include col(4/12, $cycle: 3, $gutter: 4);
+		margin-bottom:0;
+	} 
+	@include respond-to(wide-screens){
+		@include col(4/12, $cycle: 3, $gutter: 4);
+		margin-bottom:0;
+	}
 }
 .title-widget{
 	color: $color-logo-primary;
@@ -31,6 +40,17 @@
 	text-align: justify;
 	a{color: $color-logo-primary;}
 	span{display: block}
+	@include respond-to(handhelds-o){
+		margin-bottom:15%;
+		text-align:center;
+	}
+	@include respond-to(handhelds-t){
+		margin-bottom:10%;
+		text-align:center;
+	}
+	@include respond-to(medium-o){
+		text-align:center;
+	}
 }
 .contributors {
 	padding-bottom: 30px;
@@ -84,10 +104,16 @@
 	margin: 20px 0;
 	border: none;
 	border-radius: 5px;
-	width: 100%;
+	width: 90%;
 	background:#E4E4E4;
 	box-sizing: border-box;
 	outline: none;
+	@include transition(.4s all);
+
+	&:focus {
+		background:#fff;
+		box-shadow: 0 0 0 2px #000, 0 0 20px $color-logo-primary;
+	}
 }
 .create{
 	text-align: center;
@@ -97,6 +123,13 @@
 }
 .social-link{
 	color: $color-logo-primary;
+  	@include transition(.3s color);
+	&:hover{
+		color: $color-logo-secondary;
+	}
+	&:first-of-type {
+		margin-right:10px;
+	}
 }
 .social{
 	position: absolute;
