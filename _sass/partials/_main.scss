@@ -1,25 +1,28 @@
-.content{
+.content {
 	@include center($pad: 2%);
 	@include cf();
 }
 
-.main{
+.main {
 	max-width: $max-width;	
 	margin:0 auto;
 }
-.all{
+
+.all {
 	float: right;
-	a{
+
+	a {
 		background: $color-logo-primary;
 		padding: 5px;
 		font-size: 14px;
-		font-family: 'arial';
 	}
 }
-.test{
-	p{background: blue;}
+
+.test {
+	p {background: blue;}
 }
-.lectures{
+
+.lectures {
 	text-align:center;
 	position: relative;
 	background: #FFFFFF;
@@ -28,45 +31,51 @@
 	@include border-radius(5px);
 	@include box-shadow(0, 2px, 8px, #ccc);
 
-	@include respond-to(handhelds-o){
+	@include respond-to(handhelds-o) {
 		@include center(80%);
 		margin-top:10%;
 	}
-	@include respond-to(handhelds-t){
+
+	@include respond-to(handhelds-t) {
 		@include col(6/12, $cycle: 2, $gutter: 5);
 		margin-top:5%;
 	}
-	@include respond-to(medium-o){
+
+	@include respond-to(medium-o) {
 		@include col(4/12, $cycle: 3, $gutter: 4);
 		margin-top:4%;
 	} 
-	@include respond-to(medium-t){
+
+	@include respond-to(medium-t) {
 		@include col(3/12, $cycle: 4);
 		margin-top:3%; 
 	}
-	@include respond-to(wide-screens){
+
+	@include respond-to(wide-screens) {
 		@include col(2.4/12, $cycle: 5, $gutter: 2);
 		margin-top:2%;
 		@include transition(.8s box-shadow, .6s transform);
-		&:hover{
+		
+		&:hover {
 			@include scale(1.05);
 			@include box-shadow(0, 4px, 16px, #ccc);
 		} 	
 	}
 }
-.lecture-content{
+
+.lecture-content {
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
 }
-.lecture-thumbnails{
+.lecture-thumbnails {
 	width: 180px;
 	height: 178px;
 	position: relative;
 	margin:0 auto;
 	display: block;
 
-	&:after{
+	&:after {
 		content: '';
 		position: absolute;
 		top:0;
@@ -85,26 +94,31 @@
 		object-fit: cover;
 	}
 }
-.title-lecture{
+
+.title-lecture {
 	margin: 10px 0 0 5px;
 	font-family: 'Arial';
 	font-size: $fontSize-default;
 	overflow: hidden;
 	height: 100px;
 	color: $color-link-lecture;
-	&:after{
+
+	&:after {
 		content: "";
 		display: inline-block;
 		width: 100%;
 	}
-	&:hover{
+
+	&:hover {
 		color: $color-link-lecture + 35;
 	}
+
 	ul {
 		list-style: none;
 		margin-top: 10px;
 	}
 }
-.speakers{
+
+.speakers {
 	color: $color-logo-secondary;
 }
