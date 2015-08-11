@@ -1,18 +1,18 @@
 ---
 layout: default
-title: Free time - Marketplace
-permalink: /mercado/
-titlesecondary: Category Marketplace
+title: Free time - Accessibility
+permalink: /acessibilidade/
+titlesecondary: Categoria Accessibility
 ---
 
-{% for post in site.categories.mercado %}
+{% for post in site.categories.acessibilidade  %}
 <section class="lectures">
   <article class="lecture-content">
     <a href="{{ post.link }}" class="lecture-thumbnails mfp-iframe" target="_blank">
-      <img src="{{ post.img }}" alt="{{ post.title }}">
+    	<img src="{{ post.img }}" alt="{{ post.title }}">
     </a>
 
-    <a class="lecture-info mfp-iframe" href="{{ post.link }}">
+    <a class="lecture-infomfp-iframe" href="{{ post.link }}">
       <h2 class="lecture-title">{{ post.title }}</h2>
     </a>
   </article>

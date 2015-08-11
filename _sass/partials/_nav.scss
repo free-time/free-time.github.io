@@ -4,6 +4,7 @@
 	text-align: center;
 	height: 45px;
   line-height: 45px;
+  margin-bottom: 50px;
   border-top: 1px solid #E9F0F3;
   border-bottom: 1px solid #E9F0F3;
   @include clearfix();
@@ -15,10 +16,7 @@
 	}
 }
 
-
 .header-list {
-	padding-left: 15px;
-	padding-right: 15px;
 	display: inline-block;
 	vertical-align: middle;
 	@include respond-to(handhelds-o){
@@ -29,6 +27,8 @@
 		font-size: 14px;
 		color: $color-header-link;
 		display: block;
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 }
 
@@ -36,8 +36,9 @@
 	padding: 0 20px;
 	border: 0;
 	width: 100%;
-	height: 50px;
+	height: 45px;
 	display: none;
+
 	@include respond-to(handhelds-o){
 		display: block;
 	}

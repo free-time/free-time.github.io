@@ -11,6 +11,10 @@
 	margin-bottom: 0;
 	font-weight: 100;
 	text-transform: uppercase;
+	
+	a {
+		color: #333;
+	}
 
 	span {
 		font-weight: 500;
@@ -48,35 +52,35 @@
 	}
 }
 
-.advertising {
-	width: 60%;
-	height: 70px;
-	background: #008699;
-	float: right;
-	margin-top: 2%;
-	@include respond-to(handhelds-o){ display:none; }
+// .advertising {
+// 	width: 60%;
+// 	height: 70px;
+// 	background: #008699;
+// 	float: right;
+// 	margin-top: 2%;
+// 	@include respond-to(handhelds-o){ display:none; }
 	
-	&:hover{background: #015F6C;}
+// 	&:hover{background: #015F6C;}
 
-	a {
-		color: #FFF;
-		font-size: 32px;
-		text-align: center;
-		display: block;
-		padding: 15px 0;	
-		@include respond-to(handhelds-t) {
-			font-size: 16px;
-			padding: 22px 0;
-		}
+// 	a {
+// 		color: #FFF;
+// 		font-size: 32px;
+// 		text-align: center;
+// 		display: block;
+// 		padding: 15px 0;	
+// 		@include respond-to(handhelds-t) {
+// 			font-size: 16px;
+// 			padding: 22px 0;
+// 		}
 
-		@include respond-to(medium-o){
-			font-size: 20px;
-			padding: 20px 0;
-		}
+// 		@include respond-to(medium-o){
+// 			font-size: 20px;
+// 			padding: 20px 0;
+// 		}
 
-		@include respond-to(medium-t){
-			font-size: 24px;
-			padding: 18px 0;
-		}
-	}
-}
+// 		@include respond-to(medium-t){
+// 			font-size: 24px;
+// 			padding: 18px 0;
+// 		}
+// 	}
+// }

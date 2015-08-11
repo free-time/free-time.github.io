@@ -1,19 +1,20 @@
 ---
 layout: default
-title: Free time - Angular
+title: Free time - AngularJS
 permalink: /angular/
-titlesecondary: Categoria Angular.js
+titlesecondary: Category AngularJS
 ---
-{% for post in site.categories.angular  %}
-<main role="main" class="main">
-	<section class="lectures">
-	    <article class="lecture-content">
-	      <a href="{{ post.link }}" class="lecture-thumbnails mfp-iframe" target="_blank">
-	      	<img src="{{ post.img }}" alt="{{ post.title }}">
-	      </a>
-	      <a class="mfp-iframe" href="{{ post.link }}"><h2 class="title-lecture">{{ post.title }}</h2></a>
-	      <span class="btn-default watch"><a target="_blank" class="btn-default--link mfp-iframe" href="{{ post.link }}">Assista agora!</a></span>
-	    </article>
-	</section>
-</main>
+
+{% for post in site.categories.angular %}
+<section class="lectures">
+  <article class="lecture-content">
+    <a href="{{ post.link }}" class="lecture-thumbnails mfp-iframe" target="_blank">
+      <img src="{{ post.img }}" alt="{{ post.title }}">
+    </a>
+
+    <a class="lecture-info mfp-iframe" href="{{ post.link }}">
+      <h2 class="lecture-title">{{ post.title }}</h2>
+    </a>
+  </article>
+</section>
 {% endfor %}

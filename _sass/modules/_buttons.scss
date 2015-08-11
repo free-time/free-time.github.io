@@ -1,23 +1,26 @@
 // Comentário sobre esse botão
-.btn-default{
+.btn-default {
 	width: 90%;
 	margin-top: 20px;
 	margin: 0 auto;
 	@include border-radius(5px);
 }
-.btn-default--link{
+
+.btn-default--link {
 	color: $btn-color-link;
 	text-align: center;
 	display: block;
 	font-size: $fontSize-default;
 	padding: 12px;
 }
-.watch{
+
+.watch {
 	display: block;
 	background: $watch-bottom;
 	border-bottom: 4px solid $watch-bottom - 100;
 }
-.btn-search{
+
+.btn-search {
 	width: 44px;
 	height: 49px;
 	display: block;
@@ -29,39 +32,38 @@
 	background: url("/assets/image/search_icon.png") no-repeat center center;
 	outline:none;
 }
-.btn-send-newsletters{
-	background: $color-logo-primary;
-	border:none;
-	padding: 10px 25px;
-	color: rgba(0,0,0,.8);
+
+.btn-send-newsletters {
+	background: $blue;
+	border: none;
+	padding: 18px 25px;
+	vertical-align: middle;
+	color: #fff;
 	text-align: center;
-	width: 70%;
-	margin: 0 auto;
-	display: block;
-	@include border-radius(5px);
-	border-bottom: 5px solid $color-logo-primary - 20;
+	margin-left: 10px;
+	display: inline-block;
+	@include border-radius(3px);
 	font-size: 1.3em;
-  	font-variant: small-caps;
-  	font-weight: bold;
-  	position:relative;
-  	@include text-shadow(0, -2px, 0, rgba(255,255,255,.3));
-  	@include transition(.3s background, .1s color, .3s border);
+	font-variant: small-caps;
+	font-weight: bold;
+	position: relative;
+	@include transition(.3s background, .1s color, .3s border);
   	
-	&:hover{
+	&:hover {
 		background: $color-logo-secondary;
-		border-bottom: 5px solid $color-logo-secondary - 30;
 		color: #FFF;
 		@include text-shadow(0, 2px, 0, rgba(0,0,0,.3));
 	}
-	&:active{
+
+	&:active {
 		background: $color-logo-secondary - 20;
 		color: $color-logo-secondary - 90;
-		border-bottom: 5px solid $color-logo-secondary - 30;
 		@include box-shadow(0, 4px, 4px, rgba(0,0,0,.5), inset);
 		@include text-shadow(0, 1px, 0, rgba(255,255,255,.3));
 		top:1px;
 	}
-	&:focus{
-		outline:none;
+
+	&:focus {
+		outline: none;
 	}
 }
