@@ -4,8 +4,8 @@ title: Free time - Angular
 permalink: /angular/
 titlesecondary: Categoria Angular.js
 ---
-{% for post in site.categories.angular  %}
 <main role="main" class="main">
+{% for post in site.categories.angular  %}
 	<section class="lectures">
 	    <article class="lecture-content">
 	      <a href="{{ post.link }}" class="lecture-thumbnails mfp-iframe" target="_blank">
@@ -15,5 +15,5 @@ titlesecondary: Categoria Angular.js
 	      <span class="btn-default watch"><a target="_blank" class="btn-default--link mfp-iframe" href="{{ post.link }}">Assista agora!</a></span>
 	    </article>
 	</section>
-</main>
 {% endfor %}
+</main>
