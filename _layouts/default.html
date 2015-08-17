@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
 
   <body>
     {% include header.html %}
     <div class="main content">
-      <h1 class="title-pages">{{ page.titlesecondary}} </h1>
+      <h1 class="title-pages">{{ page.titlesecondary}}
+      </h1>
       {{ content }}
     </div>
 
@@ -23,7 +23,10 @@
       });
       
       $('.mfp-iframe').magnificPopup({type:'iframe'});
-  </script>
-  </body>
+    </script>
 
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="/assets/js/infinity.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+  </body>
 </html>

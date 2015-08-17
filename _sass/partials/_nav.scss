@@ -1,8 +1,8 @@
-.header-nav {
+.nav {
 	width: 100%;
-	background: $background-menu-header;
+	background: $bg-nav;
 	text-align: center;
-	height: 45px;
+	min-height: 45px;
   line-height: 45px;
   margin-bottom: 50px;
   border-top: 1px solid #E9F0F3;
@@ -16,23 +16,24 @@
 	}
 }
 
-.header-list {
+.nav-menu_list {
 	display: inline-block;
 	vertical-align: middle;
+	
 	@include respond-to(handhelds-o){
 		display: none;
 	}
 
 	a {
 		font-size: 14px;
-		color: $color-header-link;
+		color: $color-nav;
 		display: block;
 		padding-left: 15px;
 		padding-right: 15px;
 	}
 }
 
-.select-menu {
+.nav-menu_select {
 	padding: 0 20px;
 	border: 0;
 	width: 100%;

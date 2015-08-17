@@ -2,119 +2,29 @@
 	clear: both;
 	padding: 15px;
 	height: auto;
-	background: $footer;
+	background: $bg-footer;
 	position: relative;
 	top: 30px;
 	text-align: center;
 	@include cf();
 }
 
-.color-link-footer {
-	color: $color-logo-primary;
-
-	&:hover {
-		text-decoration: underline;
-		color: #F5F5F5;
-	}
-}
-
-// .widget {
-// 	margin-bottom:5%;
-// 	@include stack();
-// 	@include cf();
-// 	@include respond-to(medium-t) {
-// 		@include col(4/12, $cycle: 3, $gutter: 4);
-// 		margin-bottom: 0;
-// 	} 
-
-// 	@include respond-to(wide-screens) {
-// 		@include col(4/12, $cycle: 3, $gutter: 4);
-// 		margin-bottom: 0;
-// 	}
-// }
-
-.title-widget {
+.newsletters_title {
 	font-size: 40px;
-	color: #fff;
+	color: $white;
 	font-weight: 300;
 	margin-bottom: 0;
 }
 
-// .about-project {
-// 	color: $color-text-footer;
-// 	line-height: 25px;
-// 	text-align: justify;
-
-// 	a {color: $color-logo-primary;}
-
-// 	span {display: block}
-
-// 	@include respond-to(handhelds-o){
-// 		margin-bottom: 15%;
-// 		text-align: center;
-// 	}
-
-// 	@include respond-to(handhelds-t){
-// 		margin-bottom: 10%;
-// 		text-align: center;
-// 	}
-
-// 	@include respond-to(medium-o){
-// 		text-align: center;
-// 	}
-// }
-
-// .contributors {
-// 	padding-bottom: 30px;
-
-// 	ul {
-// 		float: left;
-// 		width: 145px;
-// 		margin-right: 30px;
-// 	}
-
-// 	li {
-// 		margin: 5px 0;
-// 		padding-bottom: 8px;
-// 	}
-
-// 	a {
-// 		color:$color-text-footer;
-// 		@include transition(.4s color);
-
-// 		&:hover {
-// 			text-decoration: none;
-// 			color: $color-logo-primary;
-// 		}
-// 	}
-// }
-
-.newsletters {
-	p {
-		color: #ccc;
-		font-size: 18px;
-		margin-bottom: 0;
-		margin-top: 5px;
-	}
-
-	// i {
-	// 	color: #999;
-	// 	position: absolute;
-	// 	float: left;
-	// 	top: 15px;
-	// 	left: 10px;
-	// 	font-size: 2em;
-	// }
+.newsletters_subtitle {
+	color: #ccc;
+	font-size: 18px;
+	margin-top: 5px;
 }
 
-.form-newsletters {
-	position: relative;
-	margin-top: 30px;
-}
-
-.email-news {
+.newsletters-form_input {
 	display: inline-block;
-	padding: 15px 50px;
+	padding: 15px;
 	margin: 20px 0;
 	border: none;
 	border-radius: 3px;
@@ -125,26 +35,24 @@
 	background:#E4E4E4;
 	box-sizing: border-box;
 	outline: none;
-	@include transition(.4s all);
 }
 
-.create {
-	text-align: center;
-	display: block;
-	color: #FFF;
-	font-size: $fontSize-default;
+.newsletters-form_button {
+	padding: 18px 25px;
+	margin-left: 10px;
+	font-weight: bold;
 }
 
 .social {
 	margin-top: 30px;
 }
 
-.social-link {
-	color: darken($footer, 10%);
-	@include transition(.3s color);
+.social_link {
+	color: darken($bg-footer, 10%);
+	@include transition(.2s color);
 	
 	&:hover {
-		color: $blue;
+		color: $color-primary;
 	}
 
 	&:first-of-type {

@@ -5,21 +5,7 @@
 
 .main {
 	max-width: $max-width;	
-	margin:0 auto;
-}
-
-.all {
-	float: right;
-
-	a {
-		background: $color-logo-primary;
-		padding: 5px;
-		font-size: 14px;
-	}
-}
-
-.test {
-	p {background: blue;}
+	margin: 0 auto;
 }
 
 .lectures {
@@ -129,17 +115,13 @@
 }
 
 .lecture-title {
-	color: $color-link-lecture;
+	color: $color-primary;
 	font-weight: 400;
   margin-top: 5px;
   font-size: 18px;
 	line-height: 25px;
 
 	&:hover {
-		color: $color-link-lecture + 35;
+		color: $color-primary + 35;
 	}
-}
-
-.speakers {
-	color: $color-logo-secondary;
 }

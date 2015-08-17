@@ -2,50 +2,47 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 	<title>{{ page.title }}</title>
-	<!-- Meta tags -->
+	
+  <!-- Meta tags -->
 	<meta name="keywords" content="videos,palestras,front-end,back-end,ruby,html,css,html5,css3,programação,nodejs,javascript,angular,php,python">
 	<meta name="description" content="Use seu tempo livre pra assistir palestras">
 	<meta name="author" href="http://twitter.com/amenezesw" content="Anderson Menezes">
-	<!-- Meta tags -->
 
 	<!-- Facebook Open Graph -->
 	<!-- <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"> -->
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    {% if post.image %}
-    <meta property="og:image" content="{{ site.url }}{{post.image }}">
-    {% else %}
-    <meta property="og:image" content="{{ "/assets/image/logo-open-graph.png" | prepend: site.baseurl | prepend: site.url }}">
-    {% endif %}
-    <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <meta property="og:site_name" content="{{ site.title }}">
-    {% if page.date %}
-    <meta property="article:published_time" content="{{ post.date }}" />
-    {% for tag in page.tags %}
-        <meta property="article:tag" content="{{ tag }}">
-    {% endfor%}
-    {% endif %}
-	<!-- Facebook Open Graph -->
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  {% if post.image %}
+  <meta property="og:image" content="{{ site.url }}{{post.image }}">
+  {% else %}
+  <meta property="og:image" content="{{ "/assets/image/logo-open-graph.png" | prepend: site.baseurl | prepend: site.url }}">
+  {% endif %}
+  <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  {% if page.date %}
+  <meta property="article:published_time" content="{{ post.date }}" />
+  {% for tag in page.tags %}
+  <meta property="article:tag" content="{{ tag }}">
+  {% endfor%}
+  {% endif %}
 
 	<!-- Social: Google+ / Schema.org  -->
-    <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
-    <meta itemprop="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <meta itemprop="image" content="{{ "/assets/image/logo-open-graph.png" | prepend: site.baseurl | prepend: site.url }}"/>
-    <!-- Social: Google+ / Schema.org  -->
+  <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
+  <meta itemprop="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta itemprop="image" content="{{ "/assets/image/logo-open-graph.png" | prepend: site.baseurl | prepend: site.url }}"/>
 
-     <!-- Social: Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@amenezesw">
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta itemprop="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    {% if page.image %}
-    <meta property="twitter:image:src" content="{{ site.url }}{{page.image }}">
-    {% else %}
-    <meta property="twitter:image:src" content="{{ "/assets/image/logo-open-graph.png" | prepend: site.baseurl | prepend: site.url }}">
-    {% endif %}
+  <!-- Social: Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@amenezesw">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta itemprop="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  {% if page.image %}
+  <meta property="twitter:image:src" content="{{ site.url }}{{page.image }}">
+  {% else %}
+  <meta property="twitter:image:src" content="{{ "/assets/image/logo-open-graph.png" | prepend: site.baseurl | prepend: site.url }}">
+  {% endif %}
 
 	<!-- Favicon -->
-		<link rel="shortcut icon" href="/assets/image/favicon.ico" type="image/x-icon">
-	<!-- Favicon -->
+  <link rel="shortcut icon" href="/assets/image/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="/assets/css/main.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css">
 </head>

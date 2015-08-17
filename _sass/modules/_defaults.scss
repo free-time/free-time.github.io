@@ -1,10 +1,10 @@
 * { box-sizing:border-box }
 
-body { background: #fff }
+body { background: $bg-body; }
 
 a {
   text-decoration: none;
-  color: #D90452;
+  color: $gray;
 }
 
 li {
