@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Saindo da caixa: Um novo workflow para produção de projetos Web"
+title:  "Um novo workflow para produção de projetos Web - Renatho de Carli"
 speakers: Renatho de Carli
 date:   2015-04-10 07:53
 duration: 29:25 min
