@@ -18,7 +18,7 @@ Antes de mais nada, [fork o projeto](https://github.com/free-time/free-time.gith
 
 #####Dica
 
-> Usuários do Windows, um guia para efetuar a instalação do [Jekyll](http://jekyll-windows.juthilo.com//)
+> Usuários do Windows, um guia para efetuar a instalação do [Jekyll](http://jekyll-windows.juthilo.com//).
 
 
 #### Segundo passo
@@ -26,7 +26,7 @@ Instale o [Freetime-cli](https://github.com/free-time/freetime-cli) e siga a doc
 
 #### Terceiro passo
 Verifique se foi realmente publicada ou se não a nenhuma erro. Rode o comando <code>jekyll serve watch</code> e acesse a url, <code>localhost:4000</code>.
-Caso queira editar, todas publicações estão dentro da paste <code>_posts</code>.
+Caso queira editar, todas publicações estão dentro da pasta <code>_posts</code>.
 
 #### Quarto passo
 Depois de tudo feito, só mandar um Pull Request e esperar ser aceito! =)
