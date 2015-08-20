@@ -8,44 +8,27 @@
 ##Como enviar uma palestra
 
 #### Primeiro passo
-Antes de mais nada, [fork o projeto](https://github.com/free-time/free-time.github.io) e baixe seu próprio fork.
+Antes de mais nada, [fork o projeto](https://github.com/free-time/free-time.github.io) e clone seu próprio fork na sua maquina local.
 
 #####Requisitos
 
 - [Jekyll](http://jekyllrb.com/docs/installation/)
 - [Sass](http://sass-lang.com/install)
-- [Imagemagick](http://www.imagemagick.org/script/index.php)
+- [NPM](https://docs.npmjs.com/getting-started/installing-node)
 
 #####Dica
 
-> Usuário do Windows um guia para efetuar a instalação [Run Jekyll on Windows](http://jekyllrb.com/docs/windows/)
+> Usuários do Windows, um guia para efetuar a instalação do [Jekyll](http://jekyll-windows.juthilo.com//)
 
 
 #### Segundo passo
-Acessem a pasta do projeto localmente e rode o comando <code>./initpost.sh -c Texto da palestra - Nome do palestrante</code>. Em seguida, procure o nome de sua palestra na pasta <code>_posts</code>. Se você é usuário do [Sublime text](http://www.sublimetext.com/3), basta aperta <code>Ctrl + P</code> e digitar o nome da sua palestra, selecionar o arquivo e preencher as informações.
-
-#####Dica
-> Lembrando que o arquivo a ser selecionado deve estar em Markdown e não HTML. O arquivo HTML é o compilado, não mexemos nele.
-
-O arquivo a ser preenchido é semelhante a este:
-![Exemplo post](http://i.imgur.com/LLzlalU.png)
-Antes de preencher a propriedade <code>img</code> verifique se não já tem a foto do palestrante na pasta <code>/assets/image/speakers/</code>.
-
+Instale o [Freetime-cli](https://github.com/free-time/freetime-cli) e siga a documentação para saber como usa-lo.
 
 #### Terceiro passo
-Verifique se foi realmente publicada, rode o comando <code>jekyll serve watch</code> e acesse a url, <code>localhost:4000</code>.
-Todas publicações estão dentro da paste <code>_posts</code>.
+Verifique se foi realmente publicada ou se não a nenhuma erro. Rode o comando <code>jekyll serve watch</code> e acesse a url, <code>localhost:4000</code>.
+Caso queira editar, todas publicações estão dentro da paste <code>_posts</code>.
 
 #### Quarto passo
-
-Para otimizar as imagens antes de subir, execute o script:
-
-```
-./otimizing-images.sh
-```
-
-#### Quinto passo
-
 Depois de tudo feito, só mandar um Pull Request e esperar ser aceito! =)
 
 
