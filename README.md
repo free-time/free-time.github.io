@@ -39,7 +39,12 @@ Depois de tudo feito, só mandar um Pull Request e esperar ser aceito! =)
 
 
 ##Contribuidores
+[@Anderson Menezes](https://github.com/andersonweb/)
 
-[![Anderson Menezes](https://avatars3.githubusercontent.com/u/3930770?v=3&s=80)](https://github.com/andersonweb/) | [![Fernando Daciuk](https://avatars2.githubusercontent.com/u/487669?v=3&s=80)](https://github.com/fdaciuk) | [![Willian Justen](https://avatars2.githubusercontent.com/u/3991845?v=3&s=80)](https://github.com/willianjusten) | [![Alan Mosko](https://avatars2.githubusercontent.com/u/6052272?v=3&s=80)](https://github.com/moskoweb) | [![Lucas Lima](https://avatars2.githubusercontent.com/u/4366755?v=3&s=80)](https://github.com/Lucaslimay)
---- | --- | --- | --- | ---
-[Anderson Menezes](https://github.com/andersonweb/) | [Fernando Daciuk](https://github.com/fdaciuk) | [Willian Justen](https://github.com/willianjusten) | [Alan Mosko](https://github.com/moskoweb) | [Lucas Lima](https://github.com/Lucaslimay)
+[@Fernando Daciuk](https://github.com/fdaciuk)
+
+[@Willian Justen](https://github.com/willianjusten/)
+
+[@Bu Kinoshita](https://github.com/BrunoKinoshita)
+
+[@Lucas Lima](https://github.com/Lucaslimay)
