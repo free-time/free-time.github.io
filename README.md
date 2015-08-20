@@ -39,12 +39,8 @@ Depois de tudo feito, só mandar um Pull Request e esperar ser aceito! =)
 
 
 ##Contribuidores
-[@Anderson Menezes](https://github.com/andersonweb/)
-
-[@Fernando Daciuk](https://github.com/fdaciuk)
-
-[@Willian Justen](https://github.com/willianjusten/)
-
-[@Bu Kinoshita](https://github.com/BrunoKinoshita)
-
-[@Lucas Lima](https://github.com/Lucaslimay)
+- [@Anderson Menezes](https://github.com/andersonweb/)
+- [@Fernando Daciuk](https://github.com/fdaciuk)
+- [@Willian Justen](https://github.com/willianjusten/)
+- [@Bu Kinoshita](https://github.com/BrunoKinoshita)
+- [@Lucas Lima](https://github.com/Lucaslimay)
