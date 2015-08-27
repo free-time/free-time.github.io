@@ -6,6 +6,36 @@
 .main {
 	max-width: $max-width;	
 	margin: 0 auto;
+  text-align: center;
+}
+
+.main-intro {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #f2f2f2;
+  margin-bottom: 50px;
+}
+
+.main-intro__title {
+  font-size: 5rem;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+.main-form__search {
+  height: 60px;
+  width: 700px;
+  padding: 15px;
+  border-radius: 2px;
+  border: 1px solid #eee;
+  font-size: 18px;
+  color: #888;
+  font-weight: 300;
+
+  &:focus {
+    border-color: #999;
+    outline: none;
+  }
 }
 
 .lectures {

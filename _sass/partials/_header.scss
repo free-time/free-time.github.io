@@ -2,7 +2,6 @@
 	width: 100%;
 	height: 80px;
 	line-height: 80px;
-	text-align: center;
 	@include clearfix();
 }
 
@@ -11,8 +10,18 @@
 	margin-bottom: 0;
 	font-weight: 100;
 	text-transform: uppercase;
+	float: left;
 	
 	span {
 		font-weight: 500;
+	}
+}
+
+.navigation {
+	float: right;
+
+	svg {
+		width: 40px;
+		vertical-align: middle;
 	}
 }
