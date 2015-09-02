@@ -12,7 +12,7 @@ title: Free time  - Use your free time to watch lectures!
     </form>
   </section>
 
-  {% for post in site.posts  %}
+  {% for post in paginator.posts  %}
 	<section class="lectures">
     <article class="lecture-content">
       <a href="{{ post.link }}" class="lecture-thumbnails mfp-iframe" target="_blank">
@@ -27,5 +27,24 @@ title: Free time  - Use your free time to watch lectures!
       </a>
     </article>
 	</section>
+  <p class="pagination">
+    {% if paginator.next_page %}
+      <a class="older" href="/page{{paginator.next_page}}">Next</a>
+    {% else %}
+      <span class="older">Next</span>
+    {% endif %}
+  </p>
   {% endfor %}
 </main>
+<script src="https://cdn.rawgit.com/raphamorim/inphinity/master/inphinity.min.js"></script>
+<script type="text/javascript">
+  inphinity.on('#main').set({
+  navSelector : ".pagination",
+  nextSelector  : ".pagination a.older",
+  itemSelector  : "#main .lectures",
+  finishedMsg: "<em>That's all folks!</em>",
+  loadingMsg: 'Loading more...',
+  animationSpeed: "slow"
+});
+
+</script>
