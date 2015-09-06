@@ -156,3 +156,15 @@
 		color: $color-primary + 35;
 	}
 }
+.results-container{
+	max-width: 700px;
+	margin: 0 auto;
+}
+.lecture-title-search{
+	@extend .lecture-title;
+	margin: 24px auto;
+	border-bottom: 1px solid #f5f5f5;
+	padding-bottom: 5px;
+	padding: 0 0 5px 10px;
+	text-align: left;
+}
