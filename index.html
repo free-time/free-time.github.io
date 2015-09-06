@@ -28,24 +28,6 @@ title: Free time  - Use your free time to watch lectures!
       </a>
     </article>
 	</section>
-  <p class="pagination">
-    {% if paginator.next_page %}
-      <a class="older" href="/page{{paginator.next_page}}">Next</a>
-    {% else %}
-      <span class="older">Next</span>
-    {% endif %}
-  </p>
   {% endfor %}
 </main>
-<script src="https://cdn.rawgit.com/raphamorim/inphinity/master/inphinity.min.js"></script>
-<script type="text/javascript">
-  inphinity.on('#main').set({
-  navSelector : ".pagination",
-  nextSelector  : ".pagination a.older",
-  itemSelector  : "#main .lectures",
-  finishedMsg: "<em>That's all folks!</em>",
-  loadingMsg: 'Loading more...',
-  animationSpeed: "slow"
-});
 
-</script>
