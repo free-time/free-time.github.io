@@ -11,5 +11,9 @@ plugins:     ./_plugins
 layouts:     ./_layouts
 data_source: ./_data
 collections: null
+exclude: ['bower_components']
 sass:
   style: compressed
+
+paginate_path: 'page:num'
+paginate: 20

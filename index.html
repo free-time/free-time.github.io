@@ -1,18 +1,33 @@
 ---
 layout: default
-title: Free time  - Use seu tempo livre pra assistir palestras!
-titlesecondary: Últimas palestras adicionadas
+title: Free time  - Use your free time to watch lectures!
 ---
-<main role="main" class="main">
-{% for post in site.posts limit:15 %}
+
+<main id="main" role="main" class="main">
+  <section class="main-intro">
+    <h1 class="main-intro__title">Latest Lectures</h1>
+    
+    <form action="" class="main-form">
+      <input class="main-form__search" type="text" placeholder="Search for lectures ...">
+      <ul class="results-container"></ul>
+    </form>
+  </section>
+
+  {% for post in paginator.posts  %}
 	<section class="lectures">
-	    <article class="lecture-content">
-	      <a href="{{ post.link }}" class="lecture-thumbnails mfp-iframe" target="_blank">
-	      	<img src="/assets/image/palestrante-default.jpg" alt="{{ post.title }}" data-echo=" {{ post.img }}">
-	      </a>
-	      <a class="mfp-iframe" href="{{ post.link }}"><h2 class="title-lecture">{{ post.title }}</h2></a>
-	      <span class="btn-default watch"><a target="_blank" class="btn-default--link mfp-iframe" href="{{ post.link }}">Assista agora!</a></span>
-	    </article>
+    <article class="lecture-content">
+      <a href="{{ post.link }}" class="lecture-thumbnails mfp-iframe" target="_blank">
+        {% include icon-angularjs.html %}
+
+      	<img src="/assets/image/palestrante-default.jpg" alt="{{ post.title }}" data-echo=" {{ post.img }}">
+      </a>
+
+      <a class="lecture-info mfp-iframe" href="{{ post.link }}">
+        <span class="lecture-date">December 21 at JSConf</span>
+        <h2 class="lecture-title">{{ post.title }}</h2>
+      </a>
+    </article>
 	</section>
-{% endfor %}
+  {% endfor %}
 </main>
+

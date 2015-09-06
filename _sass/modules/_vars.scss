@@ -1,15 +1,28 @@
-$color-logo-primary: #F2D750;
-$color-logo-secondary: #D90452;
-$watch-bottom: #CF3A24;
-$btn-color-link: #FFF;
-$fontSize-default: 18px;
-$fontSize-titlePages:30px;
-$background-menu-header: #3a3a3a;
-$background-menu-header-hover: #303030;
-$color-header-link: #E5E5E5;
-$color-link-lecture: #008699;
-$color-text-footer: #fff;
+// Defining colors
+$white: #FFF;
+$black: #000;
+$gray: #333;
+$blue: #0099FF;
+$blue-light: #F6F9FA;
+$blue-dark: #323A45;
+$navy: #42B4D6;
+$vine: #D90452;
 
+// Primary, Secondary & text colors
+$color-primary: $blue;
+$color-secondary: $vine;
+$color-nav: $navy;
+
+// BG colors
+$bg-body: $white;
+$bg-nav: $blue-light;
+$bg-footer: $blue-dark;
+
+// Font-sizes
+$fontSize-default: 18px;
+$fontSize-titlePages: 30px;
+
+// Grids sizes
 $max-width: 1200px;
 $break-small-o: 410px;
 $break-small-t: 650px;

@@ -1,62 +1,27 @@
-.header{
+.header {
 	width: 100%;
-	height: 100px;
+	height: 80px;
+	line-height: 80px;
 	@include clearfix();
 }
+
 .logo {
-	width: 35%;
-	margin: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: 100;
+	text-transform: uppercase;
 	float: left;
-	@include respond-to(handhelds-o){
-		width:100%;
-	}
-	img {
-		width: 100%;
-		padding-top: 20px;
+	
+	span {
+		font-weight: 500;
 	}
 }
-.search{
+
+.navigation {
 	float: right;
-	margin: 40px 20px 0 0;
-	height: 50px;
-	position: relative;
-	width: 330px;
-	input{
-		width: 280px;
-		font-size: $fontSize-default;
-		font-style: italic;
-		background: none;
-		border-width: 2px 0 2px 0;
-		border-color: #F2D750;
-		border-style: solid;
-		padding: 12px 40px 12px 20px;
-		color: $color-logo-secondary;
-		@include transition(.5s background ease, .5s border-radius, .5s border-color, .5s box-shadow);
-		&:focus {
-			outline: none;
-			background: #fff;
-			box-shadow: -1px 0px 50px 0px rgba(#F2D750, 0.9);
-			border-color: transparent;
-			@include border-radius(5px);
-		}
-	}
-}
-.advertising{
-	width: 60%;
-	height: 70px;
-	background: #008699;
-	float: right;
-	margin-top: 2%;
-	&:hover{background: #015F6C;}
-	@include respond-to(handhelds-o){ display:none; }
-	a{
-		color: #FFF;
-		font-size: 32px;
-		text-align: center;
-		display: block;
-		padding: 15px 0;		
-		@include respond-to(handhelds-t){ font-size: 16px; padding: 22px 0; }
-		@include respond-to(medium-o){ font-size: 20px; padding: 20px 0; }
-		@include respond-to(medium-t){ font-size: 24px; padding: 18px 0; }
+
+	svg {
+		width: 40px;
+		vertical-align: middle;
 	}
 }

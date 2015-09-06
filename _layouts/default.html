@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
 
   <body>
-
     {% include header.html %}
     <div class="main content">
-        <h1 class="title-pages">{{ page.titlesecondary}} </h1>
-        {{ content }}
+      <h1 class="title-pages">{{ page.titlesecondary}}
+      </h1>
+      {{ content }}
     </div>
 
     {% include footer.html %}
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
     <script src="/assets/js/echo.js" ></script>
@@ -21,8 +21,16 @@
         throttle: 250,
         unload: false,
       });
+      
       $('.mfp-iframe').magnificPopup({type:'iframe'});
-  </script>
+    </script>
+    <script src="/assets/js/jekyll-search.js" type="text/javascript"></script>
+    <script>
+    SimpleJekyllSearch({
+      searchInput: document.querySelector('.main-form__search'),
+      resultsContainer: document.querySelector('.results-container'),
+      json: '/search.json',
+    })
+    </script>
   </body>
-
 </html>

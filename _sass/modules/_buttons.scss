@@ -1,67 +1,46 @@
-// Comentário sobre esse botão
-.btn-default{
-	width: 90%;
-	margin-top: 20px;
-	margin: 0 auto;
-	@include border-radius(5px);
-}
-.btn-default--link{
-	color: $btn-color-link;
+%btn {
+	display: inline-block;
+	color: $white;
+	padding: 6px 15px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	border: 1px solid transparent;
 	text-align: center;
-	display: block;
-	font-size: $fontSize-default;
-	padding: 12px;
-}
-.watch{
-	display: block;
-	background: $watch-bottom;
-	border-bottom: 4px solid $watch-bottom - 100;
-}
-.btn-search{
-	width: 44px;
-	height: 49px;
-	display: block;
-	border:0;
-	position: absolute;
-	top:0;
-	right: -10px;
-	font-size:0px;
-	background: url("/assets/image/search_icon.png") no-repeat center center;
-	outline:none;
-}
-.btn-send-newsletters{
-	background: $color-logo-primary;
-	border:none;
-	padding: 10px 25px;
-	color: rgba(0,0,0,.8);
-	text-align: center;
-	width: 70%;
-	margin: 0 auto;
-	display: block;
-	@include border-radius(5px);
-	border-bottom: 5px solid $color-logo-primary - 20;
-	font-size: 1.3em;
-  	font-variant: small-caps;
-  	font-weight: bold;
-  	position:relative;
-  	@include text-shadow(0, -2px, 0, rgba(255,255,255,.3));
-  	@include transition(.3s background, .1s color, .3s border);
-  	
-	&:hover{
-		background: $color-logo-secondary;
-		border-bottom: 5px solid $color-logo-secondary - 30;
-		color: #FFF;
-		@include text-shadow(0, 2px, 0, rgba(0,0,0,.3));
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	@include border-radius(3px);
+
+	&:hover {
+		background: $color-secondary;
+		color: $white;
+		@include text-shadow(0, 2px, 0, rgba($black,.3));
+		@include transition(.15s ease);
 	}
-	&:active{
-		background: $color-logo-secondary - 20;
-		color: $color-logo-secondary - 90;
-		border-bottom: 5px solid $color-logo-secondary - 30;
-		@include box-shadow(0, 4px, 4px, rgba(0,0,0,.5), inset);
+
+	&:active {
+		background: $color-secondary - 20;
+		color: $color-secondary - 90;
+		@include box-shadow(0, 4px, 4px, rgba($black,.5), inset);
 		@include text-shadow(0, 1px, 0, rgba(255,255,255,.3));
 		top:1px;
 	}
-	&:focus{
-		outline:none;
+
+	&:focus {
+		outline: none;
 	}
+}
+
+.btn-primary {
+	@extend %btn;
+	background: $color-primary;
 }
