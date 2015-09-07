@@ -23,7 +23,7 @@ title: Free time  - Use your free time to watch lectures!
       </a>
 
       <a class="lecture-info mfp-iframe" href="{{ post.link }}">
-        <span class="lecture-date">December 21 at JSConf</span>
+        <span class="lecture-date">{{ post.date | date: '%B %d, %Y' }} at {{ post.locality }}</span>
         <h2 class="lecture-title">{{ post.title }}</h2>
       </a>
     </article>
