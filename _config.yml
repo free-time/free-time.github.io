@@ -1,7 +1,7 @@
 # Site settings
-title: Free time  - Use seu tempo livre pra assistir palestras !
-email: andersomxp@gmail.com
-description: # add Breve	
+title: Free time!
+email: 
+description: Use seu tempo livre pra assistir palestras	
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 # Build settings
