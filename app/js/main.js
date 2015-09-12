@@ -1,17 +1,3 @@
-echo.init({
-	offset: 100,
-	throttle: 250,
-	unload: false,
-});
-$('.mfp-iframe').magnificPopup({type:'iframe'});
-
-// Search
-SimpleJekyllSearch({
-  searchInput: document.querySelector('.main-form__search'),
-  resultsContainer: document.querySelector('.results-container'),
-  json: '/search.json',
-})
-
 (function (root, factory) {
   if (typeof define === 'function' && define.amd) {
     define(function() {
