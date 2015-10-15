@@ -22,8 +22,8 @@
 - slug: mobile
   name: mobile
 
-- slug: node-js
-  name: node-js
+- slug: nodejs
+  name: nodejs
 
 - slug: ruby
   name: ruby
