@@ -11,7 +11,7 @@
 
 .intro{
 	height: 100vh;
-	background: url(/app/image/brazil-js.jpg) no-repeat;
+	background: url(/app/image/bg-intro.jpg) no-repeat center top fixed;
 	background-size: cover;
 	position: relative;
 
@@ -31,6 +31,7 @@
 	color: white;
 	font-family: Helvetica;
 	font-size: 80px;
+	font-family: $fontFamilyDefault;
 }
 
 .lectures {
