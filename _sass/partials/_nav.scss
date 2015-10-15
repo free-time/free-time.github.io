@@ -44,3 +44,18 @@
 		display: block;
 	}
 }
+.navigation {
+	float: right;
+
+	li{
+		display: inline-block;
+		padding-left: 30px;
+	}
+}
+.nav-itens{
+	text-transform: uppercase;
+	display: block;
+	font-weight: 700;
+	color: #323A45;
+	font-family: $fontFamilyDefault;
+}
