@@ -1,0 +1,62 @@
+- slug: html
+  name: html
+
+- slug: css
+  name: css
+
+- slug: javascript
+  name: javascript
+
+- slug: python
+  name: python
+
+- slug: rails
+  name: rails
+
+- slug: design
+  name: design
+
+- slug: express
+  name: express
+
+- slug: mobile
+  name: mobile
+
+- slug: nodejs
+  name: nodejs
+
+- slug: ruby
+  name: ruby
+
+- slug: seo
+  name: seo
+
+- slug: workflow
+  name: workflow
+
+- slug: produtividade
+  name: produtividade
+
+- slug: organizacao
+  name: organizacao
+
+- slug: api
+  name: api
+
+- slug: angular
+  name: angular
+
+- slug: acessibilidade
+  name: acessibilidade
+
+- slug: mercado
+  name: mercado
+
+- slug: android
+  name: android
+
+- slug: polymer
+  name: polymer
+
+- slug: performace
+  name: performace

@@ -4,39 +4,34 @@
 }
 
 .main {
-	max-width: $max-width;	
+	max-width: $max-width;
 	margin: 0 auto;
   text-align: center;
 }
 
-.main-intro {
-  padding-top: 50px;
-  padding-bottom: 100px;
-  border-bottom: 1px solid #f2f2f2;
-  margin-bottom: 50px;
+.intro{
+	height: 100vh;
+	background: url(/app/image/bg-intro.jpg) no-repeat center top fixed;
+	background-size: cover;
+	position: relative;
+
+	&:before{
+		content: '';
+		background: rgba(black, 0.8);
+		height: 100%;
+		width: 100%;
+		display: block;
+	}
 }
 
-.main-intro__title {
-  font-size: 5rem;
-  font-weight: 100;
-  margin-bottom: 20px;
-}
-
-.main-form__search {
-  height: 60px;
-  max-width: 700px;
-  width: 100%;
-  padding: 15px;
-  border-radius: 2px;
-  border: 1px solid #eee;
-  font-size: 18px;
-  color: #888;
-  font-weight: 300;
-
-  &:focus {
-    border-color: #999;
-    outline: none;
-  }
+.text-intro{
+	position: absolute;
+	top: 80px;
+	left: 50px;
+	color: white;
+	font-family: Helvetica;
+	font-size: 80px;
+	font-family: $fontFamilyDefault;
 }
 
 .lectures {

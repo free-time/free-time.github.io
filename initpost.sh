@@ -49,7 +49,7 @@ DIST_FOLDER="$POSTPATH"
 BLOG_URL="http://free-time.github.io"
 
 # Set your assets URL
-ASSETS_URL="assets/image/speakers/"
+ASSETS_URL="assets/image/speakers"
 # ----------------------------------------------------------------
 
 
@@ -112,11 +112,10 @@ initpost_content() {
 echo "---"
 echo "layout: post"
 echo "title: \"${POST_TITLE}\""
-echo "speakers:"
-echo "duration:"
 echo "date: ${CURRENT_DATE} ${TIME}"
+echo "duration: min"
 echo "categories:"
-echo "img: '/assets/image/speakers'"
+echo "img: /assets/image/speakers/ "
 echo "link:"
 echo "---"
 

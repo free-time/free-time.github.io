@@ -1,0 +1,34 @@
+{
+  "name": "free-time",
+  "version": "1.0.0",
+  "description": "Use your free time to watch lectures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/free-time/free-time.github.io.git"
+  },
+  "keywords": [
+    "talks",
+    "lectures",
+    "speakers"
+  ],
+  "author": "Anderson Menezes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/free-time/free-time.github.io/issues"
+  },
+  "homepage": "https://github.com/free-time/free-time.github.io",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-uglify": "^1.4.1"
+  },
+  "dependencies": {
+    "imagemin-pngquant": "^4.2.0"
+  }
+}
