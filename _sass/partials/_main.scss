@@ -31,7 +31,6 @@
 	top: 80px;
 	left: 50px;
 	color: white;
-	font-family: Helvetica;
 	font-size: 80px;
 	font-family: $fontFamilyDefault;
 }
@@ -164,4 +163,9 @@
 	padding-bottom: 5px;
 	padding: 0 0 5px 10px;
 	text-align: left;
+}
+.center-page{
+	width: 960px;
+	margin: 50px auto;
+	padding: 0 20px;
 }
