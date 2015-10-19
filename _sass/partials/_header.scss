@@ -3,6 +3,7 @@
 	height: 80px;
 	line-height: 80px;
 	@include clearfix();
+	background: $backgroundHeader;
 }
 
 .logo {
