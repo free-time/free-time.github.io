@@ -58,4 +58,8 @@
 	font-weight: 700;
 	color: $linkNav;
 	font-family: $fontFamilyDefault;
+	
+	&:hover{
+		color: $color-primary;
+	}
 }
