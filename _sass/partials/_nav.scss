@@ -67,24 +67,25 @@
 	background: $color-primary;
 	position: absolute;
 	z-index: 999;
+	padding: 5px;
 	display: none;
 	margin-right: 30px;
 
 	li{
-		padding-left: 20px;
+		padding: 0 10px 0 15px;
+		margin: 0 5px;
+		
+		&:hover{
+			background: #0C77B0;
+		}
 	}
 }
 .sub-menu-itens{
-	display: inline-block;
+	display: block;
 	color: #fff;
 	font: bold 14px $fontFamilyDefault;
 	text-transform: uppercase;
 	margin: 0;
-	padding: 0;
-	
-	&:hover{
-		color: #000;
-	}
-}
-.nav-category{
+	padding: 20px 0;
+	text-align: center;
 }
