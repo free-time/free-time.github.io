@@ -63,3 +63,28 @@
 		color: $color-primary;
 	}
 }
+.sub-menu{
+	background: $color-primary;
+	position: absolute;
+	z-index: 999;
+	display: none;
+	margin-right: 30px;
+
+	li{
+		padding-left: 20px;
+	}
+}
+.sub-menu-itens{
+	display: inline-block;
+	color: #fff;
+	font: bold 14px $fontFamilyDefault;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	
+	&:hover{
+		color: #000;
+	}
+}
+.nav-category{
+}
