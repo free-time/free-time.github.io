@@ -8,7 +8,7 @@ title: Free time  - Use your free time to watch lectures!
 
 <main id="main" role="main" class="main">
   {% for post in paginator.posts  %}
-	<section class="lectures">
+	<div class="lectures">
     <article class="lecture-content">
       <a href="{{ post.link }}" class="lecture-thumbnails mfp-iframe" target="_blank">
         {% include icon-angularjs.html %}
@@ -21,6 +21,6 @@ title: Free time  - Use your free time to watch lectures!
         <h2 class="lecture-title">{{ post.title }}</h2>
       </a>
     </article>
-	</section>
+	</div>
   {% endfor %}
 </main>
