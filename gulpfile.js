@@ -1,27 +1,47 @@
-var gulp = require ( 'gulp' );
-var uglify = require('gulp-uglify');
-var concat = require('gulp-concat');
-var imagemin = require('gulp-imagemin');
-var notify = require( 'gulp-notify' );
+var gulp 	    = require ( 'gulp' ),
+	browserSync = require('browser-sync'),
+	sass 				= require('gulp-sass'),
+	cp          = require('child_process');
 
-gulp.task( 'scripts', function(){
-	gulp.src( './assets/js/*.js' )
-	.pipe( concat( 'main.js' ) )
-	.pipe(uglify())
-	.pipe( gulp.dest('./app/js/') )
-	.pipe( notify( 'Minificado com sucesso!!!' ) );
+var messages = {
+	jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
+};
+
+/* Build the Jekyll Site */
+gulp.task('jekyll-build', function (done) {
+	browserSync.notify(messages.jekyllBuild);
+	return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
+		.on('close', done);
 });
 
-gulp.task( 'imagemin', function(){
-	gulp.src('assets/image/**/*.{jpg,png,svg}')
-	.pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
-	.pipe(gulp.dest('app/image'))
-	.pipe( notify( 'Imagens compreessas com sucesso!!!' ) );
+/* Rebuild Jekyll & do page reload */
+gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
+	browserSync.reload();
+});
+
+/* Wait for jekyll-build, then launch the Server */
+gulp.task('browser-sync', ['jekyll-build'], function() {
+	browserSync({
+		server: {
+			baseDir: '_site'
+		}
+	});
+});
+
+gulp.task('sass', function () {
+  return gulp.src('_sass/main.scss')
+    .pipe(sass({
+        includePaths: ['scss'],
+        onError: browserSync.notify
+    }))
+    .pipe(gulp.dest('_site/assets/css'))
+    .pipe(browserSync.reload({stream:true}))
+    .pipe(gulp.dest('assets/css'));
 });
 
 gulp.task( 'watch', function(){
-	gulp.watch( '_site/assets/js/*.js', ['scripts'] );
-	gulp.watch( 'assets/image/**/*.{jpg,png,svg}', ['imagemin'] );
+	gulp.watch('_sass/**/*.scss', ['sass']);
+	gulp.watch(['*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
 });
 
-gulp.task( 'default', ['watch'] );
+gulp.task( 'default', ['browser-sync', 'watch'] );
