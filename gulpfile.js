@@ -37,7 +37,7 @@ gulp.task('sass', function () {
     }))
     .pipe(gulp.dest('_site/assets/css'))
     .pipe(browserSync.reload({stream:true}))
-    .pipe(gulp.dest('assets/css'));
+    .pipe(gulp.dest('_site/assets/css'));
 });
 
 gulp.task( 'imagemin', function(){
