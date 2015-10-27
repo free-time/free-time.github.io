@@ -11,9 +11,6 @@ plugins:     ./_plugins
 layouts:     ./_layouts
 data_source: ./_data
 collections: null
-exclude: ['bower_components']
-sass:
-  style: compressed
-
+exclude: ["node_modules", "gulpfile.js", "package.json"]
 paginate_path: 'page:num'
 paginate: 20
