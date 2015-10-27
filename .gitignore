@@ -3,4 +3,3 @@ _site/
 node_modules/
 npm-debug.log
 bower_components
-assets/css
