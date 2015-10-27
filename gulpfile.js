@@ -1,6 +1,7 @@
-var gulp 	    = require ( 'gulp' ),
+var gulp 	  = require ( 'gulp' ),
 	browserSync = require('browser-sync'),
-	sass 				= require('gulp-sass'),
+	sass 		= require('gulp-sass'),
+	imagemin    = require('gulp-imagemin'),
 	cp          = require('child_process');
 
 var messages = {
@@ -39,8 +40,15 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('assets/css'));
 });
 
+gulp.task( 'imagemin', function(){
+	gulp.src('src/image/**/*.{jpg,png,svg}')
+	.pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
+	.pipe(gulp.dest('_site/assets/image'))
+});
+
 gulp.task( 'watch', function(){
 	gulp.watch('_sass/**/*.scss', ['sass']);
+	gulp.watch( 'src/image/**/*.{jpg,png,svg}', ['imagemin'] );
 	gulp.watch(['*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
 });
 
