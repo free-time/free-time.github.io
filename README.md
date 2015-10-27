@@ -15,17 +15,18 @@ Antes de mais nada, [fork o projeto](https://github.com/free-time/free-time.gith
 - [Jekyll](http://jekyllrb.com/docs/installation/)
 - [Sass](http://sass-lang.com/install)
 - [NPM](https://docs.npmjs.com/getting-started/installing-node)
+- [Node](https://nodejs.org/en/download/)
+- [Gulp](https://docs.npmjs.com/getting-started/installing-node)
 
 #####Dica
 
 > Usuários do Windows, um guia para efetuar a instalação do [Jekyll](http://jekyll-windows.juthilo.com//).
 
 #### Segundo passo
-Instale o [Freetime-cli](https://github.com/free-time/freetime-cli) e siga a documentação para saber como usa-lo.
+Vá até a pasta do projeto e execute e rode <code>[sudo] npm i</code> para instalar as dependências. Após o termino, execute <code>gulp</code> para abrir a aplicação.
 
 #### Terceiro passo
-Verifique se foi realmente publicada ou se não a nenhuma erro. Rode o comando <code>jekyll serve watch</code> e acesse a url, <code>localhost:4000</code>.
-Caso queira editar, todas publicações estão dentro da pasta <code>_posts</code>.
+Instale o [Freetime-cli](https://github.com/free-time/freetime-cli) e siga a documentação para saber como usa-lo. Esse cli que irá criar a palestra.
 
 #### Quarto passo
 Depois de tudo feito, só mandar um Pull Request e esperar ser aceito! =)
