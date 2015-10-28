@@ -1,10 +1,24 @@
+---
+layout: default
+title: Free time  - Use your free time to watch lectures!
+---
+<div class="content">
 <h1>Categoria: {{ page.tag }}</h1>
-<div>
-    {% if site.tags[page.tag] %}
-        {% for post in site.tags[page.tag] %}
-            <a href="{{ post.url }}/">{{ post.title }}</a>
-        {% endfor %}
-    {% else %}
-        <p>There are no posts for this tag.</p>
-    {% endif %}
+{% if site.tags[page.tag] %}
+  {% for post in site.tags[page.tag] %}
+    <div class="lectures">
+  		<article class="lecture-content">
+	      <a href="{{ post.link }}" class="lecture-thumbnails mfp-iframe" target="_blank">
+	      	<img src="/assets/image/palestrante-default.jpg" alt="{{ post.title }}" data-echo=" {{ post.img }}">
+	      </a>
+	      <a class="lecture-info mfp-iframe" href="{{ post.link }}">
+        	<span class="lecture-date">{{ post.date | date: '%d %B, %Y' }} at {{ post.locality }}</span>
+        	<h2 class="lecture-title">{{ post.title }}</h2>
+      	</a>
+    	</article>
+		</div>
+	{% endfor %}
+{% else %}
+    <p>Não há nenhum item!</p>
+{% endif %}
 </div>
