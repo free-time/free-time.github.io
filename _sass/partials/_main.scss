@@ -1,10 +1,7 @@
 .content {
-	@include center($pad: 2%);
-	@include cf();
 }
 
 .main {
-	max-width: $max-width;
 	margin: 0 auto;
   text-align: center;
   padding-top: 25px;
@@ -38,32 +35,6 @@
 .lectures {
 	text-align:center;
 	position: relative;
-
-	@include respond-to(handhelds-o) {
-		@include center(80%);
-		margin-top: 10%;
-	}
-
-	@include respond-to(handhelds-t) {
-		@include col(6/12, $cycle: 2, $gutter: 5);
-		margin-top:5%;
-	}
-
-	@include respond-to(medium-o) {
-		@include col(4/12, $cycle: 3, $gutter: 4);
-		margin-top:4%;
-	} 
-
-	@include respond-to(medium-t) {
-		@include col(3/12, $cycle: 3);
-		margin-top:3%; 
-	}
-
-	@include respond-to(wide-screens) {
-		@include col(3/12, $cycle: 4, $gutter: 2);
-		margin-top:2%;
-		@include transition(.8s box-shadow, .6s transform);
-	}
 }
 
 .lecture-content {
@@ -153,7 +124,6 @@
 	}
 }
 .results-container{
-	max-width: 700px;
 	margin: 0 auto;
 }
 .lecture-title-search{

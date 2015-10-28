@@ -3,12 +3,4 @@
 	font-weight: 300;
 	color: #666;
 	font-size: $fontSize-titlePages;
-
-	@include respond-to(handhelds-o){
-		font-size: $fontSize-titlePages - 8;
-	}
-	
-	@include respond-to(handhelds-t){
-		font-size: $fontSize-titlePages - 5;
-	}
 }

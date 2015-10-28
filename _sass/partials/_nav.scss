@@ -18,9 +18,6 @@
 .nav-menu_list {
 	display: inline-block;
 	vertical-align: middle;
-	@include respond-to(handhelds-o){
-		display: none;
-	}
 	a {
 		font-size: 14px;
 		color: $color-nav;
@@ -36,9 +33,6 @@
 	width: 100%;
 	height: 45px;
 	display: none;
-	@include respond-to(handhelds-o){
-		display: block;
-	}
 }
 .navigation {
 	float: right;

@@ -95,21 +95,3 @@
 	    clear: both;
 	}
 }
-
-@mixin respond-to($media) {
-  @if $media == handhelds-o {
-    @media only screen and (max-width: $break-small-o) { @content; }
-  }
-  @else if $media == handhelds-t {
-    @media only screen and (min-width: $break-small-o + 1) and (max-width: $break-small-t - 1) { @content; }
-  }
-  @else if $media == medium-o {
-    @media only screen and (min-width: $break-small-t) and (max-width: $break-medium) { @content; }
-  }
-  @else if $media == medium-t {
-    @media only screen and (min-width: $break-medium + 1) and (max-width: $break-large - 1) { @content; }
-  }
-  @else if $media == wide-screens {
-    @media only screen and (min-width: $break-large) { @content; }
-  }
-}
