@@ -44,7 +44,7 @@
 	float: right;
 	li{
 		display: inline-block;
-		padding-left: 30px;
+		margin-left: 30px;
 		&:hover ul{ display: block }
 	}
 }
@@ -66,7 +66,6 @@
 	display: none;
 	margin-right: 30px;
 	li{
-		padding: 0 10px 0 15px;
 		margin: 0 5px;
 		
 		&:hover{
@@ -80,6 +79,6 @@
 	font: bold 14px $fontFamilyDefault;
 	text-transform: uppercase;
 	margin: 0;
-	padding: 20px 0;
+	padding: 20px 10px;
 	text-align: center;
 }
