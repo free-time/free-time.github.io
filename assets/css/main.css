@@ -507,8 +507,25 @@ th {
   padding: 20px 10px;
   text-align: center; }
 
+.content {
+  width: auto;
+  max-width: 1250px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0; }
+
 .main {
-  margin: 0 auto;
+  width: auto;
+  max-width: 1250px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px; }
@@ -535,7 +552,17 @@ th {
 
 .lectures {
   text-align: center;
-  position: relative; }
+  position: relative;
+  float: left;
+  clear: none;
+  width: 22.75%;
+  margin-left: 0;
+  margin-right: 3%; }
+  .lectures:nth-of-type(4n) {
+    margin-right: 0;
+    float: right; }
+  .lectures:nth-of-type(4n + 1) {
+    clear: both; }
 
 .lecture-content {
   width: 100%;

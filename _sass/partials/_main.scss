@@ -1,8 +1,8 @@
-.content {
+.content{
+	@include center(1250px)
 }
-
 .main {
-	margin: 0 auto;
+	@include center(1250px);
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -35,6 +35,7 @@
 .lectures {
 	text-align:center;
 	position: relative;
+	@include col(1/4, $cycle: 4);
 }
 
 .lecture-content {
