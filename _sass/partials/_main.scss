@@ -1,8 +1,8 @@
 .content{
-	@include center(1250px)
+	@include center($max-width)
 }
 .main {
-	@include center(1250px);
+	@include center($max-width);
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px;
