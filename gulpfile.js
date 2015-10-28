@@ -1,4 +1,4 @@
-var gulp 	  = require ( 'gulp' ),
+var gulp 	  	= require ( 'gulp' ),
 	browserSync = require('browser-sync'),
 	sass 		= require('gulp-sass'),
 	imagemin    = require('gulp-imagemin'),
@@ -37,7 +37,7 @@ gulp.task('sass', function () {
     }))
     .pipe(gulp.dest('_site/assets/css'))
     .pipe(browserSync.reload({stream:true}))
-    .pipe(gulp.dest('/assets/css'));
+    .pipe(gulp.dest('assets/css'));
 });
 
 gulp.task( 'imagemin', function(){
