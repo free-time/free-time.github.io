@@ -1,17 +1,15 @@
 .header {
-	width: 100%;
 	height: 85px;
 	line-height: 80px;
 	background: $backgroundHeader;
 }
 
 .logo {
+	@include col(1/4);
 	margin-top: 0;
 	margin-bottom: 0;
 	font-weight: 100;
 	text-transform: uppercase;
-	float: left;
-	
 	span {
 		font-weight: 500;
 	}

@@ -35,7 +35,7 @@
 	display: none;
 }
 .navigation {
-	float: right;
+	@include col(2/4, $offset: 1/4);
 	li{
 		display: inline-block;
 		margin-left: 30px;
@@ -56,12 +56,11 @@
 	background: $color-primary;
 	position: absolute;
 	z-index: 999;
-	padding: 5px;
+	padding: 10px 20px;
 	display: none;
 	margin-right: 30px;
 	li{
-		margin: 0 5px;
-		
+		@include col(1/2, $cycle: 2);
 		&:hover{
 			background: #0C77B0;
 		}
@@ -73,6 +72,6 @@
 	font: bold 14px $fontFamilyDefault;
 	text-transform: uppercase;
 	margin: 0;
-	padding: 20px 10px;
+	padding: 20px;
 	text-align: center;
 }
