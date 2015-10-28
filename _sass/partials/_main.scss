@@ -1,11 +1,15 @@
 .content{
-	@include center($max-width)
+	@include center($max-width);
 }
 .main {
 	@include center($max-width);
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px;
+	
+	@include respond-to('handhelds') {
+		padding: 20px;
+	}
 }
 
 .intro{
@@ -36,6 +40,14 @@
 	text-align:center;
 	position: relative;
 	@include col(1/4, $cycle: 4);
+	
+	@include respond-to('handhelds') {
+		@include col(1/1);
+	}
+
+	@include respond-to('medium-screens') {
+		@include col(1/2, $cycle: 2);
+	}
 }
 
 .lecture-content {

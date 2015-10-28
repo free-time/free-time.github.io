@@ -549,6 +549,9 @@ th {
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px; }
+  @media only screen and (max-width: 450px) {
+    .main {
+      padding: 20px; } }
 
 .intro {
   height: 100vh;
@@ -583,6 +586,27 @@ th {
     float: right; }
   .lectures:nth-of-type(4n + 1) {
     clear: both; }
+  @media only screen and (max-width: 450px) {
+    .lectures {
+      float: left;
+      clear: none;
+      width: 100%;
+      margin-left: 0;
+      margin-right: 3%; }
+      .lectures:last-child {
+        margin-right: 0; } }
+  @media only screen and (min-width: 451px) and (max-width: 859px) {
+    .lectures {
+      float: left;
+      clear: none;
+      width: 48.5%;
+      margin-left: 0;
+      margin-right: 3%; }
+      .lectures:nth-of-type(2n) {
+        margin-right: 0;
+        float: right; }
+      .lectures:nth-of-type(2n + 1) {
+        clear: both; } }
 
 .lecture-content {
   width: 100%;
