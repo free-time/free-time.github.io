@@ -547,11 +547,7 @@ th {
   padding-left: 0;
   padding-right: 0;
   text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px; }
-  @media only screen and (max-width: 450px) {
-    .main {
-      padding: 20px; } }
+  padding: 20px; }
 
 .intro {
   height: 100vh;

@@ -4,14 +4,8 @@
 .main {
 	@include center($max-width);
   text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-	
-	@include respond-to('handhelds') {
-		padding: 20px;
-	}
+	padding: 20px;
 }
-
 .intro{
 	height: 100vh;
 	background: url(/app/image/bg-intro.jpg) no-repeat center top fixed;
@@ -26,7 +20,6 @@
 		display: block;
 	}
 }
-
 .text-intro{
 	position: absolute;
 	top: 80px;
@@ -35,7 +28,6 @@
 	font-size: 80px;
 	font-family: $fontFamilyDefault;
 }
-
 .lectures {
 	text-align:center;
 	position: relative;
@@ -49,7 +41,6 @@
 		@include col(1/2, $cycle: 2);
 	}
 }
-
 .lecture-content {
 	width: 100%;
 	height: 100%;
