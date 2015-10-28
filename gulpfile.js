@@ -1,7 +1,9 @@
 var gulp 	  	= require ( 'gulp' ),
 	browserSync = require('browser-sync'),
-	sass 		= require('gulp-sass'),
+	sass 				= require('gulp-sass'),
 	imagemin    = require('gulp-imagemin'),
+	concat 			= require('gulp-concat'),
+	uglify			= require('gulp-uglify'),
 	cp          = require('child_process');
 
 var messages = {
@@ -40,15 +42,23 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('assets/css'));
 });
 
-gulp.task( 'imagemin', function(){
+gulp.task('imagemin', function(){
 	gulp.src('src/image/**/*.{jpg,png,svg}')
 	.pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
 	.pipe(gulp.dest('_site/assets/image'))
 });
 
+gulp.task('js', function(){
+	return gulp.src('src/js/*.js')
+		.pipe(concat('main.js'))
+		.pipe(uglify())
+		.pipe(gulp.dest('assets/js'));
+});
+
 gulp.task( 'watch', function(){
 	gulp.watch('_sass/**/*.scss', ['sass']);
-	gulp.watch( 'src/image/**/*.{jpg,png,svg}', ['imagemin'] );
+	gulp.watch('src/image/**/*.{jpg,png,svg}', ['imagemin']);
+	gulp.watch('src/js/**/*.js', ['js']);
 	gulp.watch(['*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
 });
 
