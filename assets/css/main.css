@@ -527,6 +527,12 @@ th {
   padding: 20px;
   text-align: center; }
 
+.nav-category:after {
+  content: url("../image/arrow.png");
+  position: relative;
+  left: 5px;
+  top: -2px; }
+
 .content {
   width: auto;
   max-width: 1250px;
