@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Design orientado a Código - Giancarlo Vorga Jung"
+title: "Design orientado a Código"
 speakers: Giancarlo Vorga Jung
 duration: 31:55
 date: 2015-06-07 11:40:37

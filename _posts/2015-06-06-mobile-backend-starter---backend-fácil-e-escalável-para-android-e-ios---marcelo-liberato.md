@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mobile Backend Starter - Backend fácil e escalável para Android e iOS - Marcelo Liberato"
+title: "Mobile Backend Starter - Backend fácil e escalável para Android e iOS"
 speakers: Marcelo Liberato
 duration: 45:38
 date: 2015-06-06 11:36:01

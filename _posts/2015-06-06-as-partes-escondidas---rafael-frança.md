@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "As Partes Escondidas - Rafael França"
+title: "As Partes Escondidas"
 speakers: Rafael França
 duration: 28:22
 date: 2015-06-06 11:42:56

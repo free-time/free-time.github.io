@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why You Should Think Twice Before Leaving the Rails Way - Rafael França"
+title: "Why You Should Think Twice Before Leaving the Rails Way"
 speakers: Rafael França
 duration: 24:47
 date: 2015-06-06 11:13:01

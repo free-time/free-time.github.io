@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introdução ao WP-CLI - Rodrigo Primo"
+title: "Introdução ao WP-CLI"
 speakers: Rodrigo Primo
 duration: 35:09
 date: 2015-05-22 21:36:29

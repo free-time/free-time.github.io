@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "SEO para Front-end - Fábio Ricotta"
+title:  "SEO para Front-end"
+speakers: Fábio Ricotta
 date:   2015-03-31 10:12:00
 duration: 1:04:27 min
 tag:  seo

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Firefox OS e o mobile de amanhã - Cynthia Zanoni"
+title: "Firefox OS e o mobile de amanhã"
 speakers: Cynthia Zanoni
 duration: 20:03
 date: 2015-08-18 07:38:00

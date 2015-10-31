@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "ES6, o que tem de bacana? - Jonathan Sampson"
+title: "ES6, o que tem de bacana?"
+speakers: Jonathan Sampson
 date: 2015-10-02 23:55:57
 duration: 32:24 min
 tags: javascript

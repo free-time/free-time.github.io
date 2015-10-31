@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Aumentando a responsividade da interface do seu app Android - Ubiratan Soares"
+title: "Aumentando a responsividade da interface do seu app Android"
 speakers: Ubiratan Soares
 duration: 53:42
 date: 2015-06-06 11:32:03

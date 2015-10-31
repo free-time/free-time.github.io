@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Limpando CSS gigantes com JS - Mauricio Wolff "
+title:  "Limpando CSS gigantes com JS"
 speakers: Mauricio Wolff
 duration: 27:27 min
 date:   2015-04-13 19:56:00

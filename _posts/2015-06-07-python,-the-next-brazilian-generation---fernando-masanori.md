@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python, the next Brazilian generation - Fernando Masanori"
+title: "Python, the next Brazilian generation"
 speakers: Fernando Masanori
 duration: 49:07
 date: 2015-06-07 12:29:42

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AST, CST e Ferramentas Incríveis - Miller Medeiros"
+title:  "AST, CST e Ferramentas Incríveis"
 speakers: Miller Medeiros
 duration: 35:06 min
 date:   2015-04-13 19:55:00

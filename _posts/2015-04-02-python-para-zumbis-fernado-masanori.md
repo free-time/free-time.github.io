@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Python para Zumbis - Fernado Masanori"
+title:  "Python para Zumbis"
+speakers: Fernado Masanori
 date:   2015-04-02 10:54:00
 duration: 51:57 min
 tags: python

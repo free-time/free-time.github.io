@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Não existe desculpa! - John Murowaniecki"
+title: "Não existe desculpa!"
 speakers: John Murowaniecki
 duration: 29:14
 date: 2015-08-18 09:30:47

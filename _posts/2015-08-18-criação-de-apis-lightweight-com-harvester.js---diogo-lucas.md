@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Criação de APIs lightweight com harvester.js - Diogo Lucas"
+title: "Criação de APIs lightweight com harvester.js"
 speakers: Diogo Lucas
 duration: 32:07
 date: 2015-08-18 07:27:53

@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Single Page Apps FTW! - Ciro Nunes"
+title:  "Single Page Apps FTW!"
+speakers: Ciro Nunes
 date:   2015-04-01 18:58:00
 duration: 45:40 min
 tags: [javascript, angular]

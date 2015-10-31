@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Processamento Digital de Sinais com Javascript - Rafael Specht da Silva"
+title: "Processamento Digital de Sinais com Javascript"
 speakers: Rafael Specht da Silva
 duration:
 date: 2015-08-18 07:30:43

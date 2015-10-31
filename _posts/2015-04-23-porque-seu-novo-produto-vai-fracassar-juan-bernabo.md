@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  " Porque seu novo produto vai fracassar ? - Juan Bernabó"
+title:  " Porque seu novo produto vai fracassar ?"
 speakers: Juan Bernabó
 duration: 1:04:20 min
 date:   2015-04-23 09:32:00

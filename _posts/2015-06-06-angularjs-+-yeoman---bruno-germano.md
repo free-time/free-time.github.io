@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AngularJS + Yeoman - Bruno Germano"
+title: "AngularJS + Yeoman"
 speakers: Bruno Germano
 duration: 37:33
 date: 2015-06-06 11:20:38

@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Serious business - Pedro Franceschi"
+title:  "Serious business"
+speakers: Pedro Franceschi
 date:   2015-04-01 09:15:00
 duration: 45:57 min
 tags: [javascript, nodejs]

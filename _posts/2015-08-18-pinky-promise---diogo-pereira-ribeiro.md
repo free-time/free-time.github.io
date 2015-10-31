@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pinky Promise - Diogo Pereira Ribeiro"
+title: "Pinky Promise"
 speakers: Diogo Pereira Ribeiro
 duration: 31:45
 date: 2015-08-18 07:39:28

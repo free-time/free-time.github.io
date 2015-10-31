@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Difícil Tarefa de Desenvolver Produtos - João Moura"
+title: "A Difícil Tarefa de Desenvolver Produtos"
 speakers: João Moura
 duration: 33:21
 date: 2015-06-06 12:10:07

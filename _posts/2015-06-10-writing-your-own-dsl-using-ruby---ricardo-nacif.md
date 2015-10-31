@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Writing Your Own DSL Using Ruby - Ricardo Nacif"
+title: "Writing Your Own DSL Using Ruby"
 speakers: Ricardo Nacif
 duration: 28:31
 date: 2015-06-10 01:03:15

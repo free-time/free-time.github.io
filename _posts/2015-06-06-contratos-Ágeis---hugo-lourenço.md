@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Contratos Ágeis - Hugo Lourenço"
+title: "Contratos Ágeis"
 speakers: Hugo Lourenço
 duration: 33:21
 date: 2015-06-06 12:12:21

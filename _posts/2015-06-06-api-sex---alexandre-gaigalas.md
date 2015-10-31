@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "API Sex - Alexandre Gaigalas"
+title: "API Sex"
 speakers: Alexandre Gaigalas
 duration: 30:01
 date: 2015-06-06 11:51:01

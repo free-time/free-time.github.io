@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Uma tonelada de Truques de Web Mobile - Sergio Lopes"
+title: "Uma tonelada de Truques de Web Mobile"
 speakers: Sergio Lopes
 duration: 50:47
 date: 2015-05-28 08:53:00

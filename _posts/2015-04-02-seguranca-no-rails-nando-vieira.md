@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Segurança no Rails - Nando Vieira"
+title:  "Segurança no Rails"
+speakers: Nando Vieira
 date:   2015-04-02 11:02:00
 duration: 57:41 min
 tags: [rails, ruby]

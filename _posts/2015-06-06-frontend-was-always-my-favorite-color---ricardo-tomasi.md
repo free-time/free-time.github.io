@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Frontend was always my favorite color - Ricardo Tomasi"
+title: "Frontend was always my favorite color"
 speakers: Ricardo Tomasi
 duration: 33:21
 date: 2015-06-06 12:01:56

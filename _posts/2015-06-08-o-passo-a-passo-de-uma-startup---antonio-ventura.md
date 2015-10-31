@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "O passo-a-passo de uma Startup - Antonio Ventura"
+title: "O passo-a-passo de uma Startup"
 speakers: Antonio Ventura
 duration: 1:00:28
 date: 2015-06-08 23:25:33

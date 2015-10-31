@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "AudioLazy Python DSP (Digital Signal Processing) - Danilo Bellini"
+title:  "AudioLazy Python DSP (Digital Signal Processing)"
+speakers: Danilo Bellini
 date:   2015-04-02 10:58:00
 duration: 58:15 min
 tags: python

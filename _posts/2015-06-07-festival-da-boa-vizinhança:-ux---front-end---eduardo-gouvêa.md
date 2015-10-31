@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Festival da boa vizinhança: UX - Front end - Eduardo Gouvêa"
+title: "Festival da boa vizinhança: UX - Front end"
 speakers: Eduardo Gouvêa
 duration: 23:36
 date: 2015-06-07 12:13:00

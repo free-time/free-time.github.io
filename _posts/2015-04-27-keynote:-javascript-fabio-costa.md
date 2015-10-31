@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  " Keynote: Javascript - Fabio costa"
+title:  " Keynote: Javascript"
 speakers: Fabio costa
 duration: 50:33 min
 date:   2015-04-27 08:05:00

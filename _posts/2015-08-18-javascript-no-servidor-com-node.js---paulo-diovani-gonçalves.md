@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Javascript no servidor com Node.js - Paulo Diovani Gonçalves"
+title: "Javascript no servidor com Node.js"
 speakers: Paulo Diovani Gonçalves
 duration: 37:42
 date: 2015-08-18 07:42:02

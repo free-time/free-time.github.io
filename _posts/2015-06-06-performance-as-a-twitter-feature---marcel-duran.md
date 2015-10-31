@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Performance as a Twitter feature - Marcel Duran"
+title: "Performance as a Twitter feature"
 speakers: Marcel Duran
 duration: 33:53
 date: 2015-06-06 11:48:37

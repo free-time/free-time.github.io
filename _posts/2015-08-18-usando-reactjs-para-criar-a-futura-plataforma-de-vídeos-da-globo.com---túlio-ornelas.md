@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Usando reactJS para criar a futura plataforma de vídeos da globo.com - Túlio Ornelas"
+title: "Usando reactJS para criar a futura plataforma de vídeos da globo.com"
 speakers: Túlio Ornelas
 duration: 36:32
 date: 2015-08-18 07:36:40

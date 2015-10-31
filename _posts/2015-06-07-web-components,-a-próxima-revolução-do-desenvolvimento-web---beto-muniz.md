@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Web Components, a próxima revolução do desenvolvimento web - Beto Muniz"
+title: "Web Components, a próxima revolução do desenvolvimento web"
 speakers: Beto Muniz
 duration: 42:05
 date: 2015-06-07 12:58:53

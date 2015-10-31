@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Desmitificando o Open Source - Rafael França"
+title: "Desmitificando o Open Source"
 speakers: Rafael França
 duration: 40:28
 date: 2015-06-07 12:23:16

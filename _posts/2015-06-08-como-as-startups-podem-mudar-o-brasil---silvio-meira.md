@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Como as Startups podem mudar o Brasil - Silvio Meira"
+title: "Como as Startups podem mudar o Brasil"
 speakers: Silvio Meira
 duration: 53:23
 date: 2015-06-08 23:27:19

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "JS and Mad Science - Paulo Pires"
+title: "JS and Mad Science"
 speakers: Paulo Pires
 duration: 19:27
 date: 2015-06-07 13:01:21

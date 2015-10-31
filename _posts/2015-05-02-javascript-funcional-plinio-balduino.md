@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  " JavaScript Funcional - Plínio Balduino"
+title:  " JavaScript Funcional"
 speakers: Plínio Balduino
 duration: 7:04 min
 date:   2015-05-02 01:50:00

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Desenvolvimento de jogos em Android - Anderson Leite"
+title: "Desenvolvimento de jogos em Android"
 speakers: Anderson Leite
 duration: 50:13
 date: 2015-06-06 11:28:49

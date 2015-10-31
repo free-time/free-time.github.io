@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Arte digital na web: por onde eu começo - Zeno rocha"
+title: "Arte digital na web: por onde eu começo"
 speakers: Zeno rocha
 duration: 41:28
 date: 2015-05-28 08:47:28

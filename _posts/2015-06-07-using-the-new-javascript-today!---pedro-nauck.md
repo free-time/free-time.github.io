@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using the new Javascript today! - Pedro Nauck"
+title: "Using the new Javascript today!"
 speakers: Pedro Nauck
 duration: 56:04
 date: 2015-06-07 12:55:12

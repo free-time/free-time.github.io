@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "WooCommerce, muito além de um plugin - Anilton Veiga"
+title: "WooCommerce, muito além de um plugin"
 speakers: Anilton Veiga
 duration: 10:34
 date: 2015-05-22 21:28:24

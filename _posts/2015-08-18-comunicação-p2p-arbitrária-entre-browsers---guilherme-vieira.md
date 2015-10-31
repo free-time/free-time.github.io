@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Comunicação P2P arbitrária entre browsers - Guilherme Vieira"
+title: "Comunicação P2P arbitrária entre browsers"
 speakers: Guilherme Vieira
 duration: 27:26
 date: 2015-08-18 09:34:39

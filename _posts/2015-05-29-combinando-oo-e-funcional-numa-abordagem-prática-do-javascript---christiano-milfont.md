@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Combinando OO e funcional numa abordagem prática do JavaScript - Christiano Milfont"
+title: "Combinando OO e funcional numa abordagem prática do JavaScript"
 speakers: Christiano Milfont
 duration: 1:00:42
 date: 2015-05-29 22:32:49

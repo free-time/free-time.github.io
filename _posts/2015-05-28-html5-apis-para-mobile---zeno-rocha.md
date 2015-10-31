@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HTML5 APIs para Mobile - Zeno rocha"
+title: "HTML5 APIs para Mobile"
 speakers: Zeno rocha
 duration: 42:02
 date: 2015-05-28 08:41:06

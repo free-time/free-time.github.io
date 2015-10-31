@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  " Javascript idiomatico - Leo Balter"
+title:  " Javascript idiomatico"
 speakers: Leo Balter
 duration: 11:15 min
 date:   2015-05-02 01:47:00

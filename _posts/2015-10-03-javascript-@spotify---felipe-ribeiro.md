@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "JavaScript @Spotify - Felipe Ribeiro"
+title: "JavaScript @Spotify"
+speakers: Felipe Ribeiro
 date: 2015-10-03 00:05:37
 duration:  29:39 min
 tags: javascript

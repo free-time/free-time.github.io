@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Repensando o uso do jQuery - Vinícius Almeida"
+title: "Repensando o uso do jQuery"
 speakers: Vinícius Almeida
 duration: 22:14
 date: 2015-06-06 11:59:37

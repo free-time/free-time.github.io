@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Utilizando node.js para automação de build e deploy - Maurício Wolff"
+title: "Utilizando node.js para automação de build e deploy"
 speakers: Maurício Wolff
 duration: 41:36
 date: 2015-06-06 11:46:55

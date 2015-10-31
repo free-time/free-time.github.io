@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Javascript ilegível: como um conjunto de decisões afeta seu código - Rafael Specht da Silva"
+title:  "Javascript ilegível: como um conjunto de decisões afeta seu código"
+speakers: Rafael Specht da Silva
 date:   2015-04-10 07:46
 duration: 19:38 min
 tags: javascript

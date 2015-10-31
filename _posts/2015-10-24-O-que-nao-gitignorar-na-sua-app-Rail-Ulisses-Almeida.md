@@ -1,6 +1,7 @@
 ---
 layout: post
-title: O que não .gitignorar na sua app Rail -Ulisses Almeida
+title: O que não .gitignorar na sua app Rail
+speakers: Ulisses Almeida
 date: 2015-10-24 23:28:14
 duration: 09:11
 tags: [ rails ]

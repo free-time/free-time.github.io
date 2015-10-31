@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "O que o front end pode aprender com o Rails - Lucas Mazza"
+title:  "O que o front end pode aprender com o Rails"
+speakers: Lucas Mazza
 date:   2015-04-10 07:45:00
 duration: 35:07 min
 tags: [rails, ruby]

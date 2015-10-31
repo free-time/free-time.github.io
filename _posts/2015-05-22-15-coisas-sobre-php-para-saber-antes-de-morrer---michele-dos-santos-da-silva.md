@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "15 coisas sobre PHP para saber antes de morrer - Michele dos Santos da Silva"
+title: "15 coisas sobre PHP para saber antes de morrer"
 speakers: Michele dos Santos da Silva
 duration: 21:32
 date: 2015-05-22 21:38:13

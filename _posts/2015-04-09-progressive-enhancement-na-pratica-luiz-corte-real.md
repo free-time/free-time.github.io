@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Progressive enhancement na prática - Luiz Corte Real"
+title:  "Progressive enhancement na prática"
+speakers: Luiz Corte Real
 date:   2015-04-10 07:40:00
 duration: 28:24 min
 tags: [css, javascript]

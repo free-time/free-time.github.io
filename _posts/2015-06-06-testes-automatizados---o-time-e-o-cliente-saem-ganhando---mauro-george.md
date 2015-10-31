@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Testes automatizados - o time e o cliente saem ganhando - Mauro George"
+title: "Testes automatizados - o time e o cliente saem ganhando"
 speakers: Mauro George
 duration: 41:35
 date: 2015-06-06 12:14:33

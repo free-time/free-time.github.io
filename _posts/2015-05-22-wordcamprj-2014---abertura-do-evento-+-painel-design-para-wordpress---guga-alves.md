@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Painel Design para WordPress - Guga Alves"
+title: "Painel Design para WordPress"
 speakers: Guga Alves
 duration: 1:21:51
 date: 2015-05-22 21:19:42

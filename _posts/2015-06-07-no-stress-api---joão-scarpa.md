@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "No Stress API - João Scarpa"
+title: "No Stress API"
 speakers: João Scarpa
 duration: 26:08
 date: 2015-06-07 12:20:43

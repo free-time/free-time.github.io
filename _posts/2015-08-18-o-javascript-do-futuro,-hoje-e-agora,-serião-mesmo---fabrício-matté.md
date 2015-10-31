@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "O JavaScript do futuro, hoje e agora, serião mesmo - Fabrício Matté"
+title: "O JavaScript do futuro, hoje e agora, serião mesmo"
 speakers: Fabrício Matté
 duration: 45:51
 date: 2015-08-18 07:34:45

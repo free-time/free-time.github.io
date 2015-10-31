@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Um futuro chamado Web Components - Zeno rocha"
+title:  "Um futuro chamado Web Components"
+speakers: Zeno rocha
 date:   2015-03-31 10:09:00
 duration: 56:39 min
 tags: [html webcomponents]

@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Lifestyle Business e o Ecossistema Python - Henrique Bastos"
+title:  "Lifestyle Business e o Ecossistema Python"
+speakers: Henrique Bastos
 date:   2015-04-02 10:51:00
 duration: 57:13 min
 tags: python

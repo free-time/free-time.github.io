@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Startup e Software - Fabio Akita"
+title: "Startup e Software"
 speakers: Fabio Akita
 duration: 46:15
 date: 2015-06-08 23:21:17

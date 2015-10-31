@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Desmistificando o Polymer - Beto Muniz"
+title: "Desmistificando o Polymer"
 speakers: Beto Muniz
 duration: 33:40
 date: 2015-05-28 08:34:19

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Data Binding Revolution - Leonardo Balter"
+title:  "Data Binding Revolution"
 speakers: Ricardo Cabello
 date:   2015-04-13 19:54:00
 duration: 34:37 min

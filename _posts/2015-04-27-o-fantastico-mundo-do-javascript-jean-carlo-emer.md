@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  " O fantástico mundo do JavaScript - Jean Carlo Emer"
+title:  " O fantástico mundo do JavaScript"
 speakers: Jean Carlo Emer
 duration: 43:20 min
 date:   2015-04-27 08:00:00

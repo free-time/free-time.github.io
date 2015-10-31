@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Responsive Web Design e a Ubiquidade da Web - Eduardo Shiota"
+title: "Responsive Web Design e a Ubiquidade da Web"
 speakers: Eduardo Shiota
 duration: 55:33
 date: 2015-05-28 08:37:01

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ANIME-SE - Encante e Divirta - Lúcio Maciel"
+title: "ANIME-SE - Encante e Divirta"
 speakers: Lúcio Maciel
 duration: 36:20
 date: 2015-06-06 11:38:31

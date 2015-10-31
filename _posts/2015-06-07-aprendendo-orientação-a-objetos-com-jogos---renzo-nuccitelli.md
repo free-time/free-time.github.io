@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Aprendendo Orientação a Objetos com Jogos - Renzo Nuccitelli"
+title: "Aprendendo Orientação a Objetos com Jogos"
 speakers: Renzo Nuccitelli
 duration: 52:21
 date: 2015-06-07 12:31:20
