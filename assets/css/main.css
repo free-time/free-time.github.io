@@ -557,7 +557,7 @@ th {
 
 .intro {
   height: 100vh;
-  background: url(/app/image/bg-intro.jpg) no-repeat center top fixed;
+  background: url(../image/bg-intro.jpg) no-repeat center top fixed;
   background-size: cover;
   position: relative; }
   .intro:before {
@@ -702,8 +702,7 @@ th {
   font-family: "Raleway", Arial, sans-serif; }
   .title-categories span {
     text-transform: uppercase;
-    color: #0099FF;
-    font-style: italic; }
+    color: #0099FF; }
 
 .footer {
   clear: both;
