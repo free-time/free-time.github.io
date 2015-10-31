@@ -63,3 +63,9 @@
 
 - slug: startup
   name: startup
+
+- slug: wordpress
+  name: wordpress
+
+- slug: workflow
+  name: workflow
