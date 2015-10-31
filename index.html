@@ -8,7 +8,7 @@ title: Free time  - Use your free time to watch lectures!
 
 <main id="main" role="main" class="main">
   {% for post in paginator.posts  %}
-	<div class="lectures">
+	<div id="lectures" class="lectures">
     <article class="lecture-content">
       <a href="{{ post.link }}" class="lecture-thumbnails mfp-iframe" target="_blank">
       	<img src="/assets/image/palestrante-default.jpg" alt="{{ post.title }}" data-echo=" {{ post.img }}">
@@ -19,6 +19,13 @@ title: Free time  - Use your free time to watch lectures!
         <h2 class="lecture-title">{{ post.title }}</h2>
       </a>
     </article>
-	</div>
+    <p class="pagination">
+      {% if paginator.next_page %}
+        <a class="older" href="/page{{paginator.next_page}}"></a>
+      {% else %}
+        <span class="older"></span>
+      {% endif %}
+    </p>
+  </div>
   {% endfor %}
 </main>

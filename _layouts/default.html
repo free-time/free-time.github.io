@@ -20,8 +20,13 @@
         throttle: 250,
         unload: false,
       });
-      
       $('.mfp-iframe').magnificPopup({type:'iframe'});
+      inphinity('#main').set({
+              navSelector : "p.pagination",
+              nextSelector  : "p.pagination a.older",
+              itemSelector  : "#main",
+              finishedMsg : "<em>That's all folks!</em>"
+            });
     </script>
   </body>
 </html>
