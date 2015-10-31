@@ -143,3 +143,10 @@
 	margin: 50px auto;
 	padding: 0 20px;
 }
+.title-categories{
+	font-family: $fontFamilyDefault;
+	span{
+		text-transform: uppercase;
+		color: $color-primary;
+	}
+}

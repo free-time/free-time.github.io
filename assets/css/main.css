@@ -698,6 +698,13 @@ th {
   margin: 50px auto;
   padding: 0 20px; }
 
+.title-categories {
+  font-family: "Raleway", Arial, sans-serif; }
+  .title-categories span {
+    text-transform: uppercase;
+    color: #0099FF;
+    font-style: italic; }
+
 .footer {
   clear: both;
   padding: 15px;
