@@ -435,8 +435,8 @@ th {
   text-transform: uppercase; }
   .logo:last-child {
     margin-right: 0; }
-  .logo span {
-    font-weight: 500; }
+  .logo a {
+    color: #FFF; }
 
 .nav {
   width: 100%;
