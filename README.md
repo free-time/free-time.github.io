@@ -1,6 +1,4 @@
-![Free-time - Use seu tempo live pra assistir palestras](http://free-time.github.io/assets/image/logo.png)
-
-#Sumário
+#Free time 
 
 * [Como enviar uma palestra](#como-enviar-uma-palestra)
 * [Contribuidores](#contribuidores)
