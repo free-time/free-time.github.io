@@ -15,17 +15,19 @@
     <script src="/assets/js/main.js" ></script>
     <!-- Start popup-->
     <script>
-      echo.init({
-        offset: 100,
-        throttle: 250,
-        unload: false,
+      // bind event click when new itens are added by infinity scroll
+      // and open after click
+      $(document).ready(function(){
+        $(document).on('click', '.mfp-iframe', function(e){
+          e.preventDefault();
+          $(this).magnificPopup({type:'iframe'}).magnificPopup('open');
+        });
       });
-      $('.mfp-iframe').magnificPopup({type:'iframe'});
+
       inphinity('#main').set({
               navSelector : "p.pagination",
               nextSelector  : "p.pagination a.older",
               itemSelector  : "#main",
-              finishedMsg : "<em>That's all folks!</em>"
             });
     </script>
   </body>
