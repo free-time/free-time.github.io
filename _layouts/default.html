@@ -13,22 +13,26 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
     <script src="/assets/js/main.js" ></script>
-    <!-- Start popup-->
     <script>
-      // bind event click when new itens are added by infinity scroll
-      // and open after click
       $(document).ready(function(){
+        echo.init({
+          offset: 100,
+          throttle: 250,
+          unload: false,
+        });
+
         $(document).on('click', '.mfp-iframe', function(e){
           e.preventDefault();
           $(this).magnificPopup({type:'iframe'}).magnificPopup('open');
         });
+
+        inphinity('#main').set({
+          navSelector : "p.pagination",
+          nextSelector  : "p.pagination a.older",
+          itemSelector  : "#main",
+        });
       });
 
-      inphinity('#main').set({
-              navSelector : "p.pagination",
-              nextSelector  : "p.pagination a.older",
-              itemSelector  : "#main",
-            });
     </script>
   </body>
 </html>
