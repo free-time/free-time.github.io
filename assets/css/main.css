@@ -386,25 +386,13 @@ th {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px; }
+  user-select: none; }
   .btn-primary:hover {
     background: #D90452;
-    color: #FFF;
-    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.3);
-    -moz-transition: 0.15s ease;
-    -o-transition: 0.15s ease;
-    -webkit-transition: 0.15s ease;
-    transition: 0.15s ease; }
+    color: #FFF; }
   .btn-primary:active {
     background: #c5003e;
     color: #7f0000;
-    -webkit-box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.5);
-    box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.5);
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
     top: 1px; }
   .btn-primary:focus {
     outline: none; }
@@ -447,11 +435,6 @@ th {
   margin-bottom: 50px;
   border-top: 1px solid #E9F0F3;
   border-bottom: 1px solid #E9F0F3; }
-  .nav:before, .nav:after {
-    content: "";
-    display: table; }
-  .nav:after {
-    clear: both; }
   .nav .content {
     display: table;
     width: 100%;
@@ -466,13 +449,6 @@ th {
     display: block;
     padding-left: 15px;
     padding-right: 15px; }
-
-.nav-menu_select {
-  padding: 0 20px;
-  border: 0;
-  width: 100%;
-  height: 45px;
-  display: none; }
 
 .navigation {
   float: left;
@@ -567,14 +543,6 @@ th {
     width: 100%;
     display: block; }
 
-.text-intro {
-  position: absolute;
-  top: 80px;
-  left: 50px;
-  color: white;
-  font-size: 80px;
-  font-family: "Raleway", Arial, sans-serif; }
-
 .lectures {
   text-align: center;
   position: relative;
@@ -614,13 +582,7 @@ th {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: #fff;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); }
+  background: #fff; }
   .lecture-content:hover .lecture-icon {
     top: 35px; }
 
@@ -748,11 +710,7 @@ th {
   margin-top: 30px; }
 
 .social_link {
-  color: black;
-  -moz-transition: 0.2s color;
-  -o-transition: 0.2s color;
-  -webkit-transition: 0.2s color;
-  transition: 0.2s color; }
+  color: black; }
   .social_link:hover {
     color: #0099FF; }
   .social_link:first-of-type {

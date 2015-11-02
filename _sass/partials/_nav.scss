@@ -7,7 +7,6 @@
   margin-bottom: 50px;
   border-top: 1px solid #E9F0F3;
   border-bottom: 1px solid #E9F0F3;
-  @include clearfix();
 	.content {
 		display: table;
 		width: 100%;
@@ -27,13 +26,6 @@
 	}
 }
 
-.nav-menu_select {
-	padding: 0 20px;
-	border: 0;
-	width: 100%;
-	height: 45px;
-	display: none;
-}
 .navigation {
 	@include col(2/4, $offset: 1/4);
 	li{

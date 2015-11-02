@@ -18,20 +18,15 @@
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	@include border-radius(3px);
 
 	&:hover {
 		background: $color-secondary;
 		color: $white;
-		@include text-shadow(0, 2px, 0, rgba($black,.3));
-		@include transition(.15s ease);
 	}
 
 	&:active {
 		background: $color-secondary - 20;
 		color: $color-secondary - 90;
-		@include box-shadow(0, 4px, 4px, rgba($black,.5), inset);
-		@include text-shadow(0, 1px, 0, rgba(255,255,255,.3));
 		top:1px;
 	}
 

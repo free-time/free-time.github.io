@@ -1,8 +1,0 @@
-<section class="main-intro">
-    <h1 class="main-intro__title">Latest Lectures</h1>
-    
-    <form action="" class="main-form">
-      <input class="main-form__search" type="text" placeholder="Search for lectures ...">
-      <ul class="results-container"></ul>
-    </form>
-  </section>

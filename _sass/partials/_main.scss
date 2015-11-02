@@ -20,14 +20,7 @@
 		display: block;
 	}
 }
-.text-intro{
-	position: absolute;
-	top: 80px;
-	left: 50px;
-	color: white;
-	font-size: 80px;
-	font-family: $fontFamilyDefault;
-}
+
 .lectures {
 	text-align:center;
 	position: relative;
@@ -46,8 +39,6 @@
 	height: 100%;
 	overflow: hidden;
 	background: #fff;
-	@include border-radius(3px);
-	@include box-shadow(0, 1px, 0, rgba(0, 0, 0, .1));
 
 	&:hover {
     .lecture-icon {

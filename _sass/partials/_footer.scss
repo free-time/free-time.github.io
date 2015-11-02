@@ -49,8 +49,6 @@
 
 .social_link {
 	color: darken($bg-footer, 10%);
-	@include transition(.2s color);
-	
 	&:hover {
 		color: $color-primary;
 	}
