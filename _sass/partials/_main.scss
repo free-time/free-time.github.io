@@ -39,6 +39,7 @@
 	height: 100%;
 	overflow: hidden;
 	background: #fff;
+	border-radius: 4px;
 
 	&:hover {
     .lecture-icon {
@@ -73,6 +74,7 @@
 
 .lecture-info {
 	border: 1px solid #eee;
+	height: 120px;
   border-top: 0;
   padding: 10px;
   display: block;

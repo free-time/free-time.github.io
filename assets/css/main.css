@@ -582,7 +582,8 @@ th {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: #fff; }
+  background: #fff;
+  border-radius: 4px; }
   .lecture-content:hover .lecture-icon {
     top: 35px; }
 
@@ -607,6 +608,7 @@ th {
 
 .lecture-info {
   border: 1px solid #eee;
+  height: 120px;
   border-top: 0;
   padding: 10px;
   display: block;
