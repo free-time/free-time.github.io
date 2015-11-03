@@ -31,6 +31,7 @@ gulp.task('browser-sync', ['jekyll-build'], function() {
 	});
 });
 
+/* Compiled sass*/
 gulp.task('sass', function () {
   return gulp.src('_sass/main.scss')
     .pipe(sass({
@@ -48,6 +49,7 @@ gulp.task('imagemin', function(){
 	.pipe(gulp.dest('assets/image'));
 });
 
+/* Compiled Javascript */
 gulp.task('js', function(){
 	return gulp.src('src/js/*.js')
 		.pipe(concat('main.js'))
