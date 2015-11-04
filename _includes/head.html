@@ -11,10 +11,9 @@
 	<meta name="author" href="http://twitter.com/amenezesw" content="Anderson Menezes">
 
 	<!-- Facebook Open Graph -->
-	<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   {% if post.image %}
-  <meta property="og:image" content="{{ site.url }}{{post.image }}">
+  <meta property="og:image" content="{{ "/assets/image/icon.png" | prepend: site.baseurl | prepend: site.url }}">
   {% else %}
   <meta property="og:image" content="{{ "/assets/image/logo-open-graph.png" | prepend: site.baseurl | prepend: site.url }}">
   {% endif %}
