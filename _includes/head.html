@@ -13,7 +13,7 @@
 	<!-- Facebook Open Graph -->
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   {% if post.image %}
-  <meta property="og:image" content="{{ site.url }}{{page.image }}">
+  <meta property="og:image" content="{{ site.url }}{{"/assets/image/icon.png" }}">
   <meta property="og:image" content="{{ "" | prepend: site.baseurl | prepend: site.url }}">
   {% else %}
   <meta property="og:image" content="{{ "/assets/image/logo-open-graph.png" | prepend: site.baseurl | prepend: site.url }}">
