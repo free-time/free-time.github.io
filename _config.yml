@@ -1,7 +1,7 @@
 # Site settings
 title: Free time!
 email: 
-description: Palestra para desenvolvedores	
+description: Uma reunião de palestras com conteúdos diversos deixando seu conhecimento ainda mais insano.	
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 # Build settings
