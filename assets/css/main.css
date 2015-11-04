@@ -424,7 +424,8 @@ th {
   .logo:last-child {
     margin-right: 0; }
   .logo a {
-    color: #FFF; }
+    color: #FFF;
+    font: 700 40px "Raleway", Arial, sans-serif; }
 
 .nav {
   width: 100%;
