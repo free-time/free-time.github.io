@@ -546,6 +546,7 @@ th {
 .lectures {
   text-align: center;
   position: relative;
+  margin: 20px 0;
   float: left;
   clear: none;
   width: 22.75%;
@@ -608,12 +609,11 @@ th {
 
 .lecture-info {
   border: 1px solid #eee;
-  height: 120px;
   border-top: 0;
   padding: 10px;
   display: block;
   text-align: left;
-  min-height: 100px; }
+  min-height: 120px; }
 
 .lecture-icon {
   fill: rgba(255, 255, 255, 0.8);

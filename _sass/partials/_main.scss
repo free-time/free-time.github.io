@@ -24,6 +24,7 @@
 .lectures {
 	text-align:center;
 	position: relative;
+	margin: 20px 0;
 	@include col(1/4, $cycle: 4);
 	
 	@include respond-to('handhelds') {
@@ -74,12 +75,11 @@
 
 .lecture-info {
 	border: 1px solid #eee;
-	height: 120px;
   border-top: 0;
   padding: 10px;
   display: block;
   text-align: left;
-  min-height: 100px;
+  min-height: 120px;
 }
 
 .lecture-icon {
