@@ -1,5 +1,6 @@
 .content{
 	@include center($max-width);
+	padding: 0 15px;
 }
 .main {
 	@include center($max-width);
