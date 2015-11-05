@@ -1,10 +1,10 @@
-var gulp 	  	= require ( 'gulp' ),
-	browserSync = require('browser-sync'),
-	sass 				= require('gulp-sass'),
-	imagemin    = require('gulp-imagemin'),
-	concat 			= require('gulp-concat'),
-	uglify			= require('gulp-uglify'),
-	cp          = require('child_process');
+var gulp 	  			= require ( 'gulp' ),
+		browserSync 	= require('browser-sync'),
+		sass 					= require('gulp-sass'),
+		imagemin    	= require('gulp-imagemin'),
+		concat 				= require('gulp-concat'),
+		uglify				= require('gulp-uglify'),
+		cp          	= require('child_process');
 
 var messages = {
 	jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
@@ -38,6 +38,7 @@ gulp.task('sass', function () {
         includePaths: ['scss'],
         onError: browserSync.notify
     }))
+    .pipe(sass({outputStyle: 'compressed'}))
     .pipe(gulp.dest('_site/assets/css'))
     .pipe(browserSync.reload({stream:true}))
     .pipe(gulp.dest('assets/css'));
