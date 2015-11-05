@@ -1,10 +1,10 @@
-var gulp 	  			= require ( 'gulp' ),
-		browserSync 	= require('browser-sync'),
-		sass 					= require('gulp-sass'),
-		imagemin    	= require('gulp-imagemin'),
-		concat 				= require('gulp-concat'),
-		uglify				= require('gulp-uglify'),
-		cp          	= require('child_process');
+var gulp 			= require ( 'gulp' ),
+	browserSync = require('browser-sync'),
+	sass 				= require('gulp-sass'),
+	imagemin 		= require('gulp-imagemin'),
+	concat 			= require('gulp-concat'),
+	uglify 			= require('gulp-uglify'),
+	cp 					= require('child_process');
 
 var messages = {
 	jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
