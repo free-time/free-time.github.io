@@ -27,7 +27,7 @@
 }
 
 .navigation {
-	@include col(1/4, $offset: 1/4);
+	@include col(2/4, $offset: 1/4);
 	li{
 		display: inline-block;
 		margin-left: 30px;
