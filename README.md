@@ -1,6 +1,7 @@
 #Free time 
 
 * [Como enviar uma palestra](#como-enviar-uma-palestra)
+* [Como contribuir](CONTRIBUTING.md)
 * [Contribuidores](#contribuidores)
 
 ##Como enviar uma palestra
