@@ -7,10 +7,11 @@ url: "" # the base hostname & protocol for your site
 # Build settings
 source:      .
 destination: ./_site
-plugins:     ./_plugins
-layouts:     ./_layouts
-data_source: ./_data
+plugins_dir:     ./_plugins
+layouts_dir:     ./_layouts
+data_dir: ./_data
 collections: null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 paginate_path: 'page:num'
 paginate: 20
+gems: [jekyll-paginate]
