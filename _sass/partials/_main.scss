@@ -133,8 +133,7 @@
 	text-align: left;
 }
 .center-page{
-	width: 960px;
-	margin: 50px auto;
+	@include center(960px);
 	padding: 0 20px;
 }
 .title-categories{
@@ -142,5 +141,16 @@
 	span{
 		text-transform: uppercase;
 		color: $color-primary;
+	}
+}
+.text-page-external{
+	@include col(1/1);
+}
+.text-page-external{
+	p {
+		text-align: justify;
+		line-height: 25px;
+		font-size: $fontSize-default - 2;
+		padding: 0 15px;
 	}
 }
