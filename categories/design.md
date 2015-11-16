@@ -1,5 +1,6 @@
 ---
 layout: blog_categories
-tag: python
+tag: design
+title: Categoria - Design
 permalink: /categories/design/
 ---
