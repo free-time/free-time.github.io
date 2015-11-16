@@ -3,7 +3,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>{{ page.title }}</title>
+	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 	
   <!-- Meta tags -->
 	<meta name="keywords" content="videos,palestras,front-end,back-end,ruby,html,css,html5,css3,programação,nodejs,javascript,angular,php,python">
