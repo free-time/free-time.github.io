@@ -28,7 +28,7 @@ Vá até a pasta do projeto e execute e rode <code>[sudo] npm i</code> para inst
 Em uma outra aba(continue na pasta do free time), instale o [Freetime-cli](https://github.com/free-time/freetime-cli) e siga a documentação para saber como usa-lo. Esse cli que irá publicar palestras.
 
 #### Quarto passo
-Depois dos passos anteriores serem executados, emglobe a publicação num commit e mande o Pull Request.
+Depois dos passos anteriores serem executados, englobe a publicação num commit e mande o Pull Request.
 
 
 #####Dicas links uteis
