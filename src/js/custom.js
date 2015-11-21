@@ -1,3 +1,4 @@
+
 (function(){
     'use strict';
     function limitChars(){
@@ -9,4 +10,25 @@
       });
     } 
     limitChars()
+
+// Start scroll infinite, popup and script echo.
+$(document).ready(function(){
+  echo.init({
+    offset: 100,
+    throttle: 250,
+    unload: false,
+  });
+
+  $(document).on('click', '.mfp-iframe', function(e){
+    e.preventDefault();
+    $(this).magnificPopup({type:'iframe'}).magnificPopup('open');
+  });
+
+  inphinity('#main').set({
+    navSelector : "p.pagination",
+    nextSelector  : "p.pagination a.older",
+    itemSelector  : "#main",
+  });
+});
+
 }());
