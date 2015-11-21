@@ -32,6 +32,11 @@
 		display: inline-block;
 		margin-left: 30px;
 		&:hover ul{ display: block }
+		@include respond-to('wide-medium-screens') {
+			display: block;
+			margin: 0 20px;
+			border-bottom: 1px solid $white;
+		}
 	}
 }
 .nav-itens{
@@ -42,6 +47,9 @@
 	font-family: $fontFamilyDefault;
 	&:hover{
 		color: $color-primary;
+	}
+	@include respond-to('wide-medium-screens') {
+		&:hover{color: $white}
 	}
 }
 .sub-menu{

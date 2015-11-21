@@ -8,4 +8,7 @@
   @else if $media == wide-screens {
     @media only screen and (min-width: $break-large) { @content; }
   }
+  @else if $media == wide-medium-screens {
+    @media only screen and (max-width: $max-width) { @content; }
+  }
 }
