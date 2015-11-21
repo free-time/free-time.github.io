@@ -90,6 +90,23 @@
 	display: none;
 }
 .title-page{
-	@include col(1/1)
+	@include col(1/1);
+	font: $fontSize-default  * 4 $fontFamilyDefault;
+	color: $white;
+	position: relative;
+	text-align: center;
 }
-
+.intro-page {
+	width: 100%;
+	height: 300px;
+	background: url('../image/intro-page.jpeg') center -360px;
+	position: relative;
+	background-size: cover;
+	&:before{
+		content: "";
+		background: rgba(black, 0.9);
+		position: absolute;
+		width: 100%;
+		height: 100%;
+	}
+}
