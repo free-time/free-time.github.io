@@ -42,18 +42,3 @@
 	margin-left: 10px;
 	font-weight: bold;
 }
-
-.social {
-	margin-top: 30px;
-}
-
-.social_link {
-	color: darken($bg-footer, 10%);
-	&:hover {
-		color: $color-primary;
-	}
-
-	&:first-of-type {
-		margin-right: 10px;
-	}
-}
