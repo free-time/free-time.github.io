@@ -1,5 +1,6 @@
 var gulp 			= require ( 'gulp' ),
 	browserSync = require('browser-sync'),
+	autoprefixer = require('gulp-autoprefixer'),
 	sass 				= require('gulp-sass'),
 	imagemin 		= require('gulp-imagemin'),
 	concat 			= require('gulp-concat'),
@@ -37,6 +38,10 @@ gulp.task('sass', function () {
     .pipe(sass({
         includePaths: ['scss'],
         onError: browserSync.notify
+    }))
+    .pipe(autoprefixer({
+      browsers: ['last 12 versions'],
+      cascade: false
     }))
     .pipe(sass({outputStyle: 'compressed'}))
     .pipe(gulp.dest('_site/assets/css'))
