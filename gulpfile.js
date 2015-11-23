@@ -60,11 +60,16 @@ gulp.task('js', function(){
 		.pipe(gulp.dest('assets/js'));
 });
 
+gulp.task('fonts', function(){
+	return gulp.src('src/fonts/*')
+		.pipe(gulp.dest('assets/fonts'))
+});
 gulp.task( 'watch', function(){
 	gulp.watch('_sass/**/*.scss', ['sass']);
 	gulp.watch('src/image/**/*.{jpg,png,svg,jpeg}', ['imagemin']);
 	gulp.watch('src/js/**/*.js', ['js']);
+	gulp.watch('src/fonts/', ['fonts']);
 	gulp.watch(['*.html', '_layouts/*.html', '_posts/*', '_includes/*'], ['jekyll-rebuild']);
 });
 
-gulp.task( 'default', ['imagemin','browser-sync', 'watch'] );
+gulp.task( 'default', ['imagemin','browser-sync', 'watch', 'fonts'] );
