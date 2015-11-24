@@ -41,7 +41,7 @@ gulp.task('sass', function () {
     }))
     .pipe(autoprefixer({
       browsers: ['last 12 versions'],
-      cascade: false
+      cascade: true
     }))
     .pipe(sass({outputStyle: 'compressed'}))
     .pipe(gulp.dest('_site/assets/css'))
