@@ -74,7 +74,7 @@ gulp.task( 'watch', function(){
 	gulp.watch('src/image/**/*.{jpg,png,svg,jpeg}', ['imagemin']);
 	gulp.watch('src/js/**/*.js', ['js']);
 	gulp.watch('src/fonts/', ['fonts']);
-	gulp.watch(['*.html', '_layouts/*.html', '_posts/*', '_includes/*'], ['jekyll-rebuild']);
+	gulp.watch(['*.html', '_layouts/*.html', '_posts/*', '_includes/*', 'pages/*'], ['jekyll-rebuild']);
 });
 
 gulp.task( 'default', ['imagemin','browser-sync', 'watch', 'fonts'] );
