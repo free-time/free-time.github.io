@@ -43,7 +43,7 @@ Após o merge:
 
 ```
 git checkout master
-git push origin :nomeDaTarefa
+git push origin nomeDaTarefa
 git branch -D nomeDaTarefa
 ```
 
