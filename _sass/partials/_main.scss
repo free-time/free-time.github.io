@@ -127,3 +127,10 @@
 	margin: 20px 0;
 	//box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
+.title-categories{
+	font-family: $fontFamilyDefault;
+	span {
+		color: $blue;
+		text-transform: uppercase;
+	}
+}
