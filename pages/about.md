@@ -1,7 +1,6 @@
 ---
 layout: page
 img: http://free-time.github.io/app/image/bg-intro.jpg
-permalink: /about.html
 title: Sobre o free time
 ---Using these CDN hostnames from your preferences: free-time.github.io
 
