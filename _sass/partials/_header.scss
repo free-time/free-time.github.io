@@ -97,9 +97,9 @@
 	text-align: center;
 }
 .intro-page {
-	width: 100%;
+	max-width: 100%;
 	height: 300px;
-	background: url('../image/intro-page.jpeg') center -360px;
+	background: url('../image/intro-page.jpeg') center;
 	position: relative;
 	background-size: cover;
 	&:before{
@@ -108,5 +108,8 @@
 		position: absolute;
 		width: 100%;
 		height: 100%;
+	}
+	@include respond-to('wide-screens') {
+		background: url('../image/intro-page.jpeg') center -360px;
 	}
 }
