@@ -14,7 +14,8 @@ title: Free time  - Palestras para desenvolvedores!
 
       <a class="lecture-info mfp-iframe" href="{{ post.link }}">
         <span class="lecture-date">Por: {{ post.speakers }}</span>
-        <h2 class="lecture-title">{{ post.title }}</h2>
+        <!-- <h2 class="lecture-title">{{ post.title }}</h2> -->
+        <h2 class="lecture-title">{{ post.title  | strip_html | truncate: 47 }}</h2>
       </a>
     </article>
     <p class="pagination">
