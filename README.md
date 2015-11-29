@@ -31,7 +31,7 @@ Em uma outra aba(continue na pasta do free time), instale o [Freetime-cli](https
 Depois dos passos anteriores serem executados, englobe a publicação num commit e mande o Pull Request.
 
 
-#####Dicas links uteis
+##### Posso ajudar ?
 - [Como forkar um projeto no GitHub](https://www.youtube.com/watch?v=BEZu577eQmM)
 - [Como criar um PULL REQUEST no Github](https://www.youtube.com/watch?v=E8MPe6tCMo8)
 

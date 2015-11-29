@@ -7,7 +7,7 @@ title: Sobre o free time
 
 ## O que é o free time
 
-Free time é um projeto **open source** que reune palestras sobre desenvolvimento, UX e startups.
+Free time é um projeto **open source** que reúne palestras sobre desenvolvimento, UX e startups.
 
 Como o nome do projeto já diz, Free time (tempo livre), propõe que o telespectador assista apresentações e aprenda ainda mais, explorando seu tempo livre.
 
