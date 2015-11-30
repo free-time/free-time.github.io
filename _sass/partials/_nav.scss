@@ -3,7 +3,12 @@
 	li{
 		display: inline-block;
 		margin-left: 30px;
-		&:hover ul{ display: block }
+		&:hover ul{ 
+			display: block;
+			@include respond-to('wide-medium-screens') {
+				display: none;
+			}
+		}
 		@include respond-to('wide-medium-screens') {
 			display: block;
 			margin: 0 20px;
@@ -37,6 +42,15 @@
 		@include col(1/4, $cycle: 4);
 		&:hover{
 			background: #0C77B0;
+		}
+	}
+	@include respond-to('wide-medium-screens') {
+		display: none;
+		@include col(1/1, $cycle: 1);
+		position: absolute;
+		left: 0;
+		li{
+			@include col(1/1, $cycle: 1);
 		}
 	}
 }

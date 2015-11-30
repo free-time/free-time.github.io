@@ -17,3 +17,9 @@ $(document).ready(function(){
     itemSelector  : "#main",
   });
 });
+
+$(function(){
+  $('.nav-category').click(function(){
+    $('.sub-menu').toggle();
+  })
+});
