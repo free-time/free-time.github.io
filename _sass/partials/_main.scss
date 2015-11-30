@@ -1,49 +1,52 @@
-.content{
-	@include center($max-width);
-	padding: 0 15px;
+.content {
+  @include center($max-width);
+  padding: 0 15px;
 }
-.main {
-	@include center($max-width);
-  text-align: center;
-	padding: 20px;
-}
-.intro{
-	height: 100vh;
-	background: url(../image/bg-intro.jpg) no-repeat center top fixed;
-	background-size: cover;
-	position: relative;
 
-	&:before{
-		content: '';
-		background: rgba(black, 0.8);
-		height: 100%;
-		width: 100%;
-		display: block;
-	}
+.main {
+  @include center($max-width);
+  text-align: center;
+  padding: 20px;
+}
+
+.intro {
+  height: 100vh;
+  background: url(../image/bg-intro.jpg) no-repeat center top fixed;
+  background-size: cover;
+  position: relative;
+
+  &:before {
+    content: '';
+    background: rgba(black, 0.8);
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
 }
 
 .lectures {
-	text-align:center;
-	position: relative;
-	margin: 20px 0;
-	@include col(1/4, $cycle: 4);
-	
-	@include respond-to('handhelds') {
-		@include col(1/1);
-	}
+  text-align: center;
+  position: relative;
+  margin: 20px 0;
+  @include col(1 / 4, $cycle: 4);
 
-	@include respond-to('medium-screens') {
-		@include col(1/2, $cycle: 2);
-	}
+  @include respond-to("handhelds") {
+    @include col(1 / 1);
+  }
+
+  @include respond-to("medium-screens") {
+    @include col(1 / 2, $cycle: 2);
+  }
 }
-.lecture-content {
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-	background: #fff;
-	border-radius: 4px;
 
-	&:hover {
+.lecture-content {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 4px;
+
+  &:hover {
     .lecture-icon {
       top: 35px;
     }
@@ -51,86 +54,96 @@
 }
 
 .lecture-thumbnails {
-	width: 100%;
-	height: 125px;
-	position: relative;
-	margin: 0 auto;
-	display: block;
+  width: 100%;
+  height: 125px;
+  position: relative;
+  margin: 0 auto;
+  display: block;
 
-	&:after {
+  &:after {
     content: "";
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba($blue, .35);
+    background: rgba($blue, 0.35);
   }
 
-	img {
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-	}
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 .lecture-info {
-	border: 1px solid #eee;
+  border: 1px solid #eee;
   border-top: 0;
   padding: 10px;
   display: block;
   text-align: left;
   min-height: 120px;
 }
+
 .lecture-date {
-	font-weight: 300;
-	color: #CCCCCC;
-	font-size: 13px;
+  font-weight: 300;
+  color: #CCCCCC;
+  font-size: 13px;
 }
 
 .lecture-title {
-	color: $color-primary;
-	font-weight: 400;
+  color: $color-primary;
+  font-weight: 400;
   margin-top: 5px;
   font-size: 18px;
-	line-height: 25px;
+  line-height: 25px;
 
-	&:hover {
-		color: $color-primary + 35;
-	}
+  &:hover {
+    color: $color-primary + 35;
+  }
 }
-.center-page{
-	@include center(960px);
-	padding: 0 20px;
+
+.center-page {
+  @include center(960px);
+  padding: 0 20px;
 }
-.text-page-external{
-	@include col(1/1);
+
+.text-page-external {
+  @include col(1 / 1);
 }
-.text-page-external{
-	p {
-		text-align: justify;
-		line-height: 25px;
-		font-size: $fontSize-default - 2;
-		padding: 0 15px;
-	}
-	h2 {
-		color: $blue;
-		font: $fontSize-default + 10  $fontFamilyDefault;
-		border-bottom: 1px solid #E4E4E4;
-		padding: 0 0 20px 10px;
-	}
-	a { color: $blue}
+
+.text-page-external {
+  p {
+    text-align: justify;
+    line-height: 25px;
+    font-size: $fontSize-default - 2;
+    padding: 0 15px;
+  }
+
+  h2 {
+    color: $blue;
+    font: ($fontSize-default + 10) $fontFamilyDefault;
+    border-bottom: 1px solid #E4E4E4;
+    padding: 0 0 20px 10px;
+  }
+
+  a {
+    color: $blue;
+  }
 }
-.text-page-external{
-	height: 100%;
-	background: #FFF;
-	margin: 20px 0;
-	//box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+
+.text-page-external {
+  height: 100%;
+  background: #FFF;
+  margin: 20px 0;
 }
-.title-categories{
-	font-family: $fontFamilyDefault;
-	span {
-		color: $blue;
-		text-transform: uppercase;
-	}
+
+.title-categories {
+  font-family: $fontFamilyDefault;
+
+  span {
+    color: $blue;
+    text-transform: uppercase;
+  }
 }

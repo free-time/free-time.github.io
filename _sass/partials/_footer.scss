@@ -1,44 +1,44 @@
 .footer {
-	clear: both;
-	padding: 15px;
-	height: auto;
-	background: $bg-footer;
-	position: relative;
-	top: 30px;
-	text-align: center;
+  clear: both;
+  padding: 15px;
+  height: auto;
+  background: $bg-footer;
+  position: relative;
+  top: 30px;
+  text-align: center;
 }
 
-.newsletters_title {
-	font-size: 40px;
-	color: $white;
-	font-weight: 300;
-	margin-bottom: 0;
+.newsletters-title {
+  font-size: 40px;
+  color: $white;
+  font-weight: 300;
+  margin-bottom: 0;
 }
 
-.newsletters_subtitle {
-	color: #ccc;
-	font-size: 18px;
-	margin-top: 5px;
+.newsletters-subtitle {
+  color: #ccc;
+  font-size: 18px;
+  margin-top: 5px;
 }
 
-.newsletters-form_input {
-	display: inline-block;
-	padding: 15px;
-	margin: 20px 0;
-	border: none;
-	border-radius: 3px;
-	vertical-align: middle;
-	height: 60px;
-	line-height: 60px;
-	max-width: 400px;
-	width: 100%;
-	background:#E4E4E4;
-	box-sizing: border-box;
-	outline: none;
+.newsletters-form-input {
+  display: inline-block;
+  padding: 15px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 3px;
+  vertical-align: middle;
+  height: 60px;
+  line-height: 60px;
+  max-width: 400px;
+  width: 100%;
+  background: #E4E4E4;
+  box-sizing: border-box;
+  outline: none;
 }
 
-.newsletters-form_button {
-	padding: 18px 25px;
-	margin-left: 10px;
-	font-weight: bold;
+.newsletters-form-button {
+  padding: 18px 25px;
+  margin-left: 10px;
+  font-weight: bold;
 }

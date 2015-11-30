@@ -1,73 +1,88 @@
 .navigation {
-	@include col(2/4, $offset: 1/4);
-	li{
-		display: inline-block;
-		margin-left: 30px;
-		&:hover ul{ 
-			display: block;
-			@include respond-to('wide-medium-screens') {
-				display: none;
-			}
-		}
-		@include respond-to('wide-medium-screens') {
-			display: block;
-			margin: 0 20px;
-			border-bottom: 1px solid $white;
-		}
-	}
+  @include col(2 / 4, $offset: 1 / 4);
+
+  li {
+    display: inline-block;
+    margin-left: 30px;
+
+    &:hover ul {
+      display: block;
+
+      @include respond-to("wide-medium-screens") {
+        display: none;
+      }
+    }
+
+    @include respond-to("wide-medium-screens") {
+      display: block;
+      margin: 0 20px;
+      border-bottom: 1px solid $white;
+    }
+  }
 }
-.nav-itens{
-	text-transform: uppercase;
-	display: block;
-	font-weight: 700;
-	color: $linkNav;
-	font-family: $fontFamilyDefault;
-	&:hover{
-		color: $color-primary;
-	}
-	@include respond-to('wide-medium-screens') {
-		&:hover{color: $white}
-	}
+
+.nav-itens {
+  text-transform: uppercase;
+  display: block;
+  font-weight: 700;
+  color: $linkNav;
+  font-family: $fontFamilyDefault;
+
+  &:hover {
+    color: $color-primary;
+  }
+
+  @include respond-to("wide-medium-screens") {
+    &:hover {
+      color: $white;
+    }
+  }
 }
-.sub-menu{
-	@include col(2/4);
-	background: $color-primary;
-	position: absolute;
-	left: 40%;
-	z-index: 999;
-	padding: 10px 20px;
-	display: none;
-	margin-right: 30px;
-	li{
-		@include col(1/4, $cycle: 4);
-		&:hover{
-			background: #0C77B0;
-		}
-	}
-	@include respond-to('wide-medium-screens') {
-		display: none;
-		@include col(1/1, $cycle: 1);
-		position: absolute;
-		left: 0;
-		li{
-			@include col(1/1, $cycle: 1);
-		}
-	}
+
+.sub-menu {
+  @include col(2 / 4);
+  background: $color-primary;
+  position: absolute;
+  left: 40%;
+  z-index: 999;
+  padding: 10px 20px;
+  display: none;
+  margin-right: 30px;
+
+  li {
+    @include col(1 / 4, $cycle: 4);
+    &:hover {
+      background: #0C77B0;
+    }
+  }
+
+  @include respond-to("wide-medium-screens") {
+    display: none;
+    @include col(1 / 1, $cycle: 1);
+    position: absolute;
+    left: 0;
+
+    li {
+      @include col(1 / 1, $cycle: 1);
+    }
+  }
 }
-.sub-menu-itens{
-	display: block;
-	color: #fff;
-	font: bold 14px $fontFamilyDefault;
-	text-transform: uppercase;
-	margin: 0;
-	padding: 20px;
-	text-align: center;
+
+.sub-menu-itens {
+  display: block;
+  color: #fff;
+  font: bold 14px $fontFamilyDefault;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
 }
-.nav-category{
-	&:after{
-		content: url('../image/arrow-hover.png');
-		position: relative;
-		left: 5px;
-		top: -2px
-	}
+
+.nav-category {
+  &:after {
+    content: url("../image/arrow-hover.png");
+    position: relative;
+    left: 5px;
+    top: -2px;
+  }
 }
