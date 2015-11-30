@@ -36,15 +36,11 @@
   {% endif %}
 
   <!-- Social: Twitter -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@amenezesw">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta itemprop="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  {% if page.image %}
-  <meta property="twitter:image:src" content="{{ "/assets/image/icon.png" | prepend: site.baseurl | prepend: site.url }}">
-  {% else %}
-  <meta property="twitter:image:src" content="{{ "/assets/image/logo-open-graph.png" | prepend: site.baseurl | prepend: site.url }}">
-  {% endif %}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@amenezesw" />
+  <meta name="twitter:title" content="Free time - Palestras para desenvolvedores!" />
+  <meta name="twitter:description" content="Uma reunião de palestras com conteúdos diversos deixando seu conhecimento ainda mais insano." />
+  <meta name="twitter:image" content="http://free-time.github.io/assets/image/icon.png" />
 
 	<!-- Favicon -->
   <link rel="shortcut icon" href="/assets/image/icon.png" type="image/x-icon">
