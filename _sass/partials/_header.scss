@@ -175,3 +175,9 @@
        opacity: .7;
     }
 }
+
+@include respond-to('wide-medium-screens') {
+  .github-icon{
+    display: none;
+  }
+}
