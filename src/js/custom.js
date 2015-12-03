@@ -16,10 +16,14 @@ $(document).ready(function(){
     nextSelector  : "p.pagination a.older",
     itemSelector  : "#main",
   });
+
+  smoothScroll.init({
+    updateURL: false
+  });
 });
 
 $(function(){
   $('.nav-category').click(function(){
     $('.sub-menu').toggle();
-  })
+  });
 });
