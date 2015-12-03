@@ -12,11 +12,7 @@
 
 	<!-- Facebook Open Graph -->
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  {% if post.image %}
-  <meta property="og:image" content="{{ site.url }}{{"/assets/image/icon.png" }}">
-  {% else %}
-  <meta property="og:image" content="{{ "/assets/image/logo-open-graph.png" | prepend: site.baseurl | prepend: site.url }}">
-  {% endif %}
+  <meta property="og:image" content="{{ "/assets/image/logo-metas.png" | prepend: site.baseurl | prepend: site.url }}">
   <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:site_name" content="{{ site.title }}">
   {% if page.date %}
@@ -29,18 +25,14 @@
 	<!-- Social: Google+ / Schema.org  -->
   <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
   <meta itemprop="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  {% if page.image %}
-  <meta property="og:image" content="{{ site.url }}{{"/assets/image/icon.png" }}">
-  {% else %}
-  <meta itemprop="image" content="{{ "/assets/image/logo-open-graph.png" | prepend: site.baseurl | prepend: site.url }}"/>
-  {% endif %}
+  <meta itemprop="image" content="{{ "/assets/image/logo-metas.png" | prepend: site.baseurl | prepend: site.url }}"/>
 
   <!-- Social: Twitter -->
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@amenezesw" />
+  <meta name="twitter:site" content="@freetimetalks" />
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:image" content="http://free-time.github.io/assets/image/icon.png" />
+  <meta name="twitter:image" content="{{ "/assets/image/icon.png" | prepend: site.baseurl | prepend: site.url }}"/>
 
 	<!-- Favicon -->
   <link rel="shortcut icon" href="/assets/image/icon.png" type="image/x-icon">
