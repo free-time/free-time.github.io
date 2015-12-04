@@ -148,3 +148,23 @@
     text-transform: uppercase;
   }
 }
+
+.intro-page {
+  max-width: 100%;
+  height: 300px;
+  background: url("../image/intro-page.jpeg") center;
+  position: relative;
+  background-size: cover;
+
+  &:before {
+    content: "";
+    background: rgba(black, 0.9);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  @include respond-to("wide-screens") {
+    background: url("../image/intro-page.jpeg") center -360px;
+  }
+}
