@@ -14,7 +14,7 @@ $(document).ready(function(){
   inphinity('#main').set({
     navSelector : "p.pagination",
     nextSelector  : "p.pagination a.older",
-    itemSelector  : "#main",
+    itemSelector  : "#main div.lectures",
   });
 
   smoothScroll.init({

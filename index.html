@@ -8,7 +8,7 @@ title: Free time  - Palestras para desenvolvedores!
 
 <main id="main" role="main" class="main">
   {% for post in paginator.posts  %}
-	<div id="lectures" class="lectures">
+	<div class="lectures">
     <article class="lecture-content">
       <a href="{{ post.link }}" class="lecture-thumbnails mfp-iframe" target="_blank">
       	<img src="/assets/image/palestrante-default.jpg" alt="{{ post.title }}" data-echo=" {{ post.img }}">
@@ -19,6 +19,8 @@ title: Free time  - Palestras para desenvolvedores!
         <h2 class="lecture-title">{{ post.title  | strip_html | truncate: 47 }}</h2>
       </a>
     </article>
+  </div>
+  {% endfor %}
     <p class="pagination">
       {% if paginator.next_page %}
         <a class="older" href="/page{{paginator.next_page}}"></a>
@@ -26,6 +28,4 @@ title: Free time  - Palestras para desenvolvedores!
         <span class="older"></span>
       {% endif %}
     </p>
-  </div>
-  {% endfor %}
 </main>
