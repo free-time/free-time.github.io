@@ -25,13 +25,14 @@ Alguns exemplos:
 
 > Use qualquer nome que seja coerente com a contribuição que está sendo feita.
 
-**3.** Após realizar as alterações, é hora de fazer um commit com uma mensagem coerente do que foi feito. Exemplo:
+**3.** Após realizar as alterações, é hora de fazer um commit com uma mensagem em inglês coerente do que foi feito. Exemplo:
 
 ```
 git add --all
-git commit -am ‘Adiciona nova tarefa’
+git commit -am ‘Adding a new task’
 git push origin nomeDaTarefa
 ```
+> Todos as mensagens dos commits devem ser escritas em inglês.
 
 **4.** Envie um _Pull Request_ com as alterações feitas, fazendo referência para o `master` do repositório oficial.
 
