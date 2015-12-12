@@ -2,7 +2,6 @@
 
 * [Como enviar uma palestra](#como-enviar-uma-palestra)
 * [Como contribuir](CONTRIBUTING.md)
-* [Contribuidores](#contribuidores)
 
 ##Como enviar uma palestra
 
@@ -34,10 +33,3 @@ Depois dos passos anteriores serem executados, englobe a publicação num commit
 ##### Posso ajudar ?
 - [Como forkar um projeto no GitHub](https://www.youtube.com/watch?v=BEZu577eQmM)
 - [Como criar um PULL REQUEST no Github](https://www.youtube.com/watch?v=E8MPe6tCMo8)
-
-##Contribuidores
-- [@Anderson Menezes](https://github.com/andersonweb/)
-- [@Fernando Daciuk](https://github.com/fdaciuk)
-- [@Willian Justen](https://github.com/willianjusten/)
-- [@Bu Kinoshita](https://github.com/BrunoKinoshita)
-- [@Lucas Lima](https://github.com/Lucaslimay)
