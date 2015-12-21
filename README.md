@@ -11,6 +11,7 @@ Antes de mais nada, [fork o projeto](https://github.com/free-time/free-time.gith
 #####Requisitos
 
 - [Jekyll](http://jekyllrb.com/docs/installation/)
+- [Jekyll-Paginate](https://github.com/jekyll/jekyll-paginate) - ou apenas executando `gem install jekyll-paginate`
 - [Sass](http://sass-lang.com/install)
 - [NPM](https://docs.npmjs.com/getting-started/installing-node)
 - [Node](https://nodejs.org/en/download/)
