@@ -1,5 +1,5 @@
 // Start scroll infinite, popup and script echo.
-$(document).ready(function(){
+$(function(){
   echo.init({
     offset: 100,
     throttle: 250,
@@ -20,9 +20,7 @@ $(document).ready(function(){
   smoothScroll.init({
     updateURL: false
   });
-});
 
-$(function(){
   $('.nav-category').click(function(){
     $('.sub-menu').toggle();
   });
