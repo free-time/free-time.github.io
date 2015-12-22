@@ -193,9 +193,7 @@ var inphinity = (function() {
             if (config.animationSpeed === "fast")
                 this.defaults.animationSpeed = 300;
         }
-
-        console.log('config.navSelector', document.querySelector(config.navSelector));
-
+        
         if(!!document.querySelector(config.navSelector)) {
             this.init();
         }
