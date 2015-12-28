@@ -1,4 +1,4 @@
-+---
+---
 layout: post
 title: Aplicações 12 fatores
 speakers: Luiz Gonzaga dos Santos Filho
