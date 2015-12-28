@@ -50,6 +50,7 @@
   margin-right: 30px;
 
   li {
+  	margin: 10px 0;
     @include col(1 / 4, $cycle: 4);
     &:hover {
       background: #0C77B0;
@@ -73,8 +74,7 @@
   color: #fff;
   font: bold 14px $fontFamilyDefault;
   text-transform: uppercase;
-  margin: 10px 0;
-  padding: 10px;
+  padding: 12px 0;
   text-align: center;
 }
 
