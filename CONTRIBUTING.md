@@ -5,7 +5,7 @@
 **1.** Faça o _fork_ do projeto.
 
 **2.** [Entenda nosso fluxo](#fluxo).
-
+Todos as mensagens dos commits devem ser escritas em inglês
 ### Fluxo
 
 É muito fácil contribuir para o projeto. Qualquer tipo de ajuda (seja ela grande ou pequena) é bem-vinda. Se encontrar qualquer parte do projeto que possa ser melhorada, essa é uma grande oportunidade para participar ([aqui](https://github.com/free-time/free-time.github.io/issues) é um ótimo lugar para achar coisas que possam ser melhoradas). Caso não saiba por onde começar:
@@ -35,6 +35,17 @@ git push origin nomeDaTarefa
 > Todos as mensagens dos commits devem ser escritas em inglês.
 
 **4.** Envie um _Pull Request_ com as alterações feitas, fazendo referência para o `master` do repositório oficial.
+
+Template _Pull Request_:
+
+```
+**CHANGELOG** :memo:
+* adding some validations to contact form;
+* adding jQuery Validate to the project;
+* creating module to wrap jQuery Validate;
+```
+
+> Se for **bugfix**, altere **CHANGELOG** para **BUGFIX**.
 
 **5.** Sua contribuição será analisada pela comunidade. Em alguns casos pediremos algumas alterações antes de dar merge.
 
