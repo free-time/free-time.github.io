@@ -4,7 +4,9 @@
   "description": "Use your free time to watch lectures",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "gulp",
+    "new-post": "freetime"
   },
   "repository": {
     "type": "git",
@@ -22,14 +24,17 @@
   },
   "homepage": "https://github.com/free-time/free-time.github.io",
   "devDependencies": {
-    "browser-sync": "^1.9.0",
+    "browser-sync": "^2.10.1",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-concat": "^2.6.0",
-    "gulp-imagemin": "^2.3.0",
+    "gulp-imagemin": "^2.4.0",
     "gulp-notify": "^2.2.0",
-    "gulp-plumber": "^0.6.6",
-    "gulp-sass": "^2.0.4",
-    "gulp-uglify": "^1.4.2"
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.1.1",
+    "gulp-uglify": "^1.5.1"
+  },
+  "dependencies": {
+    "freetime-cli": "^0.1.4"
   }
 }
