@@ -15,6 +15,7 @@ $(document).ready(function(){
     navSelector : "p.pagination",
     nextSelector  : "p.pagination a.older",
     itemSelector  : "#main div.lectures",
+    loader: false
   });
 
   smoothScroll.init({
