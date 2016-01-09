@@ -3,7 +3,7 @@ $(function(){
   echo.init({
     offset: 100,
     throttle: 250,
-    unload: false,
+    unload: false
   });
 
   $(document).on('click', '.mfp-iframe', function(e){
