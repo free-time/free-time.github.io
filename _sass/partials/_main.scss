@@ -28,19 +28,15 @@
 .lectures {
   text-align: center;
   position: relative;
-  margin: 20px 1%;
-  float: left;
-  width: 23%;
-  // @include col(1 / 4, $cycle: 4);
+  margin: 15px 0;
+  @include col(1 / 4, $cycle: 4);
 
   @include respond-to("handhelds") {
-    // @include col(1 / 1);
-    width: 98%;
+    @include col(1 / 1);
   }
 
   @include respond-to("medium-screens") {
-    // @include col(1 / 2, $cycle: 2);
-    width: 48%;
+    @include col(1 / 2, $cycle: 2);
   }
 }
 
