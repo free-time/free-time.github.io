@@ -1,5 +1,6 @@
-// Start scroll infinite, popup and script echo.
-$(function(){
+;(function($) {
+  'use strict';
+
   echo.init({
     offset: 100,
     throttle: 250,
@@ -25,4 +26,4 @@ $(function(){
   $('.nav-category').click(function(){
     $('.sub-menu').toggle();
   });
-});
+})(jQuery);
