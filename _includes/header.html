@@ -14,22 +14,9 @@
       	<li><a class="nav-itens" href="/about.html">sobre</a></li>
       	<li><a class="nav-itens nav-category" href="#">categorias</a>
           <ul class="sub-menu">
-            <li><a class="sub-menu-itens"href="/categories/html/">html</a></li>
-            <li><a class="sub-menu-itens"href="/categories/css/">css</a></li>
-            <li><a class="sub-menu-itens"href="/categories/javascript/">javascript</a></li>
-            <li><a class="sub-menu-itens"href="/categories/android/">android</a></li>
-            <li><a class="sub-menu-itens"href="/categories/mobile/">mobile</a></li>
-            <li><a class="sub-menu-itens"href="/categories/rails/">rails</a></li>
-            <li><a class="sub-menu-itens"href="/categories/python/">python</a></li>
-            <li><a class="sub-menu-itens"href="/categories/workflow/">workflow</a></li>
-            <li><a class="sub-menu-itens"href="/categories/produtividade/">produtividade</a></li>
-            <li><a class="sub-menu-itens"href="/categories/api/">Api</a></li>
-            <li><a class="sub-menu-itens"href="/categories/mercado/">mercado</a></li>
-            <li><a class="sub-menu-itens"href="/categories/wordpress/">wordpress</a></li>
-            <li><a class="sub-menu-itens"href="/categories/startup/">startup</a></li>
-            <li><a class="sub-menu-itens"href="/categories/seo/">seo</a></li>
-            <li><a class="sub-menu-itens"href="/categories/design/">Design</a></li>
-            <li><a class="sub-menu-itens"href="/categories/git/">Git</a></li>
+            {% for categorie in site.data.categories %}
+                <li><a class="sub-menu-itens"href="/categories/{{categorie.name}}">{{ categorie.name }}</a></li>
+            {% endfor %}
           </ul>
         </li>
       	<li><a target="_blank" class="nav-itens" href="https://github.com/free-time/free-time.github.io#como-enviar-uma-palestra">enviar palestra</a></li>
