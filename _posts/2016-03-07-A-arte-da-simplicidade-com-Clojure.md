@@ -5,6 +5,6 @@ speakers: Mauricio Szabo
 date: 2016-03-07 23:34:16
 duration: 54:03
 tags: [ cloujure ]
-img: /assets/image/speakers/mauricio-szabo.JPG
+img: /assets/image/speakers/mauricio-szabo.jpg
 link: https://www.youtube.com/watch?v=_kGwRVuH6mU
 ---
