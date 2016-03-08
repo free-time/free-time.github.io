@@ -5,6 +5,6 @@ speakers: Randal Maia
 duration: 26:20
 date: 2015-06-06 11:56:54
 tags: worflow
-img: '/assets/image/speakers/Randal-Maia.jpg'
+img: '/assets/image/speakers/randal-maia.jpg'
 link: https://www.youtube.com/watch?v=vnKE0oCTNZw
 --- 

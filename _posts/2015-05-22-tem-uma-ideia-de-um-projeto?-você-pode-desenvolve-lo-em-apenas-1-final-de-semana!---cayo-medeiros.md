@@ -5,6 +5,6 @@ speakers: Cayo Medeiros
 duration: 19:04
 date: 2015-05-22 21:43:29
 categories: wordpress
-img: '/assets/image/speakers/Cayo-Medeiros.jpeg'
+img: '/assets/image/speakers/cayo-medeiros.jpeg'
 link: https://www.youtube.com/watch?v=fSOamVlqWLA
 ---
