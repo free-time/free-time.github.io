@@ -5,6 +5,6 @@ speakers: Demian Borba
 duration: 1:01:15
 date: 2015-06-06 11:54:21
 tags: [performance, html]
-img: '/assets/image/speakers/Demian-Borba.jpg'
+img: '/assets/image/speakers/demian-borba.jpg'
 link: https://www.youtube.com/watch?v=qRlgGsObAmw
 ---
