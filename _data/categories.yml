@@ -63,3 +63,9 @@
 
 - slug: games
   name: games
+
+- slug: banco-de-dados
+  name: banco-de-dados
+
+- slug: clojure
+  name: clojure
