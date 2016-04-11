@@ -6,5 +6,5 @@ date: 2015-10-07 22:31:09
 duration: 31:01 min
 tags: android
 img: /assets/image/speakers/victor-nascimento.jpg 
-link: https://www.youtube.com/watch?v=FbSosd-hBdw&index=2
+link: https://www.youtube.com/watch?v=FbSosd-hBdw
 ---
