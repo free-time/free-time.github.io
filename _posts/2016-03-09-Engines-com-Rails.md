@@ -6,5 +6,5 @@ date: 2016-03-09 11:39:01
 duration: 15:20
 tags: [ rails ]
 img: /assets/image/speakers/eduardo-maia.jpg
-link: 
+link: https://www.youtube.com/watch?v=IQzo4OV5PBw
 ---
