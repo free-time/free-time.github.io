@@ -50,7 +50,7 @@ gulp.task('sass', function () {
 });
 
 gulp.task('imagemin', function(){
-	gulp.src('src/image/**/*.{jpg,png,svg,jpeg}')
+	gulp.src('src/image/**/*.{jpg,png,jpeg}')
 	.pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
 	.pipe(gulp.dest('assets/image'));
 });
@@ -69,12 +69,12 @@ gulp.task('fonts', function(){
 	return gulp.src('src/fonts/*')
 		.pipe(gulp.dest('assets/fonts'))
 });
-gulp.task( 'watch', function(){
+gulp.task('watch', function(){
 	gulp.watch('_sass/**/*.scss', ['sass']);
-	gulp.watch('src/image/**/*.{jpg,png,svg,jpeg}', ['imagemin']);
+	gulp.watch('src/image/**/*.{jpg,png,jpeg}', ['imagemin']);
 	gulp.watch('src/js/**/*.js', ['js']);
 	gulp.watch('src/fonts/', ['fonts']);
 	gulp.watch(['*.html', '_layouts/*.html', '_posts/*', '_includes/*', 'pages/*'], ['jekyll-rebuild']);
 });
 
-gulp.task( 'default', ['imagemin','browser-sync', 'watch', 'fonts'] );
+gulp.task( 'default', [ 'imagemin','browser-sync', 'watch' ] );
