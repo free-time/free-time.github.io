@@ -17,24 +17,23 @@ Existe diversas possibilidades, porém, recomendamos utilizar, [RVM](https://git
 #### Instale o Bundler:
 
 
-  $ gem install bundler
-
+    $ gem install bundler
 
 #### Instale as gems necessárias:
 
-  $ gem install
+    $ gem install
 
 #### Instale o Gulp:
 
-  $ npm install --global gulp-cli
+    $ npm install --global gulp-cli
 
 #### Instale as dependências necessárias:
 
-  $ sudo npm install
+    $ sudo npm install
 
 #### Inicie o projeto:
 
-  $ gulp
+    $ gulp
 
 #### Pronto!
 Basta só esperar que o projeto irá ser aberto no seu browser padrão.
@@ -42,13 +41,17 @@ Basta só esperar que o projeto irá ser aberto no seu browser padrão.
 ### Como enviar palestras:
 Execute esse comando:
 
-  $ npm run new-post
+    $ npm run new-post
 
 Após a execução, preencha toda informações que o mesmo pede.
 
+
 ### Contribuir de forma correta
+
 Leia o [guia](CONTRIBUTING.md) e contribuia de forma correta.
 
 ### Posso ajudar ?
+
 [Como forkar um projeto no GitHub](https://www.youtube.com/watch?v=BEZu577eQmM)
+
 [Como criar um PULL REQUEST no Github](https://www.youtube.com/watch?v=E8MPe6tCMo8)
