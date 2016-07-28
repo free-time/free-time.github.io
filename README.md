@@ -45,3 +45,10 @@ Execute esse comando:
   $ npm run new-post
 
 Após a execução, preencha toda informações que o mesmo pede.
+
+### Contribuir de forma correta
+Leia o [guia](CONTRIBUTING.md) e contribuia de forma correta.
+
+### Posso ajudar ?
+[Como forkar um projeto no GitHub](https://www.youtube.com/watch?v=BEZu577eQmM)
+[Como criar um PULL REQUEST no Github](https://www.youtube.com/watch?v=E8MPe6tCMo8)
