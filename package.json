@@ -1,0 +1,32 @@
+{
+  "name": "freetime",
+  "version": "2.0.0",
+  "description": "Lectures to watch at your leisure :)",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersoonweb/free-time.github.io.git"
+  },
+  "keywords": [
+    "talks",
+    "developer"
+  ],
+  "author": "Anderson Menezes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andersoonweb/free-time.github.io/issues"
+  },
+  "homepage": "https://github.com/andersoonweb/free-time.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.15.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0"
+  }
+}
