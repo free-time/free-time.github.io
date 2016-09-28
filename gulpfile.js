@@ -25,7 +25,7 @@ gulp.task('sass', function(){
 			browsers: ['last 12 versions'],
 			cascade: true
 		}))
-		.pipe(sass(({outputStyle: 'expanded'})))
+		.pipe(sass(({outputStyle: 'compressed'})))
 		.pipe(gulp.dest('./app/css'))
 		.pipe(browserSync.stream());
 });
