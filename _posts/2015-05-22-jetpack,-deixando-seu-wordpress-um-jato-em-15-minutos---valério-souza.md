@@ -4,7 +4,7 @@ title: "Jetpack, deixando seu WordPress um jato em 15 minutos"
 speakers: Valério Souza
 duration: 17:03
 date: 2015-05-22 21:25:43
-tags: wordpress
+tags: [ wordpress ]
 img: '/assets/image/speakers/valerio-souza.jpg'
 link: https://www.youtube.com/watch?v=KyZeaXT8TYQ
 ---
