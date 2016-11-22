@@ -49,9 +49,6 @@
 - slug: wordpress
   name: wordpress
 
-- slug: workflow
-  name: workflow
-
 - slug: git
   name: git
 
